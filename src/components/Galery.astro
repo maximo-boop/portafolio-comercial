@@ -1,0 +1,62 @@
+---
+import proyects from '../data/proyects.json';
+---
+
+<section class="flex flex-col gap-5" id="proyectos">
+	<h2 class="lg:text-4xl">Galery</h2>
+	<p class="lg:text-2xl text-[var(--text)]">Mis proyectos mas destacados</p>
+
+	<div class="flex flex-col gap-5">
+		<div class="flex gap-5">
+			{["Ver todas", "Restaurante", "Tienda online (ecommerce)","Landing Page"].map(a => (
+				<button class="bg-[var(--bg)] hover:bg-[#f3f5f7ff] cursor-pointer px-6 py-4 font-medium">
+					{a}
+				</button>
+			))}
+		</div>
+		<div class="grid grid-cols-3 w-full gap-5">
+			{proyects.map(a => (
+				<article class="card">
+					<input type="checkbox" id={a.id} class="sr-only" />
+					
+					<div class="flex flex-col bg-[var(--bg)] min-h-40 h-full relative">
+						<label for={a.id} class="peer cursor-pointer w-full h-full absolute bg-red-200 z-10 top-0 left-0 opacity-0">Abrir modal</label>
+						<div class="peer-hover:bg-red-200 bg-green-200 transition-bg duration-150 ease-in h-50 w-full relative">
+							{a.url && (
+									<span class="text-[#eee] absolute top-5 right-5 p-2 bg-[#000a] text-xs flex items-center gap-1">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M9 15l6 -6" /><path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" /><path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" /></svg>
+										enlace
+									</span>
+								)}
+						</div>
+						<div class="flex flex-col gap-1 p-4">
+							<h3 class="font-medium lg:text-xl">{a.title}</h3>
+							{a.client && (<p class="">{a.client}</p>)}
+							<p class="text-[#888] lg:text-lg">{a.tagline}</p>
+						</div>
+					</div>
+
+					<div class="global-padding modal hidden bg-[rgba(0,0,0,0.5)] z-110 fixed top-0 left-0 h-screen w-screen">
+						<label for={a.id} class="absolute top-10 right-10">Cerrar modal</label>
+
+						<div class="bg-[var(--bg)] w-full h-full">
+							<h4></h4>
+						</div>
+
+					</div>
+
+				</article>
+			))}
+		</div>
+	</div>
+
+</section>
+
+<style>
+	.card:has(input:checked) {
+		.modal {
+			display: flex;
+
+		}
+	}
+</style>

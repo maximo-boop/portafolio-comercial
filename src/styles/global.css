@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+	--bg: #f6f8faff;
+	--text: rgba(0,0,0,0.5);
+/*	--radius: 0.625rem;	*/
+}
+
+.global-padding {
+	@apply px-10 md:px-20 lg:px-35;
+}

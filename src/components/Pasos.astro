@@ -1,0 +1,44 @@
+---
+const pasos = [
+	{ 
+		title: "Wireframe",
+		des: "Definimos la estructura y qué va en cada lugar antes de diseñar"
+	},
+	{ 
+		title: "Diseño",
+		des: "Creamos la apariencia visual: colores, tipografías y estilo"
+	},
+	{ 
+		title: "Desarrollo",
+		des: "Construyo el sitio con tecnología moderna, rápida y segura"
+	},
+	{ 
+		title: "Backend",
+		des: "Si necesitás formularios, pagos o base de datos, lo incluyo"
+	},
+	{ 
+		title: "Publicación",
+		des: "Subo todo online, configuro el dominio y queda listo para usarse"
+	}
+]
+---
+
+<section class="flex flex-col gap-5">
+	<div>
+		<p>Como trabajo</p>
+		<h2 class="lg:text-4xl">Me encargo de todo:<br class="hidden lg:inline"> estructura, diseño, desarrollo y publicación.</h2>
+		<p class="text-[var(--text)] lg:text-2xl">Del boceto al sitio online, sin que tengas que preocuparte por nada</p>
+	</div>
+
+	<ul class="grid grid-cols-3 w-full gap-5">
+		{pasos.map((p,i) => (
+			<ol class={`${i===0 ? 'row-span-2' : ''} bg-[var(--bg)] min-h-60 p-4 flex flex-col gap-2`}>
+				<h3 class="font-medium lg:text-2xl">{`0${i+1} ${p.title}`}</h3>
+				<p class="text-[var(--text)] lg:text-lg">{p.des}</p>
+			</ol>
+		))}
+	</ul>
+
+	<p class="self-end text-[#888]">Trabajo con un proceso claro para que siempre sepas en qué etapa estamos."</p>
+
+</section>

@@ -1,0 +1,71 @@
+---
+import Cart from '../assets/icons/Cart.astro'
+import Action from '../assets/icons/Action.astro'
+import Empresa from '../assets/icons/Empresa.astro'
+import Visual from '../assets/icons/Visual.astro'
+
+const slides = [
+	{
+		title: "Tienda online (e-commerce)",
+		icon: 'compra'
+	},
+	{
+		title: "Landing page",
+		icon: 'action'
+	},
+	{
+		title:"Web corporativa", 
+		icon: 'empresa'
+	},
+	{
+		title:"Catálogo online", 
+		icon: 'visual'
+	}
+]
+
+const icons = {
+	compra: Cart,
+	action: Action,
+	empresa: Empresa,
+	visual: Visual,
+}
+
+
+---
+
+<!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-building-store"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 21l18 0" /><path d="M3 7v1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1h-18l2 -4h14l2 4" /><path d="M5 21l0 -10.15" /><path d="M19 21l0 -10.15" /><path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4" /></svg> -->
+<!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-shopping-cart"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M4 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M15 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M17 17h-11v-14h-2" /><path d="M6 5l14 1l-1 7h-13" /></svg> -->
+
+<section class="my-20">
+
+	<div class="max-w-[80%] mx-auto overflow-x-hidden relative">
+		<div class="w-fit animate-carousel flex gap-10">
+			{[...slides,...slides].map(a => { 
+				const Icon = icons[a.icon];
+				return (
+				<div class="flex items-center gap-2">
+					{Icon && <Icon />}
+					<p class="font-bold text-xl text-nowrap">{a.title}</p>
+				</div>
+			)})}
+		</div>
+
+		<div class="bg-gradient-to-r from-white to-transparent absolute left-0 top-0 h-full w-40 z-10" />
+		<div class="bg-gradient-to-l from-white to-transparent absolute right-0 top-0 h-full w-40 z-10" />
+
+	</div>
+
+</section>
+
+<style>
+	
+	.animate-carousel {
+		animation: carousel 30s linear infinite;
+	}
+
+	@keyframes carousel {
+		from { transform: translateX(0); }
+		to { transform: translateX(-50%); }
+	}
+
+</style>

@@ -1,0 +1,46 @@
+---
+import '../styles/global.css'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Desarrollo web personalizado en Córdoba | MinimalistTech</title>
+	</head>
+	<body>
+		<Header />
+		<slot />
+		<a href="https://wa.me/5493512377435" aria-label="Contactar desarrollador web por WhatsApp" target="_blank" class='flex items-center justify-center whsp fixed right-5 bottom-5 lg:bottom-10 lg:right-10 bg-green-400 rounded-[100%_100%_50%_100%] w-fit p-4 hover:bg-green-500 transition-bg ease duration-150'>
+			<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" /><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" /></svg>
+		</a>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	.whsp {
+		transform: translate(0, 200%);
+		animation: whsp-entry .6s cubic-bezier(.34, 1.56,.64,1) forwards;
+		animation-delay: .75s;
+		z-index: 90;
+	}
+
+	@keyframes whsp-entry {
+		from {
+			transform: translate(0, 100%);
+			scale: .8;
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+			transform: translate(0, 0);
+			scale: 1;
+		}
+	}
+</style>

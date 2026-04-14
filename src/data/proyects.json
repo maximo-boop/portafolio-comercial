@@ -1,0 +1,83 @@
+[
+	{
+		"id": 1,
+		"title": "Web para inmobiliaria",
+		"client": "HomeSilva",
+		"type": "Sitio inmobiliario",
+		"tagline": "Listado de propiedades con filtros, fichas detalladas y contacto directo",
+		"url": "https://homesilva.com.ar",
+		"image": ""
+	},
+	{
+		"id": 2,
+		"title": "Web para marca de cosmética",
+		"client": "Babaria",
+		"type": "Sitio de marca",
+		"tagline": "Catálogo de productos y presentación de líneas de cuidado personal",
+		"url": "https://babaria.es",
+		"image": ""
+	},
+	{
+		"id": 3,
+		"title": "Aplicación móvile de productividad",
+		"client": "",
+		"type": "App",
+		"tagline": "Aplicación movile de notas para anotar",
+		"url": "https://babaria.es/conocenos/",
+		"image": ""
+	},
+	{
+		"id": 4,
+		"title": "Web para marca de relojes ",
+		"client": "Nurani Timepieces",
+		"type": "Sitio de marca",
+		"tagline": "Sitio de relojes premium con presentación de colecciones",
+		"url": "",
+		"image": ""
+	},
+	{
+		"id": 5,
+		"title": "Web para estudio de diseño de interiores",
+		"client": null,
+		"type": "Landing page",
+		"tagline": "Presencia online para estudio independiente con galería de trabajos",
+		"url": "",
+		"image": ""
+	},
+	{
+		"id": 6,
+		"title": "Web para restaurante",
+		"client": "Foodie Fusion",
+		"type": "Restaurante",
+		"tagline": "Menú online, galería y formulario de contacto",
+		"url": "",
+		"image": ""
+	},
+	{
+		"id": 7,
+		"title": "Plantilla de tienda online",
+		"client": null,
+		"type": "Tienda online (ecommerce)",
+		"tagline": "Demo de interfaz con carrito de compras y login — sin backend",
+		"url": "https://test-e-commerce-seven.vercel.app",
+		"image": ""
+	},
+	{
+		"id": 8,
+		"title": "Portafolio personal",
+		"client": "Andrea Jaramillo",
+		"type": "Portafolio",
+		"tagline": "Sitio de presentación para profesional independiente",
+		"url": "",
+		"image": ""
+	},
+	{
+		"id": 8,
+		"title": "Blogs varios",
+		"client": null,
+		"type": "Blog",
+		"tagline": "Blogs generados a partir de plantillas de referencias",
+		"url": "",
+		"image": ""
+	}
+]

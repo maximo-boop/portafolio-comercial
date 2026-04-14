@@ -1,0 +1,69 @@
+---
+const faqs = [
+	{
+		preg: "¿Cuánto tarda en estar lista la web?",
+		res: "Depende del proyecto. Una landing page puede estar en 1 a 2 semanas. Un e-commerce o sitio más complejo puede llevar 3 a 5 semanas. Siempre te doy un plazo claro antes de empezar."
+	},
+	{
+		preg: "¿Cuánto cuesta?",
+		res: "Cada proyecto es diferente, por eso no tengo precios fijos. Pero sí puedo darte un presupuesto sin costo después de una charla corta. Escribime y lo vemos."
+	},
+	{
+		preg: "¿Necesito saber de tecnología para trabajar con vos?",
+		res: "Para nada. Me explico en términos simples y te guío en cada paso. Vos te enfocás en tu negocio, yo me encargo del resto."
+	},
+	{
+		preg: "¿Puedo actualizar la web yo mismo después?",
+		res: "Sí. Dependiendo del tipo de proyecto, te entrego la web con un panel simple para que puedas hacer cambios básicos sin depender de nadie."
+	},
+	{
+		preg: "¿Qué pasa si necesito cambios después de que esté publicada?",
+		res: "Los ajustes menores del período de entrega los hago sin costo. Para cambios posteriores, podemos armar un plan de mantenimiento mensual o resolverlo puntualmente."
+	},
+	{
+		preg: "¿Trabajás con clientes de cualquier rubro?",
+		res: "Sí. Trabajé con restaurantes, tiendas, cósmeticas, inmobiliarias y más. Si tenés un negocio y necesitás presencia online, puedo ayudarte."
+	}
+]
+---
+
+<section class="text-center flex flex-col gap-5 my-20">
+
+	<h2 class="text-4xl">Preguntas frecuentes sobre<br> el desarrollo web</h2>
+	<p></p>
+
+	<div class="flex flex-col gap-5">
+		{faqs.map((faq) => (
+			<details class="text-start bg-[var(--bg)]">
+				<summary class="flex items-center justify-between cursor-pointer lg:text-[20px] focus:outline-none py-6 px-5 lg:px-10">
+					<span class="flex-1">{faq.preg}</span>
+
+					<svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+						<path d="M12 5l0 14" />
+						<path d="M5 12l14 0" />
+					</svg>
+				</summary>
+
+				<p class="pb-6 pt-0 px-5 lg:px-10 text-gray-500">{faq.res}</p>
+			</details>
+		))}
+	</div>
+</section>
+
+<!-- <script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "FAQPage",
+	"mainEntity": [
+		{
+			"@type": "Question",
+			"name": "¿Cómo es el proceso para vender una propiedad?",
+			"acceptedAnswer": {
+			"@type": "Answer",
+				"text": "El proceso comienza con la tasación de la propiedad para definir un precio acorde al mercado, evitando que quede por debajo o por encima de su valor real. A partir de ahí, se trabaja la presentación (fotos, contenido y publicación) y se define una estrategia para generar interés y atraer consultas reales. Durante todo el proceso se realiza seguimiento de consultas y se acompaña hasta concretar la operación."
+			}
+		}
+	]
+}
+</script> -->
