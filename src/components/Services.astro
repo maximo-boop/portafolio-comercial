@@ -22,22 +22,22 @@ const services = [
 ]
 ---
 
-<section class="flex flex-col gap-5 my-20">
+<section class="px-10 lg:px-0 flex flex-col gap-5 my-20">
 	<div>
-		<h2 class="lg:text-4xl">Services</h2>
-		<p class="text-[var(--text)] lg:text-xl">Mis servicios como desarrollador web</p>
+		<h2 class="text-2xl lg:text-4xl">Services</h2>
+		<p class="text-[var(--text)] text-lg lg:text-xl">Mis servicios como desarrollador web</p>
 	</div>
 
-	<ul class="grid grid-cols-3 w-full gap-5">
+	<ul class="grid grid-cols-1 lg:grid-cols-3 w-full gap-5">
 		{services.map((s, i) => (
-			<li class={`bg-[var(--bg)] min-h-60 flex flex-col gap-2 p-4 lg:p-6 ${i===0 ? 'col-span-2' : i===3 ? 'col-span-2' : ''}`}>
+			<li class={`bg-[var(--bg)] min-h-60 flex flex-col gap-2 p-4 lg:p-6 ${i===0 ? 'lg:col-span-2' : i===3 ? 'lg:col-span-2' : ''}`}>
 				{	
 					i===0 ? <Action w={30} /> :
 					i===1 ? <Empresa w={30} /> : 
 					i=== 3 ? <Cart w={30} /> : 
 					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brush"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 21v-4a4 4 0 1 1 4 4h-4" /><path d="M21 3a16 16 0 0 0 -12.8 10.2" /><path d="M21 3a16 16 0 0 1 -10.2 12.8" /><path d="M10.6 9a9 9 0 0 1 4.4 4.4" /></svg>
 				}
-				<h3 class="font-medium lg:text-xl">{s.title}</h3>
+				<h3 class="font-medium text-lg lg:text-xl">{s.title}</h3>
 				<p class="text-[var(--text)] lg:text-[1.1rem]">{s.des}</p>
 			</li>
 		))}

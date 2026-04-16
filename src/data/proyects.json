@@ -6,7 +6,7 @@
 		"type": "Sitio inmobiliario",
 		"tagline": "Listado de propiedades con filtros, fichas detalladas y contacto directo",
 		"url": "https://homesilva.com.ar",
-		"image": ""
+		"images": "/inmobiliaria.png"
 	},
 	{
 		"id": 2,
@@ -15,7 +15,7 @@
 		"type": "Sitio de marca",
 		"tagline": "Catálogo de productos y presentación de líneas de cuidado personal",
 		"url": "https://babaria.es",
-		"image": ""
+		"images": "/cosmetica.png"
 	},
 	{
 		"id": 3,
@@ -23,8 +23,8 @@
 		"client": "",
 		"type": "App",
 		"tagline": "Aplicación movile de notas para anotar",
-		"url": "https://babaria.es/conocenos/",
-		"image": ""
+		"url": "https://play.google.com/store/apps/details?id=com.maaxiiiii.fastnotesapp",
+		"images": "/notesapp.png"
 	},
 	{
 		"id": 4,
@@ -33,7 +33,7 @@
 		"type": "Sitio de marca",
 		"tagline": "Sitio de relojes premium con presentación de colecciones",
 		"url": "",
-		"image": ""
+		"images": "/relojes.png"
 	},
 	{
 		"id": 5,
@@ -42,7 +42,7 @@
 		"type": "Landing page",
 		"tagline": "Presencia online para estudio independiente con galería de trabajos",
 		"url": "",
-		"image": ""
+		"images": "/diseño-interiores.png"
 	},
 	{
 		"id": 6,
@@ -51,7 +51,7 @@
 		"type": "Restaurante",
 		"tagline": "Menú online, galería y formulario de contacto",
 		"url": "",
-		"image": ""
+		"images": "/restaurante.png"
 	},
 	{
 		"id": 7,
@@ -60,24 +60,6 @@
 		"type": "Tienda online (ecommerce)",
 		"tagline": "Demo de interfaz con carrito de compras y login — sin backend",
 		"url": "https://test-e-commerce-seven.vercel.app",
-		"image": ""
-	},
-	{
-		"id": 8,
-		"title": "Portafolio personal",
-		"client": "Andrea Jaramillo",
-		"type": "Portafolio",
-		"tagline": "Sitio de presentación para profesional independiente",
-		"url": "",
-		"image": ""
-	},
-	{
-		"id": 8,
-		"title": "Blogs varios",
-		"client": null,
-		"type": "Blog",
-		"tagline": "Blogs generados a partir de plantillas de referencias",
-		"url": "",
-		"image": ""
+		"images": "/e-commerce.png"
 	}
 ]

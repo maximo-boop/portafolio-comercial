@@ -1,4 +1,5 @@
 ---
+import Design from '../assets/icons/Design.astro'
 const pasos = [
 	{ 
 		title: "Wireframe",
@@ -23,22 +24,26 @@ const pasos = [
 ]
 ---
 
-<section class="flex flex-col gap-5">
-	<div>
-		<p>Como trabajo</p>
-		<h2 class="lg:text-4xl">Me encargo de todo:<br class="hidden lg:inline"> estructura, diseño, desarrollo y publicación.</h2>
-		<p class="text-[var(--text)] lg:text-2xl">Del boceto al sitio online, sin que tengas que preocuparte por nada</p>
+<section class="px-10 lg:px-0 flex flex-col gap-5">
+	<div class="flex flex-col gap-2">
+		<h2 class="tex-2xl lg:text-4xl">Me encargo de todo:<br class="hidden lg:inline"> estructura, diseño, desarrollo y publicación.</h2>
+		<p class="text-[var(--text)] text-lg lg:text-2xl">Del boceto al sitio online, sin que tengas que preocuparte por nada</p>
 	</div>
 
-	<ul class="grid grid-cols-3 w-full gap-5">
+	<ul class="grid grid-cols-1 lg:grid-cols-3 w-full gap-5">
 		{pasos.map((p,i) => (
-			<ol class={`${i===0 ? 'row-span-2' : ''} bg-[var(--bg)] min-h-60 p-4 flex flex-col gap-2`}>
-				<h3 class="font-medium lg:text-2xl">{`0${i+1} ${p.title}`}</h3>
+			<ol class={`${i===0 ? 'row-span-2' : ''} cursor-pointer hover:bg-[#f3f5f7ff] group bg-[var(--bg)] min-h-60 p-4 flex flex-col gap-2 relative overflow-hidden`}>
+				<h3 class="font-medium text-lg lg:text-2xl">{`0${i+1} ${p.title}`}</h3>
 				<p class="text-[var(--text)] lg:text-lg">{p.des}</p>
+
+				{i===1 && (
+					<Design />
+				)}
+
 			</ol>
 		))}
 	</ul>
 
-	<p class="self-end text-[#888]">Trabajo con un proceso claro para que siempre sepas en qué etapa estamos."</p>
+	<p class="text-center lg:text-lg self-end text-[#888]">Trabajo con un proceso claro para que siempre sepas en qué etapa estamos.</p>
 
 </section>

@@ -1,11 +1,29 @@
-<footer class="global-padding bg-black text-white py-5 min-h-40">
+<footer class="global-padding bg-black text-white py-5 min-h-40 flex flex-col gap-5">
 
-	<p>Footer</p>
+	<div class="flex flex-col gap-2">
+		<p class="text-lg">Ayudo a negocios y emprendimientos a mejorar su prescencia digital con sitios rápidos y orientados a conversión.</p>
+		<div class="bg-[#888] p-4 h-10 w-10"></div>
+	</div>
 	
+	<ul class="flex flex-col gap-1">
+		<li class="font-medium">Disponibilidad</li>
+		{["Disponible para freelance", "Remoto/Proyectos globales", "Respuesta en 24-48hs"].map(a => (
+			<li class="text-[#888]">
+				{a}
+			</li>
+		))}
+	</ul>
 	<nav>
-		<ul>
-			<li></li>
+		<ul class="flex flex-col gap-1">
+			<li class="font-medium">Contacto</li>
+			{["maximo2004lfn@gmail.com", "+5493512377435", ""].map(a => (
+				<li class="text-[#888]">
+					{a}
+				</li>
+			))}
 		</ul>
 	</nav>
+
+	<p>@ 2026 Máximo Silva</p>
 
 </footer>

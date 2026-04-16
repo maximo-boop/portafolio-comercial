@@ -4,13 +4,17 @@ const anchors = [
 ]
 ---
 <header class="sticky top-5 z-100 mt-10">
-	<nav class="bg-[#f6f8faef] w-fit mx-auto py-4 px-6">
-		<ul class="flex gap-5 font-medium">
+	<nav class="mx-10 bg-[#f6f8faef] lg:w-fit lg:mx-auto py-4 px-6">
+		<ul class="flex gap-5 justify-between lg:justify-center font-medium">
 			{["Inicio", "Proyectos", "Sobre mi", "Contacto"].map((a,i) => (
 				<li>
 					<a href={`#${i===2 ? a.toLowerCase().split(' ').join('-') : a.toLowerCase()}`}>{a}</a>
 				</li>
 			))}
 		</ul>
+
+		<!-- <p>LOGO</p> -->
+		<!-- <p>menu</p> -->
+		
 	</nav>
 </header>
