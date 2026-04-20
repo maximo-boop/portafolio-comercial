@@ -5,7 +5,7 @@ const faqs = [
 		res: "Depende del proyecto. Una landing page puede estar en 1 a 2 semanas. Un e-commerce o sitio más complejo puede llevar 3 a 5 semanas. Siempre te doy un plazo claro antes de empezar."
 	},
 	{
-		preg: "¿Cuánto cuesta?",
+		preg: "¿Cuánto cuesta una web?",
 		res: "Cada proyecto es diferente, por eso no tengo precios fijos. Pero sí puedo darte un presupuesto sin costo después de una charla corta. Escribime y lo vemos."
 	},
 	{
@@ -34,7 +34,7 @@ const faqs = [
 
 	<div class="flex flex-col gap-5">
 		{faqs.map((faq) => (
-			<details class="text-start bg-[var(--bg)]">
+			<details class="text-start bg-[#fafafa]">
 				<summary class="flex items-center justify-between cursor-pointer lg:text-[20px] focus:outline-none py-6 px-5 lg:px-10">
 					<span class="flex-1">{faq.preg}</span>
 
@@ -45,25 +45,25 @@ const faqs = [
 					</svg>
 				</summary>
 
-				<p class="pb-6 pt-0 px-5 lg:px-10 text-gray-500">{faq.res}</p>
+				<p class="pb-6 pt-0 px-5 lg:px-10 text-[var(--text)]">{faq.res}</p>
 			</details>
 		))}
 	</div>
 </section>
 
 <!-- <script type="application/ld+json">
-{
-	"@context": "https://schema.org",
-	"@type": "FAQPage",
-	"mainEntity": [
-		{
-			"@type": "Question",
-			"name": "¿Cómo es el proceso para vender una propiedad?",
-			"acceptedAnswer": {
-			"@type": "Answer",
-				"text": "El proceso comienza con la tasación de la propiedad para definir un precio acorde al mercado, evitando que quede por debajo o por encima de su valor real. A partir de ahí, se trabaja la presentación (fotos, contenido y publicación) y se define una estrategia para generar interés y atraer consultas reales. Durante todo el proceso se realiza seguimiento de consultas y se acompaña hasta concretar la operación."
+	{
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [
+			{
+				"@type": "Question",
+				"name": "¿Cómo es el proceso para vender una propiedad?",
+				"acceptedAnswer": {
+				"@type": "Answer",
+					"text": "El proceso comienza con la tasación de la propiedad para definir un precio acorde al mercado, evitando que quede por debajo o por encima de su valor real. A partir de ahí, se trabaja la presentación (fotos, contenido y publicación) y se define una estrategia para generar interés y atraer consultas reales. Durante todo el proceso se realiza seguimiento de consultas y se acompaña hasta concretar la operación."
+				}
 			}
-		}
-	]
-}
+		]
+	}
 </script> -->

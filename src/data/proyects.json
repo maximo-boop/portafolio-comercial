@@ -1,64 +1,54 @@
 [
 	{
 		"id": 1,
-		"title": "Web para inmobiliaria",
-		"client": "HomeSilva",
-		"type": "Sitio inmobiliario",
-		"tagline": "Listado de propiedades con filtros, fichas detalladas y contacto directo",
+		"title": "HomeSilva — Web para inmobiliaria",
+		"tags": "Inmobiliaria · Córdoba",
+		"desc": "Catálogo digital con fichas individuales, filtros de búsqueda, mapas interactivos y contacto directo con la agencia. Necesitaba mostrar su cartera online y llegar a más clientes. Sitio en crecimiento y seguimiento activo.",
 		"url": "https://homesilva.com.ar",
 		"images": "/inmobiliaria.png"
 	},
 	{
 		"id": 2,
-		"title": "Web para marca de cosmética",
-		"client": "Babaria",
-		"type": "Sitio de marca",
-		"tagline": "Catálogo de productos y presentación de líneas de cuidado personal",
+		"title": "Babaria — Web para marca de cosmética",
+		"tags": "Corporativo · España",
+		"desc": "Sección 'Conócenos' que cuenta la historia de la marca, sus ingredientes estrella y su propósito en video. Empresa con más de 40 años en el mercado. El objetivo era que sus clientes entendieran quiénes son antes de comprar.",
 		"url": "https://babaria.es",
 		"images": "/cosmetica.png"
 	},
 	{
 		"id": 3,
-		"title": "Aplicación móvile de productividad",
-		"client": "",
-		"type": "App",
-		"tagline": "Aplicación movile de notas para anotar",
+		"title": "FastNotes — Aplicación móvile de productividad",
+		"tags": "App móvil · Proyecto personal",
+		"desc": "App de notas simple, personalizable y eficiente para aumentar tu productividad. Permite organizar el dia, definir objetivos y seguir tus rutinas sin perder el tiempo. Disponible en Google Play, carpetas, seguimiento semanal y gestión diaria.",
 		"url": "https://play.google.com/store/apps/details?id=com.maaxiiiii.fastnotesapp",
 		"images": "/notesapp.png"
 	},
 	{
 		"id": 4,
-		"title": "Web para marca de relojes ",
-		"client": "Nurani Timepieces",
-		"type": "Sitio de marca",
-		"tagline": "Sitio de relojes premium con presentación de colecciones",
-		"url": "",
+		"title": "Nurani Timepieces — Web para marca de relojes ",
+		"tags": "Catálogo · Emprendimiento",
+		"desc": "Vitrina online con colecciones masculinas y femeninas, y formulario con incentivo de descuento para captar clientes. Emprendimiento de relojes premium importados que necesitaba un lugar propio para mostrar y vender sus productos.",
 		"images": "/relojes.png"
 	},
 	{
 		"id": 5,
 		"title": "Web para estudio de diseño de interiores",
-		"client": null,
-		"type": "Landing page",
-		"tagline": "Presencia online para estudio independiente con galería de trabajos",
-		"url": "",
+		"tags": "Landing page · Diseño",
+		"desc": "Landing page con galería de proyectos, ilustraciones originales, formulario de contacto y adaptación perfecta al diseño del cliente. El cliente tenía un diseño muy elaborado y el trabajo fue llevarlo al detalle: cada sección, cada ilustración, perfecto en escritorio y en celular.",
 		"images": "/diseño-interiores.png"
 	},
 	{
 		"id": 6,
-		"title": "Web para restaurante",
-		"client": "Foodie Fusion",
-		"type": "Restaurante",
-		"tagline": "Menú online, galería y formulario de contacto",
-		"url": "",
+		"title": "Foodie Fusion — Web para restaurante",
+		"tags": "Corporativo · Freelance",
+		"desc": "Menú online, galería de platos, ubicación y perfil de usuario con historial. Web completa para un restaurante con gestión de carta, información del local y experiencia personalizada para cada cliente.",
 		"images": "/restaurante.png"
 	},
 	{
 		"id": 7,
-		"title": "Plantilla de tienda online",
-		"client": null,
-		"type": "Tienda online (ecommerce)",
-		"tagline": "Demo de interfaz con carrito de compras y login — sin backend",
+		"title": "E-commerce de ropa urbana — Plantilla de tienda online",
+		"tags": "E-commerce · Proyecto personal",
+		"desc": "Tienda online con carrito de compras, categorías de productos y perfil con historial. Proyecto personal. Funciona como una tienda real: pódes agregar productos, ver cómo cambia el total y revisar tus compras anteriores en tu perfil.",
 		"url": "https://test-e-commerce-seven.vercel.app",
 		"images": "/e-commerce.png"
 	}

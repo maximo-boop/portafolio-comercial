@@ -1,20 +1,47 @@
 ---
-const anchors = [
-
-]
 ---
-<header class="sticky top-5 z-100 mt-10">
-	<nav class="mx-10 bg-[#f6f8faef] lg:w-fit lg:mx-auto py-4 px-6">
-		<ul class="flex gap-5 justify-between lg:justify-center font-medium">
+
+<header class="header sticky z-100 mt-5 lg:mt-10 top-5">
+
+	<nav class="mx-10 lg:mx-auto lg:flex py-4 px-6 lg:gap-50 lg:w-fit bg-[#f6f8fadd]">
+
+		<!--LOGO -->
+		<div class="flex justify-between items-center flex-1">
+			<a href="/" class="font-bold text-xl">MS.</a>
+
+			<input type="checkbox" class="sr-only" id='menu-toggle'>
+			<label for="menu-toggle" class="hamburger lg:hidden">menu</label>
+		</div>
+
+		<!-- Navigation -->
+		<ul class="hidden nav flex flex-col lg:flex-row gap-5 mt-5 lg:mt-0">
 			{["Inicio", "Proyectos", "Sobre mi", "Contacto"].map((a,i) => (
 				<li>
-					<a href={`#${i===2 ? a.toLowerCase().split(' ').join('-') : a.toLowerCase()}`}>{a}</a>
+					<a class="hover:text-[#666] font-medium" href={`#${i===2 ? a.toLowerCase().split(' ').join('-') : a.toLowerCase()}`}>{a}</a>
 				</li>
 			))}
 		</ul>
 
-		<!-- <p>LOGO</p> -->
-		<!-- <p>menu</p> -->
-		
 	</nav>
+
 </header>
+
+<style>
+
+	.header:has(#menu-toggle:checked) .nav {
+		display: flex;
+	}
+	.header:has(#menu-toggle:checked){
+		height: 100vh;
+	}
+	
+	@media screen and (min-width: 1024px){
+		.nav {
+			display: flex;
+		}
+		.hamburger {
+			display: none;
+		}
+	}
+
+</style>

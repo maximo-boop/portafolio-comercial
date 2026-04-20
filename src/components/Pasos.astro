@@ -1,25 +1,27 @@
 ---
 import Design from '../assets/icons/Design.astro'
+import Wireframes from '../assets/wireframes.astro'
+
 const pasos = [
 	{ 
 		title: "Wireframe",
-		des: "Definimos la estructura y qué va en cada lugar antes de diseñar"
+		des: "Defino la estructura y qué va en cada lugar antes de diseñar. Lo que recibís: Un esquema claro de tu sitio antes de invertir tiempo en diseño"
 	},
 	{ 
 		title: "Diseño",
-		des: "Creamos la apariencia visual: colores, tipografías y estilo"
+		des: "Creo la apariencia visual: colores, tipografías y estilo adaptados a tu negocio. Lo que recibís: Una propuesta visual para que apruebes antes de que empiece el desarrollo"
 	},
 	{ 
 		title: "Desarrollo",
-		des: "Construyo el sitio con tecnología moderna, rápida y segura"
+		des: "Construyo el sitio con tecnología moderna, rápida y segura. Lo que recibís: Un sitio que carga rápido, funciona bien en celular y no da problemas técnicos después"
 	},
 	{ 
 		title: "Backend",
-		des: "Si necesitás formularios, pagos o base de datos, lo incluyo"
+		des: "Si necesitás formularios, pagos o base de datos, lo integro. Lo que recibís: Las funciones que tu negocio necesita, sin agregar complejidad innecesaria"
 	},
 	{ 
 		title: "Publicación",
-		des: "Subo todo online, configuro el dominio y queda listo para usarse"
+		des: "Subo todo online, configuro el dominio y hacemos una revisión final juntos. Lo que recibís: Tu sitio live y listo para recibir clientes — sin que tengas que tocar nada técnico"
 	}
 ]
 ---
@@ -34,16 +36,19 @@ const pasos = [
 		{pasos.map((p,i) => (
 			<ol class={`${i===0 ? 'row-span-2' : ''} cursor-pointer hover:bg-[#f3f5f7ff] group bg-[var(--bg)] min-h-60 p-4 flex flex-col gap-2 relative overflow-hidden`}>
 				<h3 class="font-medium text-lg lg:text-2xl">{`0${i+1} ${p.title}`}</h3>
-				<p class="text-[var(--text)] lg:text-lg">{p.des}</p>
+				<p class="text-[var(--text)] lg:text-lg z-10">{p.des}</p>
 
-				{i===1 && (
-					<Design />
-				)}
+				<div class="h-20">
+					{
+						i===0 ? (<Wireframes />) :
+						i===1 ? (<Design />) :  null
+					}
+				</div>
 
 			</ol>
 		))}
 	</ul>
 
-	<p class="text-center lg:text-lg self-end text-[#888]">Trabajo con un proceso claro para que siempre sepas en qué etapa estamos.</p>
+	<p class="text-center lg:text-lg lg:self-end text-[var(--text)]">Trabajo con un proceso claro para que siempre sepas en qué etapa estamos.</p>
 
 </section>

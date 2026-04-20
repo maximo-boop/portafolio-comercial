@@ -1,29 +1,37 @@
-<footer class="global-padding bg-black text-white py-5 min-h-40 flex flex-col gap-5">
+<footer class="px-10 global-padding bg-black text-white py-10 min-h-40 flex flex-col">
 
-	<div class="flex flex-col gap-2">
-		<p class="text-lg">Ayudo a negocios y emprendimientos a mejorar su prescencia digital con sitios rápidos y orientados a conversión.</p>
-		<div class="bg-[#888] p-4 h-10 w-10"></div>
-	</div>
-	
-	<ul class="flex flex-col gap-1">
-		<li class="font-medium">Disponibilidad</li>
-		{["Disponible para freelance", "Remoto/Proyectos globales", "Respuesta en 24-48hs"].map(a => (
-			<li class="text-[#888]">
-				{a}
-			</li>
-		))}
-	</ul>
-	<nav>
-		<ul class="flex flex-col gap-1">
+	<div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+		<div class="flex flex-col gap-2">
+			<p class="text-xl font-medium">Máximo Silva</p>
+			<p class="text-[#888]">Ayudo a negocios y emprendimientos a mejorar su prescencia digital con sitios rápidos y orientados a conversión.</p>
+		</div>
+		
+		<ul class="flex flex-col gap-2">
+			<li class="font-medium">Servicios</li>
+			{["Landing page", "Web corporativa", "Tienda online", "Catálogo de productos", "Rediseño web"].map(a => (
+				<li class="text-[#888]">{a}</li>
+			))}
+		</ul>
+
+		<ul class="flex flex-col gap-2">
 			<li class="font-medium">Contacto</li>
-			{["maximo2004lfn@gmail.com", "+5493512377435", ""].map(a => (
-				<li class="text-[#888]">
+			{["+54 9 351 237-7435", "maximo2004lfn@gmail.com", "Remoto · Proyectos globales", "Respuesta en 24–48 hs"].map((a, i) => (
+				<li class="text-[#888] flex items-center gap-2">
+					{i===1 ? (<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail h-4 w-4 flex-shrink-0" aria-hidden="true"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>)
+					: i===0 ? (<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone h-4 w-4 flex-shrink-0" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>) : null}
 					{a}
 				</li>
 			))}
 		</ul>
-	</nav>
+	</div>
 
-	<p>@ 2026 Máximo Silva</p>
+	<div class="flex flex-col lg:flex-row gap-5 justify-between items-center mt-5 border-t border-t-[#666] pt-5 text-[#888]">
+		<p class="text-center">© 2026 Máximo Silva — Córdoba, Argentina</p>
+
+		<div class="flex items-center gap-5">
+			<a href="https://www.linkedin.com/in/máximo-silva-1681a2281" class="hover:text-[#eee]">Linkedin</a>
+			<a href="https://github.com/maximo-boop" class="hover:text-[#eee]">Github</a>
+		</div>
+	</div>
 
 </footer>
