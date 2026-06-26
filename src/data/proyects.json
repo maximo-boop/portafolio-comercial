@@ -17,7 +17,7 @@
 	},
 	{
 		"id": 3,
-		"title": "FastNotes — Aplicación móvile de productividad",
+		"title": "DailyNotes — Aplicación móvile de productividad",
 		"tags": "App móvil · Proyecto personal",
 		"desc": "App de notas simple, personalizable y eficiente para aumentar tu productividad. Permite organizar el dia, definir objetivos y seguir tus rutinas sin perder el tiempo. Disponible en Google Play, carpetas, seguimiento semanal y gestión diaria.",
 		"url": "https://play.google.com/store/apps/details?id=com.maaxiiiii.fastnotesapp",
@@ -46,7 +46,7 @@
 	},
 	{
 		"id": 7,
-		"title": "E-commerce de ropa urbana — Plantilla de tienda online",
+		"title": "Web de ropa urbana — Plantilla de tienda online",
 		"tags": "E-commerce · Proyecto personal",
 		"desc": "Tienda online con carrito de compras, categorías de productos y perfil con historial. Proyecto personal. Funciona como una tienda real: pódes agregar productos, ver cómo cambia el total y revisar tus compras anteriores en tu perfil.",
 		"url": "https://test-e-commerce-seven.vercel.app",

@@ -26,17 +26,17 @@ const pasos = [
 ]
 ---
 
-<section class="px-10 lg:px-0 flex flex-col gap-5">
+<section class="flex flex-col gap-10">
 	<div class="flex flex-col gap-2">
-		<h2 class="text-2xl lg:text-4xl">Me encargo de todo:<br class="hidden lg:inline"> estructura, diseño, desarrollo y publicación.</h2>
-		<p class="text-[var(--text)] text-lg lg:text-2xl">Del boceto al sitio online, sin que tengas que preocuparte por nada</p>
+		<h2 class="text-3xl lg:text-4xl font-semibold">Me encargo de todo:<br class="hidden lg:inline"> estructura, diseño, desarrollo y publicación.</h2>
+		<p class="text-[var(--text)] lg:text-xl">Del boceto al sitio online, sin que tengas que preocuparte por nada</p>
 	</div>
 
 	<ul class="grid grid-cols-1 lg:grid-cols-3 w-full gap-5">
 		{pasos.map((p,i) => (
-			<ol class={`${i===0 ? 'row-span-2' : ''} cursor-pointer hover:bg-[#f3f5f7ff] group bg-[var(--bg)] min-h-60 p-4 flex flex-col gap-2 relative overflow-hidden`}>
-				<h3 class="font-medium text-lg lg:text-2xl">{`0${i+1} ${p.title}`}</h3>
-				<p class="text-[var(--text)] lg:text-lg z-10">{p.des}</p>
+			<ol class={`${i===0 ? 'row-span-2' : ''} cursor-pointer hover:bg-[#fdfdfd] group border border-[#ddd] min-h-60 p-5 flex flex-col gap-2 relative overflow-hidden`}>
+				<h3 class="font-bold text-xl">{`0${i+1} ${p.title}`}</h3>
+				<p class="text-[var(--text)] z-10">{p.des}</p>
 
 				<div class="h-20">
 					{

@@ -3,8 +3,114 @@
 :root {
 	--bg: #f6f8faff;
 	--text: rgba(0,0,0,0.5);
+	--primary: #78a5d2;
+	--secundary: #e1e7edff;
+}
+@font-face {
+	font-family: 'MonaSans';
+	src: url('/fonts/mona/Light.woff2') format('woff2');
+	font-weight: 300;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'MonaSans';
+	src: url('/fonts/mona/Mona-Sans-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'MonaSans';
+	src: url('/fonts/mona/Mona-Sans-Medium.woff2') format('woff2');
+	font-weight: 600;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'MonaSans';
+	src: url('/fonts/mona/Mona-Sans-SemiBold.woff2') format('woff2');
+	font-weight: 700;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'MonaSans';
+	src: url('/fonts/mona/Mona-Sans-Bold.woff2') format('woff2');
+	font-weight: 800;
+	font-display: swap;
+}
+
+/*POPPINS*/
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('/fonts/poppins-300.woff2') format('woff2');
+	font-weight: 300;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('/fonts/poppins-regular.woff2') format('woff2');
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('/fonts/poppins-600.woff2') format('woff2');
+	font-weight: 600;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('/fonts/poppins-700.woff2') format('woff2');
+	font-weight: 700;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('/fonts/poppins-800.woff2') format('woff2');
+	font-weight: 800;
+	font-display: swap;
+}
+/*INTER*/
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/inter-latin-400-normal.woff2') format('woff2');
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/inter-latin-500-normal.woff2') format('woff2');
+	font-weight: 500;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/inter-latin-600-normal.woff2') format('woff2');
+	font-weight: 600;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/inter-latin-700-normal.woff2') format('woff2');
+	font-weight: 700;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/inter-latin-800-normal.woff2') format('woff2');
+	font-weight: 800;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/inter-latin-900-normal.woff2') format('woff2');
+	font-weight: 900;
+	font-display: swap;
+}
+
+html, body {
+	font-family: 'MonaSans', sans-serif;
 }
 
 .global-padding {
-	@apply lg:px-35;
+	@apply px-10 lg:px-44;
 }

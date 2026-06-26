@@ -1,0 +1,14 @@
+{
+	"header": [{ "title": "Inicio", "a": "/es/"}, {"title": "Proyectos", "a": "/es/proyectos"}, {"title": "Productos", "a": "/es/productos"}, {"title": "Servicios", "a": "/es/servicios"}, {"title": "Contacto", "a": "/es/contacto"}, {"title": "Cotización gratis", "a": "cotizacion-gratis"}, {"title": "Iniciar sesión", "a": "/es/iniciar-sesion"}, {"title": "Mi cuenta", "a": "/es/panel"}],
+	"home": {
+		"title": "Transformá tu espacio con",
+		"titleSpan": "instalación de pisos premium",
+		"subtitle": "Empresa de pisos con enfoque artesanal que atiende Pensacola y la Costa del Golfo. Residencial y comercial, ejecutado con precisión quirúrgica.",
+		"cta": "Cotización gratis",
+		"ctaSecundary": "Ver proyectos",
+		"crumbs": ["Licenciado y asegurado", "+10 años de experiencia", "+5 estados cubiertos"]
+	},
+	"projects": {
+		
+	}
+}

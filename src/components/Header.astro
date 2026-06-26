@@ -1,28 +1,17 @@
 ---
 ---
 
-<header class="header sticky z-100 mt-5 lg:mt-10 top-5">
+<header class="header z-100 mt-5 lg:mt-10 top-5">
 
-	<nav class="mx-10 lg:mx-auto lg:flex py-4 px-6 lg:gap-50 lg:w-fit bg-[#f6f8fadd]">
+	<div class="mx-10 lg:mx-auto lg:flex py-4 px-6 lg:gap-50 lg:w-fit bg-[#fafafa]">
+		<a href="/" class="font-bold text-xl">Máximo Silva</a>
 
-		<!--LOGO -->
-		<div class="flex justify-between items-center flex-1">
-			<a href="/" class="font-bold text-xl">MS.</a>
-
-			<input type="checkbox" class="sr-only" id='menu-toggle'>
-			<label for="menu-toggle" class="hamburger lg:hidden">menu</label>
+		<div class="flex gap-2">
+			<p>Desarrollador web freelance</p>
 		</div>
 
-		<!-- Navigation -->
-		<ul class="hidden nav flex flex-col lg:flex-row gap-5 mt-5 lg:mt-0">
-			{["Inicio", "Proyectos", "Sobre mi", "Contacto"].map((a,i) => (
-				<li>
-					<a class="hover:text-[#666] font-medium" href={`#${i===2 ? a.toLowerCase().split(' ').join('-') : a.toLowerCase()}`}>{a}</a>
-				</li>
-			))}
-		</ul>
+	</div>
 
-	</nav>
 
 </header>
 

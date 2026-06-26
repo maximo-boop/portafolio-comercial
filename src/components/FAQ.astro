@@ -27,16 +27,16 @@ const faqs = [
 ]
 ---
 
-<section class="px-10 lg:px-0 text-center flex flex-col gap-5 my-20">
+<section class="text-center flex flex-col gap-5 mt-20 mb-40">
 
-	<h2 class="text-2xl lg:text-4xl">Preguntas frecuentes sobre<br class="hidden lg:inline"> el desarrollo web</h2>
+	<h2 class="text-2xl lg:text-4xl font-semibold">Preguntas frecuentes sobre<br class="hidden lg:inline"> el desarrollo web</h2>
 	<p></p>
 
 	<div class="flex flex-col gap-5">
 		{faqs.map((faq) => (
 			<details class="text-start bg-[#fafafa]">
 				<summary class="flex items-center justify-between cursor-pointer lg:text-[20px] focus:outline-none py-6 px-5 lg:px-10">
-					<span class="flex-1">{faq.preg}</span>
+					<span class="flex-1 ">{faq.preg}</span>
 
 					<svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 						<path stroke="none" d="M0 0h24v24H0z" fill="none"/>

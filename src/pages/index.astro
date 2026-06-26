@@ -11,14 +11,24 @@ import Cta from '../components/Cta.astro';
 ---
 
 <Layout>
-	<main class="global-padding">	
-		<Hero />
-		<Welcome />
+	<main>	
+		<div class="global-padding max-w-[1380px] mx-auto">
+			<Hero />
+			<Welcome />
+		</div>
 		<Galery />
-		<Services />
-		<Pasos />
-		<About />
+		
+		<div class="global-padding max-w-[1380px] mx-auto">
+			<Services />
+			<Pasos />
+			<About />
+		</div>
+
 		<Cta />
-		<FAQ />
+		<div class="global-padding max-w-[1380px] mx-auto">
+			<FAQ />
+		</div>
+
+		
 	</main>
 </Layout>
