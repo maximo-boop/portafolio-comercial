@@ -2,41 +2,22 @@
 import Action from '../assets/icons/Action.astro'
 import Empresa from '../assets/icons/Empresa.astro'
 import Cart from '../assets/icons/Cart.astro'
-const services = [
-	{
-		title: "Landing Page + WhatsApp",
-		des: "Para negocios que necesitan una presencia online rápida y directa. Una página clara que convierte visitas en mensajes de WhatsApp. Ideal para: profesionales independientes, servicios locales, emprendimientos."
-	},
-	{
-		title: "Web con catálogo de productos/servicios",
-		des: "Mostrá lo que ofrecés de forma clara y profesional. Sin carrito, sin complicaciones, solo una vitrina digital que vende. Ideal para: talleres, estudios, proveedores, servicios B2B."
-	},
-	{
-		title: "Rediseño de web existente",
-		des: "Tu web ya existe pero no convierte o se ve vieja. La mejoro en velocidad, diseño y estructura para que trabaje mejor por vos. Ideal para: negocios con web desactualizada o lenta."
-	},
-	{
-		title: "Tienda online (E-commerce básico)",
-		des: "Vendé tus productos las 24 hs. Integro un sistema de gestión simple para que vos mismo puedas actualizar stock y precios sin tocar código. Ideal para: tiendas físicas que quieren vender online, marcas pequeñas."
-	}
-]
+
+const {t} = Astro.props
 ---
 
 <section class="flex flex-col gap-10 mt-20 mb-40">
 	<div class="flex flex-col gap-2 text-center">
-		<h2 class="text-3xl lg:text-5xl font-semibold">Mis servicios</h2>
-		<p class="lg:text-xl text-[rgba(0,0,0,0.7)]">Soluciones web enfocadas en diseño, rendimiento y resultados.</p>
+		<h2 class="text-3xl lg:text-5xl font-semibold">{t.title}</h2>
+		<p class="lg:text-xl text-[rgba(0,0,0,0.7)]">{t.subtitle}</p>
 	</div>
 
 	<ul class="grid grid-cols-1 lg:grid-cols-3 w-full gap-5">
-		{services.map((s, i) => (
+		{t.serv.map((s, i) => (
 			<li class={`${i===0 ? 'lg:col-span-2 shadow-[0_0_20px_0_rgba(0,0,0,0.06)]' : i===3 ? 'lg:col-span-2' : ''} hover:shadow-[0_0_20px_0_rgba(0,0,0,0.06)] flex flex-col gap-2 border border-[#ddd] p-5 transition-shadow duration-200`}>
 				<span class="text-xl font-bold text-[var(--primary)]">0{i+1}</span>
 				<h3 class="text-xl font-bold">{s.title}</h3>
 				<p class="text-[rgba(0,0,0,0.5)]">{s.des}</p>
-
-				{/*<img src="/business.png" class=""/>*/}
-
 			</li>
 		))}
 	</ul>

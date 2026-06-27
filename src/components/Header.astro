@@ -1,13 +1,18 @@
 ---
+import es from '../data/es.json'
+import en from '../data/en.json'
+
+const lang = Astro.url.pathname.startsWith('/') ? 'en' : 'es'
+const t = lang === 'en' ? en : es
 ---
 
 <header class="header z-100 mt-5 lg:mt-10 top-5">
 
 	<div class="mx-10 lg:mx-auto lg:flex py-4 px-6 lg:gap-50 lg:w-fit bg-[#fafafa]">
-		<a href="/" class="font-bold text-xl">Máximo Silva</a>
+		<a href="/" class="font-bold text-xl">{t.header.name}</a>
 
 		<div class="flex gap-2">
-			<p>Desarrollador web freelance</p>
+			<p>{t.header.title}</p>
 		</div>
 
 	</div>

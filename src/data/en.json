@@ -1,0 +1,201 @@
+{
+	"header": {
+		"name": "Máximo Silva",
+		"title": "Freelance Web Developer"
+	},
+	"hero": {
+		"title": "Websites for businesses that want ",
+		"titleRest": "more clients",
+		"subtitle": "Fast, professional websites designed to turn visits into real inquiries.",
+		"cta": "Let's talk about your project",
+		"badges": [
+		{
+			"title": "Mobile-friendly",
+			"desc": "Over 70% of visits come from mobile devices."
+		},
+		{
+			"title": "Google SEO",
+			"desc": "Help more customers find you online."
+		},
+		{
+			"title": "100% custom",
+			"desc": "Tailored to your business and goals."
+		}]
+	},
+	"welcome": [
+		{
+			"title": "Online store (e-commerce)",
+			"icon": "compra"
+		},
+		{
+			"title": "Landing page",
+			"icon": "action"
+		},
+		{
+			"title": "Corporate website",
+			"icon": "empresa"
+		},
+		{
+			"title": "Online catalog",
+			"icon": "visual"
+		}
+	],
+	"galery": {
+		"title": "My projects",
+		"subtitle": "Real websites built to improve online presence",
+		"subtitleRest": " and conversion.",
+		"projects": [
+    {
+        "id": 1,
+        "title": "HomeSilva — Real estate website",
+        "tags": "Real Estate · Córdoba",
+        "desc": "A real estate agency with over 15 years in the industry that needed a modern online presence to showcase their properties and generate new inquiries.\n\nI designed and developed a digital property catalog with individual listings, search filters, interactive maps, and direct contact options, making it easy for visitors to find properties of interest and quickly get in touch with the agency.\nThe platform remains active and growing, continuously incorporating improvements and new features.",
+        "url": "https://homesilva.com.ar",
+        "images": "/inmobiliaria.png"
+    },
+    {
+        "id": 2,
+        "title": "Babaria — Cosmetics brand website",
+        "tags": "Corporate · Spain",
+        "desc": "A cosmetics brand with over 40 years in the market that needed to strengthen its digital presence and better communicate its brand identity.\n\nI developed an 'About Us' section focused on telling the company's story, highlighting its key ingredients, and conveying its values through visual content and video.\nThe goal was to help visitors understand who is behind the brand before making a purchase decision, building trust and strengthening their connection with the products.",
+        "url": "https://babaria.es/conocenos",
+        "images": "/cosmetica.png"
+    },
+    {
+        "id": 3,
+        "title": "DailyNotes — Mobile productivity app",
+        "tags": "Mobile App · Personal project",
+        "desc": "A simple, customizable, and efficient notes app to boost your productivity. It lets you organize your day, set goals, and track your routines without wasting time. Available on Google Play, with folders, weekly tracking, and daily management.",
+        "url": "https://play.google.com/store/apps/details?id=com.maaxiiiii.fastnotesapp",
+        "images": "/notesapp.png"
+    },
+    {
+        "id": 4,
+        "title": "Nurani Timepieces — Watch brand website",
+        "tags": "Catalog · Startup",
+        "desc": "A premium watch brand specializing in imported products that needed its own online presence to showcase its collections and attract potential customers.\n\nI designed and developed a web catalog with men's and women's collections, along with a contact form featuring a discount incentive to capture leads.\nThe goal was to provide the brand with a professional platform to present its products, strengthen its digital presence, and convert visitors into potential customers.",
+        "images": "/relojes.png"
+    },
+    {
+        "id": 5,
+        "title": "Interior design studio website",
+        "tags": "Landing page · Design",
+        "desc": "An interior design studio that needed a website capable of faithfully reflecting its visual identity and presenting its portfolio in a professional way.\n\nI developed a custom landing page with a project gallery, original illustrations, and contact options, turning the client's design into a fully responsive web experience.\nThe project focused on respecting every visual detail on both desktop and mobile, ensuring a consistent brand experience and a polished presentation of the studio's work.",
+        "images": "/diseño-interiores.png"
+    },
+    {
+        "id": 6,
+        "title": "Foodie Fusion — Restaurant website",
+        "tags": "Corporate · Freelance",
+        "desc": "A restaurant that needed a professional online presence where customers could browse the menu, learn about the business, and easily access key information from any device.\n\nI designed and developed a website with an online menu, dish gallery, location info, and personalized user features, creating a more accessible and engaging experience for visitors.\nThe goal was to help the restaurant present its services professionally, improve customer interaction, and keep all relevant information available online.",
+        "images": "/restaurante.png"
+    },
+    {
+        "id": 7,
+        "title": "Urban clothing website — Online store template",
+        "tags": "E-commerce · Personal project",
+        "desc": "An online store with a shopping cart, product categories, and a profile with purchase history. Personal project. It works like a real store: you can add products, watch the total update in real time, and review your past purchases in your profile.",
+        "url": "https://test-e-commerce-seven.vercel.app",
+        "images": "/e-commerce.png"
+    }
+]
+	},
+	"services": {
+		"title": "My services",
+		"subtitle": "Web solutions focused on design, performance, and results.",
+		"serv": [
+			{
+				"title": "Landing Page + WhatsApp",
+				"des": "For businesses that need a fast and direct online presence. A clear page that turns visits into WhatsApp messages. Ideal for: freelancers, local services, startups."
+			},
+			{
+				"title": "Website with product/service catalog",
+				"des": "Showcase what you offer in a clear and professional way. No cart, no complexity — just a digital storefront that sells. Ideal for: workshops, studios, suppliers, B2B services."
+			},
+			{
+				"title": "Existing website redesign",
+				"des": "Your website already exists but isn't converting or looks outdated. I improve its speed, design, and structure so it works harder for you. Ideal for: businesses with an outdated or slow website."
+			},
+			{
+				"title": "Online store (Basic e-commerce)",
+				"des": "Sell your products 24/7. I integrate a simple management system so you can update stock and prices yourself without touching any code. Ideal for: physical stores looking to sell online, small brands."
+			}
+		]
+	},
+	"pasos": {
+		"title": "I handle everything:",
+		"titleRest": " structure, design, development, and launch.",
+		"subtitle": "From sketch to live site, without you having to worry about a thing.",
+		"pasoss": [
+			{
+				"title": "Wireframe",
+				"des": "I define the structure and what goes where before any design work begins. What you get: A clear layout of your site before any time is invested in design."
+			},
+			{
+				"title": "Design",
+				"des": "I create the visual look: colors, typography, and style tailored to your business. What you get: A visual proposal for your approval before development begins."
+			},
+			{
+				"title": "Development",
+				"des": "I build the site with modern, fast, and secure technology. What you get: A site that loads fast, works great on mobile, and won't cause technical headaches later."
+			},
+			{
+				"title": "Backend",
+				"des": "If you need forms, payments, or a database, I integrate them. What you get: The features your business needs, without adding unnecessary complexity."
+			},
+			{
+				"title": "Launch",
+				"des": "I publish everything online, configure the domain, and we do a final review together. What you get: Your site live and ready to receive customers — without you touching anything technical."
+			}
+		],
+		"footer": "I work with a clear process so you always know what stage we're at."
+	},
+	"about": {
+		"title": "About me",
+		"subtitle": "I'm a freelance web developer with over 5 years of experience building websites for startups, brands, and companies across various industries. I've worked independently with both small and large clients, and that taught me to understand what each business truly needs before writing a single line of code.",
+		"subtitleRest": "I'm self-taught — I constantly learn to use modern tools like React, Next.js, and Astro, which translates into faster, more modern, and easier-to-maintain websites. I don't work at agencies or with large teams. When you hire me, you talk directly to me."
+	},
+	"cta": {
+		"title": "Do you have a business and want a ",
+		"titleRest": "website that actually works?",
+		"subtitle": "Tell me about your project and I'll show you how I can help — no strings attached.",
+		"cta": "Message me on WhatsApp",
+		"coverLetter": "I reply within 24 hours — no cost"
+	},
+	"faq": {
+		"title": "Frequently asked questions about",
+		"titleRest": " web development",
+		"faqs": [
+			{
+				"preg": "How long does it take to build the website?",
+				"res": "It depends on the project. A landing page can be ready in 1 to 2 weeks. An e-commerce or more complex site can take 3 to 5 weeks. I always give you a clear timeline before we start."
+			},
+			{
+				"preg": "How much does a website cost?",
+				"res": "Every project is different, so I don't have fixed prices. But I can give you a free quote after a short conversation. Message me and we'll figure it out."
+			},
+			{
+				"preg": "Do I need to know about technology to work with you?",
+				"res": "Not at all. I explain everything in plain language and guide you every step of the way. You focus on your business, I take care of the rest."
+			},
+			{
+				"preg": "Can I update the website myself afterward?",
+				"res": "Yes. Depending on the type of project, I deliver the site with a simple panel so you can make basic changes without relying on anyone."
+			},
+			{
+				"preg": "What if I need changes after the site is published?",
+				"res": "Minor adjustments during the delivery period are included at no extra cost. For later changes, we can set up a monthly maintenance plan or handle them on a case-by-case basis."
+			},
+			{
+				"preg": "Do you work with clients from any industry?",
+				"res": "Yes. I've worked with restaurants, stores, cosmetics brands, real estate agencies, and more. If you have a business and need an online presence, I can help."
+			}
+		]
+	},
+	"footer": {
+	    "title": "I help businesses and entrepreneurs improve their digital presence with fast, conversion-focused websites.",
+	    "services": "Services",
+	    "servicesLinks": ["Landing page", "Corporate website", "Online store", "Product catalog", "Website redesign"],
+	    "contact": "Contact"
+	}
+}

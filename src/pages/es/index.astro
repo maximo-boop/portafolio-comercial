@@ -1,16 +1,16 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Hero from '../components/Hero.astro';
-import Welcome from '../components/Welcome.astro';
-import Galery from '../components/Galery.astro';
-import Services from '../components/Services.astro';
-import Pasos from '../components/Pasos.astro';
-import About from '../components/About.astro';
-import FAQ from '../components/FAQ.astro';
-import Cta from '../components/Cta.astro';
+import Layout from '../../layouts/Layout.astro';
+import Hero from '../../components/Hero.astro';
+import Welcome from '../../components/Welcome.astro';
+import Galery from '../../components/Galery.astro';
+import Services from '../../components/Services.astro';
+import Pasos from '../../components/Pasos.astro';
+import About from '../../components/About.astro';
+import FAQ from '../../components/FAQ.astro';
+import Cta from '../../components/Cta.astro';
 
-import es from '../data/es.json'
-import en from '../data/en.json'
+import es from '../../data/es.json'
+import en from '../../data/en.json'
 
 const lang = Astro.url.pathname.startsWith('/es') ? 'es' : 'en'
 const t = lang === 'en' ? en : es
@@ -23,7 +23,6 @@ const t = lang === 'en' ? en : es
 			<Hero t={t.hero} />
 			<Welcome t={t.welcome} />
 		</div>
-		
 		<Galery t={t.galery} />
 		
 		<div class="global-padding max-w-[1380px] mx-auto">

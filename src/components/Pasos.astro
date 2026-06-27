@@ -2,38 +2,17 @@
 import Design from '../assets/icons/Design.astro'
 import Wireframes from '../assets/wireframes.astro'
 
-const pasos = [
-	{ 
-		title: "Wireframe",
-		des: "Defino la estructura y qué va en cada lugar antes de diseñar. Lo que recibís: Un esquema claro de tu sitio antes de invertir tiempo en diseño"
-	},
-	{ 
-		title: "Diseño",
-		des: "Creo la apariencia visual: colores, tipografías y estilo adaptados a tu negocio. Lo que recibís: Una propuesta visual para que apruebes antes de que empiece el desarrollo"
-	},
-	{ 
-		title: "Desarrollo",
-		des: "Construyo el sitio con tecnología moderna, rápida y segura. Lo que recibís: Un sitio que carga rápido, funciona bien en celular y no da problemas técnicos después"
-	},
-	{ 
-		title: "Backend",
-		des: "Si necesitás formularios, pagos o base de datos, lo integro. Lo que recibís: Las funciones que tu negocio necesita, sin agregar complejidad innecesaria"
-	},
-	{ 
-		title: "Publicación",
-		des: "Subo todo online, configuro el dominio y hacemos una revisión final juntos. Lo que recibís: Tu sitio live y listo para recibir clientes — sin que tengas que tocar nada técnico"
-	}
-]
+const {t} = Astro.props
 ---
 
 <section class="flex flex-col gap-10">
 	<div class="flex flex-col gap-2">
-		<h2 class="text-3xl lg:text-4xl font-semibold">Me encargo de todo:<br class="hidden lg:inline"> estructura, diseño, desarrollo y publicación.</h2>
-		<p class="text-[var(--text)] lg:text-xl">Del boceto al sitio online, sin que tengas que preocuparte por nada</p>
+		<h2 class="text-3xl lg:text-4xl font-semibold">{t.title}<br class="hidden lg:inline">{t.titleRest}</h2>
+		<p class="text-[var(--text)] lg:text-xl">{t.subtitle}</p>
 	</div>
 
 	<ul class="grid grid-cols-1 lg:grid-cols-3 w-full gap-5">
-		{pasos.map((p,i) => (
+		{t.pasoss.map((p,i) => (
 			<ol class={`${i===0 ? 'row-span-2' : ''} cursor-pointer hover:bg-[#fdfdfd] group border border-[#ddd] min-h-60 p-5 flex flex-col gap-2 relative overflow-hidden`}>
 				<h3 class="font-bold text-xl">{`0${i+1} ${p.title}`}</h3>
 				<p class="text-[var(--text)] z-10">{p.des}</p>
@@ -49,6 +28,6 @@ const pasos = [
 		))}
 	</ul>
 
-	<p class="text-center lg:text-lg lg:self-end text-[var(--text)]">Trabajo con un proceso claro para que siempre sepas en qué etapa estamos.</p>
+	<p class="text-center lg:text-lg lg:self-end text-[var(--text)]">{t.footer}</p>
 
 </section>

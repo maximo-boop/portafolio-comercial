@@ -1,39 +1,14 @@
 ---
-const faqs = [
-	{
-		preg: "¿Cuánto tarda en estar lista la web?",
-		res: "Depende del proyecto. Una landing page puede estar en 1 a 2 semanas. Un e-commerce o sitio más complejo puede llevar 3 a 5 semanas. Siempre te doy un plazo claro antes de empezar."
-	},
-	{
-		preg: "¿Cuánto cuesta una web?",
-		res: "Cada proyecto es diferente, por eso no tengo precios fijos. Pero sí puedo darte un presupuesto sin costo después de una charla corta. Escribime y lo vemos."
-	},
-	{
-		preg: "¿Necesito saber de tecnología para trabajar con vos?",
-		res: "Para nada. Me explico en términos simples y te guío en cada paso. Vos te enfocás en tu negocio, yo me encargo del resto."
-	},
-	{
-		preg: "¿Puedo actualizar la web yo mismo después?",
-		res: "Sí. Dependiendo del tipo de proyecto, te entrego la web con un panel simple para que puedas hacer cambios básicos sin depender de nadie."
-	},
-	{
-		preg: "¿Qué pasa si necesito cambios después de que esté publicada?",
-		res: "Los ajustes menores del período de entrega los hago sin costo. Para cambios posteriores, podemos armar un plan de mantenimiento mensual o resolverlo puntualmente."
-	},
-	{
-		preg: "¿Trabajás con clientes de cualquier rubro?",
-		res: "Sí. Trabajé con restaurantes, tiendas, cósmeticas, inmobiliarias y más. Si tenés un negocio y necesitás presencia online, puedo ayudarte."
-	}
-]
+const {t} = Astro.props
 ---
 
 <section class="text-center flex flex-col gap-5 mt-20 mb-40">
 
-	<h2 class="text-2xl lg:text-4xl font-semibold">Preguntas frecuentes sobre<br class="hidden lg:inline"> el desarrollo web</h2>
+	<h2 class="text-2xl lg:text-4xl font-semibold">{t.title}<br class="hidden lg:inline">{t.titleRest}</h2>
 	<p></p>
 
 	<div class="flex flex-col gap-5">
-		{faqs.map((faq) => (
+		{t.faqs.map((faq) => (
 			<details class="text-start bg-[#fafafa]">
 				<summary class="flex items-center justify-between cursor-pointer lg:text-[20px] focus:outline-none py-6 px-5 lg:px-10">
 					<span class="flex-1 ">{faq.preg}</span>

@@ -1,21 +1,5 @@
 ---
-
-const badges = [
-
-	{
-		title: "Adaptadas a celulares",
-		desc: "Más del 70% de las visitas llegan desde el móvil.",
-	},
-	{
-		title: "SEO para Google",
-		desc: "Ayudá a que más clientes te encuentren online.",
-	},
-	{
-		title: "100% personalizadas",
-		desc: "Diseñadas a medida según tu negocio y objetivos.",
-	}
-]
-
+const {t} = Astro.props;
 ---
 
 <section id='inicio' class="
@@ -29,10 +13,10 @@ const badges = [
 
 	<div class="flex-1 flex flex-col lg:items-start lg:justify-between gap-4">
 		<div class="grid gap-4">
-			<h1 class="text-4xl lg:text-4xl font-extrabold ">Páginas web para negocios que quieren <span class="text-[var(--primary)]">más clientes</span>.</h1>
-			<p class="lg:text-xl text-[rgba(0,0,0,0.7)]">Webs rápidas, profesionales y pensadas para transformar visitas en consultas reales.</p>
+			<h1 class="text-4xl lg:text-4xl font-extrabold ">{t.title}<span class="text-[var(--primary)]">{t.titleRest}</span>.</h1>
+			<p class="lg:text-xl text-[rgba(0,0,0,0.7)]">{t.subtitle}</p>
 		</div>
-		<a href="https://wa.me/5493512377435" target="_blank" class="hover:bg-[#181818] text-white p-4 font-bold w-fit bg-[#010101ff] z-10">Hablemos de tu proyecto</a>
+		<a href="https://wa.me/5493512377435" target="_blank" class="hover:bg-[#181818] text-white p-4 font-bold w-fit bg-[#010101ff] z-10">{t.cta}</a>
 	</div>
 
 	<div class="flex-1 flex items-end relative bg-[var(--secundary)] min-h-100">
@@ -54,15 +38,14 @@ const badges = [
 	</div>
 
 	<ul class="flex flex-1 flex-col gap-5 lg:gap-2 mt-5 lg:mt-0">
-		{badges.map((a, i) => (
+		{t.badges.map((a, i) => (
 			<li class="font-medium items-center flex gap-3">
 				<div class="bg-[#fafafa] p-3">
 					{
 						i===0 ? <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M11 18.25H13M8 21.25H16C16.8284 21.25 17.5 20.5784 17.5 19.75V4.25C17.5 3.42157 16.8284 2.75 16 2.75H8C7.17157 2.75 6.5 3.42157 6.5 4.25V19.75C6.5 20.5784 7.17157 21.25 8 21.25Z" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
 								</svg> 
-						: 
-						i===1 ? <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-trending-up"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 17l6 -6l4 4l8 -8" /><path d="M14 7l7 0l0 7" /></svg> :
+						: i===1 ? <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-trending-up"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 17l6 -6l4 4l8 -8" /><path d="M14 7l7 0l0 7" /></svg> :
 						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
  							<path d="M8.99997 11.2224L12.7778 15.0002M7.97485 20.975C6.60801 22.3419 4 22.0002 2 22.0002C3.0251 20.0002 1.65827 17.3921 3.0251 16.0253C4.39194 14.6585 6.60801 14.6585 7.97485 16.0253C9.34168 17.3921 9.34168 19.6082 7.97485 20.975ZM11.9216 15.9248L21.0587 6.05671C21.8635 5.18755 21.8375 3.83776 20.9999 3.00017C20.1624 2.16258 18.8126 2.13663 17.9434 2.94141L8.07534 12.0785C7.5654 12.5507 7.31043 12.7868 7.16173 13.0385C6.80514 13.6423 6.79079 14.3887 7.12391 15.0057C7.26283 15.2631 7.50853 15.5088 7.99995 16.0002C8.49136 16.4916 8.73707 16.7373 8.99438 16.8762C9.6114 17.2093 10.3578 17.195 10.9616 16.8384C11.2134 16.6897 11.4494 16.4347 11.9216 15.9248Z" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
  						</svg>

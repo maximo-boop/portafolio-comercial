@@ -1,14 +1,201 @@
 {
-	"header": [{ "title": "Inicio", "a": "/es/"}, {"title": "Proyectos", "a": "/es/proyectos"}, {"title": "Productos", "a": "/es/productos"}, {"title": "Servicios", "a": "/es/servicios"}, {"title": "Contacto", "a": "/es/contacto"}, {"title": "Cotización gratis", "a": "cotizacion-gratis"}, {"title": "Iniciar sesión", "a": "/es/iniciar-sesion"}, {"title": "Mi cuenta", "a": "/es/panel"}],
-	"home": {
-		"title": "Transformá tu espacio con",
-		"titleSpan": "instalación de pisos premium",
-		"subtitle": "Empresa de pisos con enfoque artesanal que atiende Pensacola y la Costa del Golfo. Residencial y comercial, ejecutado con precisión quirúrgica.",
-		"cta": "Cotización gratis",
-		"ctaSecundary": "Ver proyectos",
-		"crumbs": ["Licenciado y asegurado", "+10 años de experiencia", "+5 estados cubiertos"]
+	"header": {
+		"name": "Máximo Silva",
+		"title": "Desarrollador web freelance"
 	},
-	"projects": {
-		
+	"hero": {
+		"title": "Páginas web para negocios que quieren ",
+		"titleRest": "más clientes",
+		"subtitle": "Webs rápidas, profesionales y pensadas para transformar visitas en consultas reales.",
+		"cta": "Hablemos de tu proyecto",
+		"badges": [
+		{
+			"title": "Adaptadas a celulares",
+			"desc": "Más del 70% de las visitas llegan desde el móvil."
+		},
+		{
+			"title": "SEO para Google",
+			"desc": "Ayudá a que más clientes te encuentren online."
+		},
+		{
+			"title": "100% personalizadas",
+			"desc": "Diseñadas a medida según tu negocio y objetivos."
+		}]
+	},
+	"welcome": [
+		{
+			"title": "Tienda online (e-commerce)",
+			"icon": "compra"
+		},
+		{
+			"title": "Landing page",
+			"icon": "action"
+		},
+		{
+			"title":"Web corporativa", 
+			"icon": "empresa"
+		},
+		{
+			"title":"Catálogo online", 
+			"icon": "visual"
+		}
+	],
+	"galery": {
+		"title": "Mis proyectos",
+		"subtitle": "Sitios reales pensados para mejorar la presencia",
+		"subtitleRest": " digital y la conversión.",
+		"projects": [
+			{
+				"id": 1,
+				"title": "HomeSilva — Web para inmobiliaria",
+				"tags": "Inmobiliaria · Córdoba",
+				"desc": "Inmobiliaria con más de 15 años de trayectoria que necesitaba una presencia online moderna para mostrar sus propiedades y generar nuevas consultas.\n\nDiseñé y desarrollé un catálogo digital de inmuebles con fichas individuales, filtros de búsqueda, mapas interactivos y opciones de contacto directo, facilitando que los visitantes encuentren propiedades de interés y se comuniquen rápidamente con la agencia.\nLa plataforma continúa activa y en crecimiento, incorporando mejoras y nuevas funcionalidades de forma continua.",
+				"url": "https://homesilva.com.ar",
+				"images": "/inmobiliaria.png"
+			},
+			{
+				"id": 2,
+				"title": "Babaria — Web para marca de cosmética",
+				"tags": "Corporativo · España",
+				"desc": "Marca de cosmética con más de 40 años de trayectoria que necesitaba reforzar su presencia digital y comunicar mejor su identidad de marca.\n\nDesarrollé una sección 'Conócenos' enfocada en contar la historia de la empresa, destacar sus ingredientes principales y transmitir sus valores mediante contenido visual y video.\nEl objetivo fue ayudar a los visitantes a comprender quién está detrás de la marca antes de tomar una decisión de compra, fortaleciendo la confianza y la conexión con sus productos.",
+				"url": "https://babaria.es/conocenos",
+				"images": "/cosmetica.png"
+			},
+			{
+				"id": 3,
+				"title": "DailyNotes — Aplicación móvile de productividad",
+				"tags": "App móvil · Proyecto personal",
+				"desc": "App de notas simple, personalizable y eficiente para aumentar tu productividad. Permite organizar el dia, definir objetivos y seguir tus rutinas sin perder el tiempo. Disponible en Google Play, carpetas, seguimiento semanal y gestión diaria.",
+				"url": "https://play.google.com/store/apps/details?id=com.maaxiiiii.fastnotesapp",
+				"images": "/notesapp.png"
+			},
+			{
+				"id": 4,
+				"title": "Nurani Timepieces — Web para marca de relojes ",
+				"tags": "Catálogo · Emprendimiento",
+				"desc": "Marca de relojes premium especializada en productos importados que necesitaba una presencia online propia para mostrar sus colecciones y atraer potenciales clientes.\n\nDiseñé y desarrollé un catálogo web con colecciones para hombres y mujeres, incorporando además un formulario de contacto con incentivo de descuento para captar interesados.\nEl objetivo fue brindar a la marca una plataforma profesional para presentar sus productos, fortalecer su presencia digital y convertir visitantes en potenciales clientes.",
+				"images": "/relojes.png"
+			},
+			{
+				"id": 5,
+				"title": "Web para estudio de diseño de interiores",
+				"tags": "Landing page · Diseño",
+				"desc": "Estudio de diseño de interiores que necesitaba un sitio web capaz de reflejar fielmente su identidad visual y presentar su portfolio de manera profesional.\n\nDesarrollé una landing page personalizada con galería de proyectos, ilustraciones originales y opciones de contacto, transformando el diseño del cliente en una experiencia web completamente adaptable a dispositivos móviles.\nEl proyecto se centró en respetar cada detalle visual tanto en escritorio como en celular, garantizando una experiencia consistente con la marca y una presentación cuidada de los trabajos del estudio.",
+				"images": "/diseño-interiores.png"
+			},
+			{
+				"id": 6,
+				"title": "Foodie Fusion — Web para restaurante",
+				"tags": "Corporativo · Freelance",
+				"desc": "Restaurante que necesitaba una presencia online profesional donde sus clientes pudieran consultar el menú, conocer el negocio y acceder fácilmente a información importante desde cualquier dispositivo.\n\nDiseñé y desarrollé un sitio web con menú online, galería de platos, ubicación y funcionalidades personalizadas para los usuarios, creando una experiencia más accesible y atractiva para los visitantes.\nEl objetivo fue ayudar al restaurante a presentar sus servicios de forma profesional, mejorar la interacción con los clientes y mantener toda la información relevante disponible en línea.",
+				"images": "/restaurante.png"
+			},
+			{
+				"id": 7,
+				"title": "Web de ropa urbana — Plantilla de tienda online",
+				"tags": "E-commerce · Proyecto personal",
+				"desc": "Tienda online con carrito de compras, categorías de productos y perfil con historial. Proyecto personal. Funciona como una tienda real: pódes agregar productos, ver cómo cambia el total y revisar tus compras anteriores en tu perfil.",
+				"url": "https://test-e-commerce-seven.vercel.app",
+				"images": "/e-commerce.png"
+			}
+		]
+	},
+	"services": {
+		"title": "Mis servicios",
+		"subtitle":"Soluciones web enfocadas en diseño, rendimiento y resultados.",
+		"serv": [
+			{
+				"title": "Landing Page + WhatsApp",
+				"des": "Para negocios que necesitan una presencia online rápida y directa. Una página clara que convierte visitas en mensajes de WhatsApp. Ideal para: profesionales independientes, servicios locales, emprendimientos."
+			},
+			{
+				"title": "Web con catálogo de productos/servicios",
+				"des": "Mostrá lo que ofrecés de forma clara y profesional. Sin carrito, sin complicaciones, solo una vitrina digital que vende. Ideal para: talleres, estudios, proveedores, servicios B2B."
+			},
+			{
+				"title": "Rediseño de web existente",
+				"des": "Tu web ya existe pero no convierte o se ve vieja. La mejoro en velocidad, diseño y estructura para que trabaje mejor por vos. Ideal para: negocios con web desactualizada o lenta."
+			},
+			{
+				"title": "Tienda online (E-commerce básico)",
+				"des": "Vendé tus productos las 24 hs. Integro un sistema de gestión simple para que vos mismo puedas actualizar stock y precios sin tocar código. Ideal para: tiendas físicas que quieren vender online, marcas pequeñas."
+			}
+		]
+	},
+	"pasos": {
+		"title": "Me encargo de todo:",
+		"titleRest": " estructura, diseño, desarrollo y publicación.",
+		"subtitle": "Del boceto al sitio online, sin que tengas que preocuparte por nada",
+		"pasoss": [
+			{ 
+				"title": "Wireframe",
+				"des": "Defino la estructura y qué va en cada lugar antes de diseñar. Lo que recibís: Un esquema claro de tu sitio antes de invertir tiempo en diseño"
+			},
+			{ 
+				"title": "Diseño",
+				"des": "Creo la apariencia visual: colores, tipografías y estilo adaptados a tu negocio. Lo que recibís: Una propuesta visual para que apruebes antes de que empiece el desarrollo"
+			},
+			{ 
+				"title": "Desarrollo",
+				"des": "Construyo el sitio con tecnología moderna, rápida y segura. Lo que recibís: Un sitio que carga rápido, funciona bien en celular y no da problemas técnicos después"
+			},
+			{ 
+				"title": "Backend",
+				"des": "Si necesitás formularios, pagos o base de datos, lo integro. Lo que recibís: Las funciones que tu negocio necesita, sin agregar complejidad innecesaria"
+			},
+			{ 
+				"title": "Publicación",
+				"des": "Subo todo online, configuro el dominio y hacemos una revisión final juntos. Lo que recibís: Tu sitio live y listo para recibir clientes — sin que tengas que tocar nada técnico"
+			}
+		],
+		"footer": "Trabajo con un proceso claro para que siempre sepas en qué etapa estamos."
+	},
+	"about": {
+		"title": "Sobre mí",
+		"subtitle": "Soy desarrollador web freelancer con más de 5 años de experiencia creando sitios para emprendimientos, marcas y empresas de distintos rubros. Trabajé de forma independiente con clientes chicos y grandes, y eso me enseñó a entender qué necesita cada negocio antes de escribir una sola línea de código.",
+		"subtitleRest": "Soy autodidacta — aprendo constantemente para usar herramientas actuales como React, Next.js y Astro, lo que se traduce en sitios más rápidos, modernos y fáciles de mantener. No trabajo en agencias ni con equipos grandes. Cuando me contratás, hablás directamente conmigo."
+	},
+	"cta": {
+		"title": "¿Tenés un negocio y querés una ",
+		"titleRest": "web que realmente funcione?",
+		"subtitle": "Contame sobre tu proyecto y te digo cómo puedo ayudarte — sin compromiso.",
+		"cta": "Escribime por WhatsApp",
+		"coverLetter": "Respondo en menos de 24hs — sin costo"
+	},
+	"faq": {
+		"title": "Preguntas frecuentes sobre",
+		"titleRest": " el desarrollo web",
+		"faqs": [
+			{
+				"preg": "¿Cuánto tarda en estar lista la web?",
+				"res": "Depende del proyecto. Una landing page puede estar en 1 a 2 semanas. Un e-commerce o sitio más complejo puede llevar 3 a 5 semanas. Siempre te doy un plazo claro antes de empezar."
+			},
+			{
+				"preg": "¿Cuánto cuesta una web?",
+				"res": "Cada proyecto es diferente, por eso no tengo precios fijos. Pero sí puedo darte un presupuesto sin costo después de una charla corta. Escribime y lo vemos."
+			},
+			{
+				"preg": "¿Necesito saber de tecnología para trabajar con vos?",
+				"res": "Para nada. Me explico en términos simples y te guío en cada paso. Vos te enfocás en tu negocio, yo me encargo del resto."
+			},
+			{
+				"preg": "¿Puedo actualizar la web yo mismo después?",
+				"res": "Sí. Dependiendo del tipo de proyecto, te entrego la web con un panel simple para que puedas hacer cambios básicos sin depender de nadie."
+			},
+			{
+				"preg": "¿Qué pasa si necesito cambios después de que esté publicada?",
+				"res": "Los ajustes menores del período de entrega los hago sin costo. Para cambios posteriores, podemos armar un plan de mantenimiento mensual o resolverlo puntualmente."
+			},
+			{
+				"preg": "¿Trabajás con clientes de cualquier rubro?",
+				"res": "Sí. Trabajé con restaurantes, tiendas, cósmeticas, inmobiliarias y más. Si tenés un negocio y necesitás presencia online, puedo ayudarte."
+			}
+		]
+	},
+	"footer": { 
+		"title": "Ayudo a negocios y emprendimientos a mejorar su prescencia digital con sitios rápidos y orientados a conversión.",
+		"services": "Servicios",
+		"servicesLinks": ["Landing page", "Web corporativa", "Tienda online", "Catálogo de productos", "Rediseño web"],
+		"contact": "Contacto"
 	}
 }
