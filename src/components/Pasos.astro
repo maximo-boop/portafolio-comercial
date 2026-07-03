@@ -2,32 +2,44 @@
 import Design from '../assets/icons/Design.astro'
 import Wireframes from '../assets/wireframes.astro'
 
-const {t} = Astro.props
----
+import Dev from '../assets/wireframes.astro'
+import Backend from '../assets/wireframes.astro'
+import Publish from '../assets/wireframes.astro'
 
-<section class="flex flex-col gap-10">
+const {t} = Astro.props
+
+const graphics = [Wireframes, Design]
+---
+<section class="flex flex-col gap-10 relative">
+
+	<div 
+		class="absolute inset-0 -z-10 opacity-[0.04]"
+		style="background-image: radial-gradient(circle, #000 1px, transparent 1px); background-size: 24px 24px;"
+	></div>
+
 	<div class="flex flex-col gap-2">
 		<h2 class="text-3xl lg:text-4xl font-semibold">{t.title}<br class="hidden lg:inline">{t.titleRest}</h2>
 		<p class="text-[var(--text)] lg:text-xl">{t.subtitle}</p>
 	</div>
 
 	<ul class="grid grid-cols-1 lg:grid-cols-3 w-full gap-5">
-		{t.pasoss.map((p,i) => (
-			<ol class={`${i===0 ? 'row-span-2' : ''} cursor-pointer hover:bg-[#fdfdfd] group border border-[#ddd] min-h-60 p-5 flex flex-col gap-2 relative overflow-hidden`}>
-				<h3 class="font-bold text-xl">{`0${i+1} ${p.title}`}</h3>
-				<p class="text-[var(--text)] z-10">{p.des}</p>
+		{t.pasoss.map((p, i) => {
+			const Graphic = graphics[i] || null
+			const isLast = i === t.pasoss.length - 1
+			return (
+				<ol class={`${i===0 ? 'row-span-2 border-[var(--primary)] shadow-[0_10px_15px_-3px_#0000000a,0_4px_6px_-2px_#00000005]' : ''} cursor-pointer hover:border-[var(--primary)] hover:shadow-[0_10px_15px_-3px_#0000000a,0_4px_6px_-2px_#00000005] group border border-[#ddd] min-h-60 p-5 flex flex-col gap-2 relative overflow-hidden transition-all duration-300 bg-white`}>
+					<h3 class="font-bold text-xl inline-flex gap-2"><span>0{i+1}</span>{p.title}</h3>
+					<p class="text-[var(--text)] z-10">{p.des}</p>
 
-				<div class="h-20">
-					{
-						i===0 ? (<Wireframes />) :
-						i===1 ? (<Design />) :  null
-					}
-				</div>
-
-			</ol>
-		))}
+					{Graphic && (
+						<div class={`${i===0 ? '' : 'group-hover:opacity-100 transition-opacity duration-300 opacity-80'} h-20 mt-auto`}>
+							<Graphic />
+						</div>
+					)}
+				</ol>
+			)
+		})}
 	</ul>
 
 	<p class="text-center lg:text-lg lg:self-end text-[var(--text)]">{t.footer}</p>
-
 </section>

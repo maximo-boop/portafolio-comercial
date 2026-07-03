@@ -6,6 +6,8 @@ import Galery from '../../components/Galery.astro';
 import Services from '../../components/Services.astro';
 import Pasos from '../../components/Pasos.astro';
 import About from '../../components/About.astro';
+import Casos from '../../components/Casos.astro';
+import Why from '../../components/Why.astro';
 import FAQ from '../../components/FAQ.astro';
 import Cta from '../../components/Cta.astro';
 
@@ -17,25 +19,31 @@ const t = lang === 'en' ? en : es
 
 ---
 
-<Layout>
-	<main>	
+<Layout bg>
+	<main>
+
 		<div class="global-padding max-w-[1380px] mx-auto">
-			<Hero t={t.hero} />
+			<Hero t={t.hero} tl={t} />
 			<Welcome t={t.welcome} />
 		</div>
+
 		<Galery t={t.galery} />
 		
-		<div class="global-padding max-w-[1380px] mx-auto">
+		<Why t={t.why} />
+		<div class=" pt-20 pb-40 global-padding max-w-[1380px] mx-auto">
+
 			<Services t={t.services} />
 			<Pasos t={t.pasos} />
+
+			<Casos t={t.casos} />
+
 			<About t={t.about} />
 		</div>
 
-		<Cta t={t.cta} />
+		<Cta t={t.cta} tl={t} />
 		<div class="global-padding max-w-[1380px] mx-auto">
 			<FAQ t={t.faq} />
 		</div>
-
 		
 	</main>
 </Layout>

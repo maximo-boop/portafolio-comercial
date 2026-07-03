@@ -1,0 +1,48 @@
+---
+const {t} = Astro.props
+---
+<section class="relative flex flex-col gap-10 my-40">
+
+	<div class="flex flex-col gap-2 max-w-2xl">
+		<h2 class="text-3xl lg:text-4xl font-semibold">{t.title}</h2>
+		<p class="text-lg text-[var(--text)]">{t.subtitle}</p>
+	</div>
+
+	<ul class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+		{t.casos.map((c, i) => (
+			<li class="group flex flex-col border border-[#e5e5e5] bg-white hover:border-[var(--primary)] hover:shadow-[0_10px_15px_-3px_#0000000a,0_4px_6px_-2px_#00000005] transition-all duration-300 overflow-hidden">
+				
+				<div class="flex flex-col gap-4 p-6 lg:p-8">
+					<div class="flex items-center justify-between">
+						<h3 class="text-xl font-bold">{c.title}</h3>
+						<span class="text-xs font-semibold uppercase tracking-wider text-[var(--primary)] bg-[var(--primary)]/10 px-2 py-1">
+							{c.rubro}
+						</span>
+					</div>
+
+					<div class="flex flex-col gap-3">
+						<div class="flex gap-3">
+							<span class="text-[.9rem] font-bold text-[rgba(0,0,0,0.3)] shrink-0 w-20">Objetivo</span>
+							<p class="text-[.9rem] text-[var(--text)]">{c.objetivo}</p>
+						</div>
+						<div class="flex gap-3">
+							<span class="text-[.9rem] font-bold text-[rgba(0,0,0,0.3)] shrink-0 w-20">Solución</span>
+							<p class="text-[.9rem] text-[var(--text)]">{c.solucion}</p>
+						</div>
+						<div class="flex gap-3">
+							<span class="text-[.9rem] font-bold text-[var(--primary)] shrink-0 w-20">Resultado</span>
+							<p class="text-[.9rem] font-medium">{c.resultado}</p>
+						</div>
+					</div>
+
+					{c.url && (
+						<a href={c.url} target="_blank" class="inline-flex w-fit items-center gap-1 text-sm font-semibold text-[var(--primary)] mt-2 group-hover:gap-2 transition-all duration-300">
+							Ver sitio
+							<span class="transition-transform duration-300 group-hover:translate-x-1">→</span>
+						</a>
+					)}
+				</div>
+			</li>
+		))}
+	</ul>
+</section>

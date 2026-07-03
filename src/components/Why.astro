@@ -1,0 +1,36 @@
+---
+import Target from '../assets/icons/Check.astro'
+import Users from '../assets/icons/Check.astro'
+import Chart from '../assets/icons/Check.astro'
+import Message from '../assets/icons/Check.astro'
+import Package from '../assets/icons/Check.astro'
+const {t} = Astro.props
+
+const icons = [Target, Users, Chart, Message, Package]
+---
+<section class="flex flex-col gap-10 pt-40 mb-20 global-padding max-w-[1380px] mx-auto">
+	
+
+	<div class="flex flex-col gap-2 max-w-2xl">
+		<h2 class="text-3xl lg:text-4xl font-semibold">{t.title}</h2>
+		<p class="text-lg text-[var(--text)]">{t.subtitle}</p>
+	</div>
+
+	<ul class="grid grid-cols-1 lg:grid-cols-3 w-full gap-5">
+		{t.razones.map((r, i) => {
+			const Icon = icons[i]
+			return (
+				<li class={`${i===0 ? 'lg:col-span-2 -translate-y-1 border-[var(--primary)] shadow-[0_10px_15px_-3px_#0000000a,0_4px_6px_-2px_#00000005]' : ''} group relative flex flex-col gap-3 border border-[#e5e5e5] p-6 lg:p-8 transition-all duration-300 bg-white hover:border-[var(--primary)] hover:-translate-y-1 hover:shadow-[0_10px_15px_-3px_#0000000a,0_4px_6px_-2px_#00000005]`}>
+					{Icon && (
+						<div class={`${i===0 ? 'bg-[var(--primary)] text-white' : 'bg-[var(--primary)]/5 text-[var(--primary)]'} relative z-10 w-12 h-12 flex items-center justify-center group-hover:bg-[var(--primary)] group-hover:text-white transition-colors duration-300`}>
+							<Icon class="w-6 h-6" />
+						</div>
+					)}
+					<h3 class="relative z-10 text-xl font-bold">{r.title}</h3>
+					<p class="relative z-10 text-[rgba(0,0,0,0.5)]">{r.des}</p>
+				</li>
+			)
+		})}
+	</ul>
+
+</section>

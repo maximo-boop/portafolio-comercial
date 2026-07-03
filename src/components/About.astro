@@ -1,17 +1,30 @@
 ---
+import Github from '../assets/icons/Check.astro'
+import Linkedin from '../assets/icons/Linkedin.astro'
 const {t} = Astro.props
 ---
+<section class="relative flex flex-col lg:flex-row items-center gap-12 lg:gap-20 mt-40 mb-20" id="sobre-mi">
+	<div class="flex-1 relative w-full max-w-sm mx-auto lg:mx-0">
+		<div class="absolute -top-4 -left-4 w-full h-full border-2 border-[var(--primary)]/50 -z-10"></div>
+		<div class="bg-[#fafafa] relative overflow-hidden">
+			<img src="/me.png" alt="Máximo Silva, desarrollador web freelance" width="500" height="500" class="w-full h-full object-cover" loading="lazy" />
+		</div>
+		<div class="absolute -bottom-5 -right-5 bg-white border border-[var(--primary)] shadow-[0_10px_30px_0_rgba(0,0,0,0.08)] px-4 py-3 flex items-center gap-2">
+			<span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+			<span class="text-sm font-medium">{t.badge}</span>
+		</div>
+	</div>
 
-<section class="flex flex-col-reverse items-center lg:flex-row gap-5 my-40" id="sobre-mi">
+	<div class="flex-1 flex flex-col gap-6">
+		<h2 class="text-3xl lg:text-4xl font-semibold">{t.title}</h2>
 
-	<div class="flex-1 flex flex-col gap-5 min-h-40">
-		<h2 class="text-3xl font-semibold lg:text-4xl">{t.title}</h2>
 		<p class="text-lg text-[var(--text)]">{t.subtitle}</p>
 		<p class="text-lg text-[var(--text)]">{t.subtitleRest}</p>
-	</div>
 
-	<div class="flex-1 bg-[#fafafa]">
-		<img src="/me.png" alt="Desarrollador web freelance trabajando en una laptop" width="500" height="500" class="w-full h-full" loading="lazy" />
+		<div class="flex gap-4 mt-2">
+			<a href={t.linkedin} target="_blank" class="w-10 h-10 flex items-center justify-center border border-[#ddd] hover:border-[var(--primary)] hover:text-[var(--primary)] transition-colors duration-300">
+				<Linkedin class="w-5 h-5" />
+			</a>
+		</div>
 	</div>
-
 </section>

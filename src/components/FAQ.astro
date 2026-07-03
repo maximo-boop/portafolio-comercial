@@ -1,84 +1,24 @@
 ---
 const {t} = Astro.props
 ---
-
 <section class="text-center flex flex-col gap-5 mt-20 mb-40">
-
-	<h2 class="text-2xl lg:text-4xl font-semibold">{t.title}<br class="hidden lg:inline">{t.titleRest}</h2>
-	<p></p>
-
+	<div class="flex flex-col gap-2 items-center mb-5">
+		<h2 class="text-2xl lg:text-4xl font-semibold">{t.title}<br class="hidden lg:inline">{t.titleRest}</h2>
+		<p class="text-[var(--text)] lg:text-lg max-w-xl">{t.subtitle}</p>
+	</div>
 	<div class="flex flex-col gap-5">
 		{t.faqs.map((faq) => (
-			<details class="text-start bg-[#fafafa]">
+			<details class="text-start bg-[#fcfcfc]">
 				<summary class="flex items-center justify-between cursor-pointer lg:text-[20px] focus:outline-none py-6 px-5 lg:px-10">
 					<span class="flex-1 ">{faq.preg}</span>
-
 					<svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 						<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
 						<path d="M12 5l0 14" />
 						<path d="M5 12l14 0" />
 					</svg>
 				</summary>
-
 				<p class="pb-6 pt-0 px-5 lg:px-10 text-[var(--text)]">{faq.res}</p>
 			</details>
 		))}
 	</div>
 </section>
-
-<script type="application/ld+json">
-	{
-		"@context": "https://schema.org",
-		"@type": "FAQPage",
-		"mainEntity": [
-			{
-				"@type": "Question",
-				"name": "¿Cuánto tarda en estar lista la web?",
-				"acceptedAnswer": {
-				"@type": "Answer",
-					"text": "Depende del proyecto. Una landing page puede estar en 1 a 2 semanas. Un e-commerce o sitio más complejo puede llevar 3 a 5 semanas. Siempre te doy un plazo claro antes de empezar."
-				}
-			},
-			{
-				"@type": "Question",
-				"name": "¿Cuánto cuesta una web?",
-				"acceptedAnswer": {
-				"@type": "Answer",
-					"text": "Cada proyecto es diferente, por eso no tengo precios fijos. Pero sí puedo darte un presupuesto sin costo después de una charla corta. Escribime y lo vemos."
-				}
-			},
-			{
-				"@type": "Question",
-				"name": "¿Necesito saber de tecnología para trabajar con vos?",
-				"acceptedAnswer": {
-				"@type": "Answer",
-					"text": "Para nada. Me explico en términos simples y te guío en cada paso. Vos te enfocás en tu negocio, yo me encargo del resto."
-				}
-			},
-			{
-				"@type": "Question",
-				"name": "¿Puedo actualizar la web yo mismo después?",
-				"acceptedAnswer": {
-				"@type": "Answer",
-					"text": "Sí. Dependiendo del tipo de proyecto, te entrego la web con un panel simple para que puedas hacer cambios básicos sin depender de nadie."
-				}
-			},
-			{
-				"@type": "Question",
-				"name": "¿Qué pasa si necesito cambios después de que esté publicada?",
-				"acceptedAnswer": {
-				"@type": "Answer",
-					"text": "Los ajustes menores del período de entrega los hago sin costo. Para cambios posteriores, podemos armar un plan de mantenimiento mensual o resolverlo puntualmente."
-				}
-			},
-			{
-				"@type": "Question",
-				"name": "¿Trabajás con clientes de cualquier rubro?",
-				"acceptedAnswer": {
-				"@type": "Answer",
-					"text": "Sí. Trabajé con restaurantes, tiendas, cósmeticas, inmobiliarias y más. Si tenés un negocio y necesitás presencia online, puedo ayudarte."
-				}
-			}
-		]
-	}
-</script>

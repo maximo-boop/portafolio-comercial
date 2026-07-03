@@ -3,15 +3,13 @@ import Carousel from './Carousel.jsx';
 const {t} = Astro.props;
 ---
 
-<section class="relative flex py-20 bg-[#fbfbfb] global-padding" id="proyectos">
+<section class="relative flex py-20 bg-[#fafafa] global-padding" id="proyectos">
 
 	<div class="max-w-[1380px] grid gap-10 mx-auto">
-	<div class="pointer-events-none absolute top-0 left-0 h-20 w-full bg-gradient-to-b from-white to-[#fbfbfb]" />
-	<div class="pointer-events-none absolute bottom-0 left-0 h-20 w-full bg-gradient-to-b from-[#fbfbfb] to-white" />
 
 	<div class="flex flex-col gap-2">
-		<h2 class="text-3xl lg:text-5xl font-semibold">{t.title}</h2>
-		<p class="lg:text-xl text-[rgba(0,0,0,0.6)]">{t.subtitle}<br class="hidden lg:inline">{t.subtitleRest}</p>
+		<h2 class="text-3xl lg:text-4xl font-semibold">{t.title}</h2>
+		<p class="lg:text-lg text-[rgba(0,0,0,0.6)]">{t.subtitle}<br class="hidden lg:inline">{t.subtitleRest}</p>
 	</div>
 
 
@@ -32,7 +30,7 @@ const {t} = Astro.props;
 								)}
 							</div>
 							<div class="flex flex-col pt-4">
-								<span class="text-[.8rem] text-[rgba(0,0,0,0.7)] font-medium">{a.tags}</span>
+								<span class="text-[.9rem] text-[rgba(0,0,0,0.7)] font-medium">{a.tags}</span>
 								<h3 class="mb-4 text-lg font-semibold">{a.title}</h3>
 								<div class="relative">
 									<p 

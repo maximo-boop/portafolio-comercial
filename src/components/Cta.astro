@@ -1,22 +1,48 @@
 ---
-const {t} = Astro.props
+const {t, tl} = Astro.props
+
+const whatsapp =
+  `https://wa.me/5493512377435?text=${encodeURIComponent(tl.contact.whatsapp)}`
+
+const mailto =
+  `mailto:maximo2004lfn@gmail.com?subject=${encodeURIComponent(tl.contact.emailSubject)}&body=${encodeURIComponent(tl.contact.emailBody)}`
+
+
 ---
+<section id="contacto" class="bg-black mb-40 relative overflow-hidden">
+	<div 
+		class="absolute inset-0 opacity-[0.08]"
+		style="background-image: radial-gradient(circle, #fff 1px, transparent 1px); background-size: 24px 24px;"
+	></div>
 
-<section id="contacto" class=" bg-[var(--secundary)] mb-40">
-	<div class="max-w-[1380px] mx-auto global-padding py-14 flex flex-col min-h-80 gap-5 justify-around">
-	<div class="flex flex-col gap-2">
-		<h2 class="text-2xl lg:text-4xl font-semibold">{t.title}<br class="hidden lg:inline">{t.titleRest}</h2>
-		<p class="text-[var(--text)] lg:text-lg">{t.subtitle}</p>
-	</div>
-
-	<div class="grid gap-5">
-		<div class="flex flex-col lg:flex-row lg:items-center gap-2">
-			<a href="https://wa.me/5493512377435" target="_blank" class="flex items-center gap-2 py-4 px-6 font-bold bg-black w-fit text-white">
-				{t.cta}
-			</a>
-			<a href="mailto:maximo2004lfn@gmail.com" class="underline">o por mail</a>
+	<div class="max-w-[1380px] mx-auto global-padding py-10 lg:py-12 flex flex-col lg:items-start gap-6 relative z-10">
+		
+		<div class="flex flex-col gap-2">
+			<h2 class="text-2xl lg:text-4xl font-semibold text-white leading-tight">
+				{t.title}<br class="hidden lg:inline">{t.titleRest}
+			</h2>
+			<p class="text-white/60 lg:text-lg">{t.subtitle}</p>
 		</div>
-		<span>{t.coverLetter}</span>
-	</div>
+
+		<div class="flex flex-col gap-2 ">
+			<div class="flex flex-col sm:flex-row lg:items-center gap-4">
+				<a 
+					href="https://wa.me/5493512377435" 
+					target="_blank" 
+					href={whatsapp}
+					rel="noopener noreferrer"
+					class="group flex items-center gap-2 py-4 px-6 font-bold bg-white text-black transition-colors duration-300 w-fit"
+				>
+					{t.cta}
+					<span class="transition-transform duration-300 group-hover:translate-x-1">→</span>
+				</a>
+				<a 
+				 href={mailto}
+				 class="text-white/60 hover:text-white underline underline-offset-4 transition-colors duration-300">
+					o por mail
+				</a>
+			</div>
+			<span class="text-white/40 text-sm">{t.coverLetter}</span>
+		</div>
 	</div>
 </section>

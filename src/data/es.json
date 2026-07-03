@@ -1,4 +1,13 @@
 {
+  "seo": {
+    "title": "Páginas web para negocios que quieren más clientes | Máximo Silva",
+    "description": "Ayudo a empresas y emprendimientos a conseguir más clientes mediante sitios web rápidos, modernos y enfocados en resultados."
+  },
+  "contact": {
+    "whatsapp": "Hola Máximo. Vi tu portfolio y me gustaría recibir información sobre una página web para mi negocio.",
+    "emailSubject": "Consulta sobre desarrollo web",
+    "emailBody": "Hola Máximo,\n\nVi tu portfolio y me gustaría recibir información sobre una página web para mi negocio.\n\nTe cuento un poco sobre el proyecto:"
+  },
 	"header": {
 		"name": "Máximo Silva",
 		"title": "Desarrollador web freelance"
@@ -6,20 +15,20 @@
 	"hero": {
 		"title": "Páginas web para negocios que quieren ",
 		"titleRest": "más clientes",
-		"subtitle": "Webs rápidas, profesionales y pensadas para transformar visitas en consultas reales.",
-		"cta": "Hablemos de tu proyecto",
-		"badges": [
+		"subtitle": "Ayudo a empresas y emprendimientos a mejorar su presencia online con sitios web rápidos, modernos y enfocados en generar consultas reales.",
+		"cta": "Hablemos de tu negocio",
+		"features": [
 		{
 			"title": "Adaptadas a celulares",
-			"desc": "Más del 70% de las visitas llegan desde el móvil."
+			"des": "Más del 70% de las visitas llegan desde el móvil."
 		},
 		{
 			"title": "SEO para Google",
-			"desc": "Ayudá a que más clientes te encuentren online."
+			"des": "Ayudá a que más clientes te encuentren online."
 		},
 		{
 			"title": "100% personalizadas",
-			"desc": "Diseñadas a medida según tu negocio y objetivos."
+			"des": "Diseñadas a medida según tu negocio y objetivos."
 		}]
 	},
 	"welcome": [
@@ -48,7 +57,7 @@
 			{
 				"id": 1,
 				"title": "HomeSilva — Web para inmobiliaria",
-				"tags": "Inmobiliaria · Córdoba",
+				"tags": "Inmobiliaria · Córdoba, Argentina",
 				"desc": "Inmobiliaria con más de 15 años de trayectoria que necesitaba una presencia online moderna para mostrar sus propiedades y generar nuevas consultas.\n\nDiseñé y desarrollé un catálogo digital de inmuebles con fichas individuales, filtros de búsqueda, mapas interactivos y opciones de contacto directo, facilitando que los visitantes encuentren propiedades de interés y se comuniquen rápidamente con la agencia.\nLa plataforma continúa activa y en crecimiento, incorporando mejoras y nuevas funcionalidades de forma continua.",
 				"url": "https://homesilva.com.ar",
 				"images": "/inmobiliaria.png"
@@ -62,7 +71,14 @@
 				"images": "/cosmetica.png"
 			},
 			{
-				"id": 3,
+			  "id": 3,
+			  "title": "Plus Solution Flooring Corp — Web para empresa de pisos",
+			  "tags": "E-commerce · Servicios · Florida, USA",
+			  "desc": "Empresa de instalación y venta de pisos en Florida que necesitaba una plataforma online para mostrar sus servicios, vender productos y generar nuevas consultas desde internet.\n\nDesarrollé un sitio web con catálogo de productos, carrito de compras, páginas de servicios, formulario de contacto y estructura optimizada para conversión.\n\nEl objetivo fue unificar en una sola plataforma la venta de productos y la captación de clientes para servicios de instalación, facilitando que los usuarios puedan cotizar, comprar o solicitar información de forma rápida y directa.\n\nLa web está diseñada para mejorar la experiencia del usuario y aumentar las oportunidades de contacto desde tráfico orgánico y campañas publicitarias.",
+			  "images": "/flooring.png"
+			},
+			{
+				"id": 8,
 				"title": "DailyNotes — Aplicación móvile de productividad",
 				"tags": "App móvil · Proyecto personal",
 				"desc": "App de notas simple, personalizable y eficiente para aumentar tu productividad. Permite organizar el dia, definir objetivos y seguir tus rutinas sin perder el tiempo. Disponible en Google Play, carpetas, seguimiento semanal y gestión diaria.",
@@ -106,11 +122,11 @@
 		"serv": [
 			{
 				"title": "Landing Page + WhatsApp",
-				"des": "Para negocios que necesitan una presencia online rápida y directa. Una página clara que convierte visitas en mensajes de WhatsApp. Ideal para: profesionales independientes, servicios locales, emprendimientos."
+				"des": "Convierte visitas en conversaciones reales. Para negocios que necesitan una presencia online rápida y directa. Una página clara que convierte visitas en mensajes de WhatsApp. Ideal para: profesionales independientes, servicios locales, emprendimientos."
 			},
 			{
 				"title": "Web con catálogo de productos/servicios",
-				"des": "Mostrá lo que ofrecés de forma clara y profesional. Sin carrito, sin complicaciones, solo una vitrina digital que vende. Ideal para: talleres, estudios, proveedores, servicios B2B."
+				"des": "Mostrá lo que hacés de forma clara y profesional. Sin carrito, sin complicaciones, solo una vitrina digital que vende. Ideal para: talleres, estudios, proveedores, servicios B2B."
 			},
 			{
 				"title": "Rediseño de web existente",
@@ -118,13 +134,13 @@
 			},
 			{
 				"title": "Tienda online (E-commerce básico)",
-				"des": "Vendé tus productos las 24 hs. Integro un sistema de gestión simple para que vos mismo puedas actualizar stock y precios sin tocar código. Ideal para: tiendas físicas que quieren vender online, marcas pequeñas."
+				"des": "Vendé tus productos las 24 hs. Integro un sistema de gestión simple para que vos mismo puedas actualizar stock y precios sin tocar código. Funcional, fácil de administrar y optimizado para que puedas empezar a vender online sin complicaciones. Ideal para: tiendas físicas que quieren vender online, marcas pequeñas."
 			}
 		]
 	},
 	"pasos": {
-		"title": "Me encargo de todo:",
-		"titleRest": " estructura, diseño, desarrollo y publicación.",
+		"title": "Me encargo de todo.",
+		"titleRest": " Estructura, diseño, desarrollo y publicación.",
 		"subtitle": "Del boceto al sitio online, sin que tengas que preocuparte por nada",
 		"pasoss": [
 			{ 
@@ -152,17 +168,21 @@
 	},
 	"about": {
 		"title": "Sobre mí",
-		"subtitle": "Soy desarrollador web freelancer con más de 5 años de experiencia creando sitios para emprendimientos, marcas y empresas de distintos rubros. Trabajé de forma independiente con clientes chicos y grandes, y eso me enseñó a entender qué necesita cada negocio antes de escribir una sola línea de código.",
-		"subtitleRest": "Soy autodidacta — aprendo constantemente para usar herramientas actuales como React, Next.js y Astro, lo que se traduce en sitios más rápidos, modernos y fáciles de mantener. No trabajo en agencias ni con equipos grandes. Cuando me contratás, hablás directamente conmigo."
+		"subtitle": "Soy desarrollador web freelancer con más de 5 años de experiencia ayudando a emprendimientos, marcas y empresas de distintos rubros a conseguir más clientes. Trabajé de forma independiente con clientes chicos y grandes, tanto en Argentina como en otros países de Latinoamérica y Estados Unidos, y eso me enseñó a entender qué necesita cada negocio antes de escribir una sola línea de código.",
+		"subtitleRest": "Soy autodidacta — aprendo constantemente para usar herramientas actuales lo que se traduce en sitios más rápidos, modernos y fáciles de mantener. No trabajo en agencias ni con equipos grandes. Cuando me contratás, hablás directamente conmigo.",
+		"badge": "Disponible para nuevos proyectos",
+		"linkedin": "https://linkedin.com/in/tu-usuario",
+		"github": "https://github.com/tu-usuario"
 	},
 	"cta": {
 		"title": "¿Tenés un negocio y querés una ",
 		"titleRest": "web que realmente funcione?",
-		"subtitle": "Contame sobre tu proyecto y te digo cómo puedo ayudarte — sin compromiso.",
+		"subtitle": "Contame a qué se dedica tu negocio. Yo te voy a recomendar el tipo de sitio que mejor se adapta a tus objetivos y te enviaré una propuesta sin compromiso.",
 		"cta": "Escribime por WhatsApp",
 		"coverLetter": "Respondo en menos de 24hs — sin costo"
 	},
 	"faq": {
+		"subtitle": "Estas son las preguntas que más me hacen los clientes antes de arrancar un proyecto.",
 		"title": "Preguntas frecuentes sobre",
 		"titleRest": " el desarrollo web",
 		"faqs": [
@@ -192,10 +212,61 @@
 			}
 		]
 	},
+  "why": {
+    "title": "Más que una página web",
+    "subtitle": "Cada proyecto está pensado para ayudar a que tu negocio genere confianza, atraiga más clientes y tenga una presencia online profesional.",
+    "razones": [
+    	{
+    "title": "Pensada para generar consultas, no solo para existir",
+    "des": "Cada sección — desde el texto hasta los botones de contacto — está pensada para que un visitante dé el siguiente paso: escribirte, cotizar o comprar. No es una tarjeta de presentación digital, es una herramienta de ventas."
+  },
+  {
+    "title": "Cada web responde a tu negocio, no a una plantilla",
+    "des": "Antes de diseñar nada, hablamos sobre cómo funciona tu negocio, quiénes son tus clientes y qué querés lograr. El sitio se construye a partir de eso, no al revés."
+  },
+  {
+    "title": "Causá una buena impresión desde el primer segundo",
+    "des": "Un diseño cuidado y una estructura clara hacen que cualquier visitante entienda en segundos quién sos, qué ofrecés y por qué elegirte a vos y no a la competencia."
+  },
+  {
+    "title": "Vos enfocado en tu negocio, yo en la tecnología",
+    "des": "Me ocupo del diseño, desarrollo y publicación sin que tengas que entender de código. Si necesitás hacer cambios simples después, te dejo un panel fácil de usar; para todo lo demás, estoy a un mensaje de distancia."
+  },
+  {
+    "title": "Hablás siempre conmigo, no con un ticket de soporte",
+    "des": "No hay intermediarios ni equipos de soporte. Si en el camino surge una duda o algo no sale como esperabas, me escribís directo y lo resolvemos juntos."
+  }
+],
+    "cierre": "Una página web no debería ser solo una presencia online. Debería convertirse en una herramienta para hacer crecer tu negocio."
+  },
+  "casos": {
+    "title": "Cómo ayudo a negocios a crecer con su presencia digital",
+    "subtitle": "Cada proyecto parte de un objetivo real: mejorar la forma en que una empresa se presenta, capta clientes y escala su negocio online.",
+    "casos": [
+      {
+        "title": "HomeSilva",
+        "rubro": "Inmobiliaria · Córdoba, Argentina",
+        "objetivo": "Digitalizar la cartera de propiedades y generar más consultas de potenciales clientes.",
+        "solucion": "Diseñé y desarrollé una plataforma inmobiliaria con fichas individuales de propiedades, filtros de búsqueda, mapas interactivos, landing pages optimizadas y formularios de contacto directo. Además, incorporé un panel de administración para que la inmobiliaria pueda cargar y gestionar sus propiedades de forma autónoma.",
+        "resultado": "La inmobiliaria cuenta ahora con una plataforma propia para gestionar y exhibir su cartera de propiedades, mejorar la experiencia de búsqueda y aumentar la generación de consultas sin depender de terceros.",
+        "url": "https://homesilva.com.ar",
+        "stack": ["UI/UX", "Frontend", "Backend", "Panel admin", "SEO", "Responsive"]
+      },
+      {
+        "title": "PS Flooring",
+        "rubro": "Instalación de pisos · Florida, EE.UU.",
+        "objetivo": "Fortalecer la presencia digital del negocio, mostrar servicios de instalación, preparar la venta de materiales y escalar a nuevos servicios como epoxy.",
+        "solucion": "Desarrollé una plataforma bilingüe (inglés/español) con catálogo de servicios y productos, sistema de login, carrito de compras, checkout, formularios de contacto, cotizaciones personalizadas y una calculadora de estimaciones para clientes. También incluí secciones de proyectos realizados y trabajos destacados para reforzar confianza.",
+        "resultado": "La empresa ahora cuenta con una plataforma preparada para captar nuevos clientes, vender materiales online y evolucionar su modelo de negocio desde servicios hacia una oferta híbrida entre instalación y venta de productos.",
+        "stack": ["E-commerce", "Full Stack", "Bilingüe", "Login", "Checkout", "Calculadora", "Responsive"]
+      }
+    ]
+  },
 	"footer": { 
 		"title": "Ayudo a negocios y emprendimientos a mejorar su prescencia digital con sitios rápidos y orientados a conversión.",
 		"services": "Servicios",
 		"servicesLinks": ["Landing page", "Web corporativa", "Tienda online", "Catálogo de productos", "Rediseño web"],
-		"contact": "Contacto"
+		"contact": "Contacto",
+		"contactLinks": ["Remoto · Proyectos globales", "Respuesta en 24–48 hs"]
 	}
 }
