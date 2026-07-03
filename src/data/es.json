@@ -75,7 +75,8 @@
 			  "title": "Plus Solution Flooring Corp — Web para empresa de pisos",
 			  "tags": "E-commerce · Servicios · Florida, USA",
 			  "desc": "Empresa de instalación y venta de pisos en Florida que necesitaba una plataforma online para mostrar sus servicios, vender productos y generar nuevas consultas desde internet.\n\nDesarrollé un sitio web con catálogo de productos, carrito de compras, páginas de servicios, formulario de contacto y estructura optimizada para conversión.\n\nEl objetivo fue unificar en una sola plataforma la venta de productos y la captación de clientes para servicios de instalación, facilitando que los usuarios puedan cotizar, comprar o solicitar información de forma rápida y directa.\n\nLa web está diseñada para mejorar la experiencia del usuario y aumentar las oportunidades de contacto desde tráfico orgánico y campañas publicitarias.",
-			  "images": "/flooring.png"
+			  "images": "/flooring.png",
+				"url": "https://flooring-three.vercel.app/"
 			},
 			{
 				"id": 8,
