@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Case Study: DailyNotes — Productivity Mobile App | Máximo Silva",
+    "description": "How I built DailyNotes, a simple and customizable notes app to organize your day, set goals, and track routines, available on Google Play."
+  },
+  "hero": {
+    "eyebrow": "Case Study · Mobile App",
+    "title": "DailyNotes — organizing your day ",
+    "titleRest": "without wasting time",
+    "subtitle": "Personal project: a simple, customizable, and efficient notes app designed to boost daily productivity without the complexity of other apps in the space.",
+    "meta": "Mobile App · Personal Project",
+    "url": "https://play.google.com/store/apps/details?id=com.maaxiiiii.fastnotesapp",
+    "image": "/notesapp.png",
+    "cta": "View on Google Play"
+  },
+  "desafio": {
+    "title": "The Challenge",
+    "texto": "Most productivity apps end up being too complex for everyday use, with extra features that end up complicating something as simple as jotting down an idea or organizing your day. The goal was to build something minimal, fast, and genuinely useful."
+  },
+  "solucion": {
+    "title": "The Solution",
+    "texto": "I built a simple, customizable, and efficient notes app to organize your day, set goals, and track routines without wasting time, with folders to sort content and weekly tracking to support daily management.",
+    "incluye": [
+      "Notes organized into folders",
+      "Daily goal setting",
+      "Weekly routine tracking",
+      "Simple, fast daily management",
+      "Published and available on Google Play"
+    ]
+  },
+  "resultado": {
+    "title": "The Result",
+    "texto": "DailyNotes is publicly available on Google Play, offering a simple and customizable alternative to more complex productivity apps, focused on letting users organize their day with no friction."
+  },
+  "capacidades": ["React Native", "Mobile Apps", "Minimal UX", "Google Play", "Task Management", "Product Design"],
+  "relacionado": {
+    "texto": "Have an idea for a mobile app?",
+    "href": "/paginas-web-para-emprendimientos",
+    "linkText": "Tell me about your project"
+  },
+  "ctaFinal": {
+    "title": "Have a similar project in mind?",
+    "subtitle": "Tell me what it's about and I'll show you how I'd approach it for your specific case.",
+    "cta": "Message me on WhatsApp",
+    "whatsappMsg": "Hi Máximo, I saw the DailyNotes case study and I'm interested in something similar for my project."
+  }
+}

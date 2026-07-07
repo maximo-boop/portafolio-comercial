@@ -1,0 +1,14 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import RubroDetalle from '../../components/RubroDetalle.astro';
+import es from '../../data/es.json';
+
+const t = es.rubros.agencias;
+---
+<Layout bg title={t.seo.title} description={t.seo.description}>
+	<main>
+		<div class="global-padding max-w-[1380px] mx-auto pt-10 lg:pt-16 pb-20">
+			<RubroDetalle t={t} rubros={es.rubrosText} />
+		</div>
+	</main>
+</Layout>

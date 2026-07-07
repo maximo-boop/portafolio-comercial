@@ -1,0 +1,49 @@
+{
+  "seo": {
+    "title": "Case Study: PS Flooring — Bilingual Website for a Flooring Company | Máximo Silva",
+    "description": "How I built a bilingual platform with a catalog, shopping cart, quotes, and order management panel for Plus Solution Flooring Corp in Florida, USA."
+  },
+  "hero": {
+    "eyebrow": "Case Study · Flooring Installation",
+    "title": "PS Flooring — from local service to a ",
+    "titleRest": "sales and lead-generation platform",
+    "subtitle": "A flooring sales and installation company in Florida, USA, that needed to bring material sales and customer acquisition for its installation services together in one place.",
+    "meta": "Flooring Installation · Florida, USA",
+    "url": "https://flooring-three.vercel.app/",
+    "image": "/flooring.png",
+    "cta": "View Live Site"
+  },
+  "desafio": {
+    "title": "The Challenge",
+    "texto": "PS Flooring had been operating in a traditional way: phone inquiries, manual quotes, and no clear way to sell materials or showcase their catalog online. They needed to expand into new services (like epoxy) and serve both English- and Spanish-speaking customers, without duplicating effort across two separate sites."
+  },
+  "solucion": {
+    "title": "The Solution",
+    "texto": "I built a bilingual platform (English/Spanish) with a product and service catalog, a shopping cart calculated by square footage, a user account system, checkout with online payments, and an estimate calculator so customers could get a quote before reaching out. I also added a panel with order history and a dedicated section for the new epoxy service.",
+    "incluye": [
+      "Catalog with shopping cart calculated by square footage",
+      "User account system with order history",
+      "Checkout with integrated online payments",
+      "Free estimate calculator for customers",
+      "Gallery of completed projects",
+      "Dedicated page for the epoxy service",
+      "Fully bilingual site (English/Spanish)"
+    ]
+  },
+  "resultado": {
+    "title": "The Result",
+    "texto": "The company now has a platform ready to attract new customers, sell materials online, and evolve its business model from services toward a hybrid offering of installation and product sales, with an order flow working end to end."
+  },
+  "capacidades": ["E-commerce", "User Accounts", "Online Payments", "Estimate Calculator", "Bilingual", "Order Panel"],
+  "relacionado": {
+    "texto": "Do you run a service business that also sells products?",
+    "href": "/en/paginas-web-para-empresas",
+    "linkText": "View business page"
+  },
+  "ctaFinal": {
+    "title": "Does your business need something similar?",
+    "subtitle": "Tell me what it's about and I'll show you how I'd approach it for your specific case.",
+    "cta": "Message me on WhatsApp",
+    "whatsappMsg": "Hi Máximo, I saw the PS Flooring case study and I'm interested in something similar for my business."
+  }
+}

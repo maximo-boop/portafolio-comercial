@@ -1,7 +1,503 @@
 {
+  "rubrosText": {
+    "cta": "Tell me about your business.",
+    "issues": "Common problems in this sector",
+    "help": "How can I help you?",
+    "realCase": "Real-life case:",
+    "ask": "Frequently Asked Questions",
+    "charlamos": "Shall we chat about your business?",
+    "escribime": "Message me on WhatsApp."
+  },
+
+"prices": {
   "seo": {
+    "title": "Website Pricing for Businesses | Máximo Silva",
+    "description": "Estimated price ranges based on the type of website your business needs. Get a personalized, no-obligation quote via WhatsApp."
+  },
+  "hero": {
+    "eyebrow": "Pricing",
+    "title": "How much does ",
+    "titleRest": "your website cost?",
+    "subtitle": "I don't work with fixed prices because every business has different needs. Here you'll find a clear reference of what to expect based on the type of website you're looking for before getting in touch.",
+    "cta": "Request a Free Quote",
+    "whatsappMsg": "Hi Máximo. I saw your pricing page and I'd like a quote for my business."
+  },
+  "nota": "These ranges reflect the relative time and complexity of each service, not fixed prices. The final cost depends on your specific project, including the number of pages, content to be added, and required integrations.",
+  "recomended": "recomended",
+  "time": "Estimated time",
+  "getquote": "Get a quote for this plan",
+  "details": "View service details",
+  "planes": [
+    {
+      "title": "Landing Page + WhatsApp",
+      "nivel": 1,
+      "ordenLg": 2,
+      "destacado": true,
+      "tiempo": "1 to 2 weeks",
+      "idealPara": "Launch your online presence quickly",
+      "desde": "USD 120 – 260",
+      "incluye": [
+        "Single-page website focused on conversions",
+        "WhatsApp button with a pre-written message",
+        "Custom design tailored to your business",
+        "Published under your own domain"
+      ],
+      "href": "/services#landing-whatsapp",
+      "whatsappMsg": "Hi Máximo, I'd like a quote for a Landing Page + WhatsApp."
+    },
+    {
+      "title": "Catalog Website",
+      "nivel": 2,
+      "ordenLg": 1,
+      "destacado": false,
+      "tiempo": "2 to 3 weeks",
+      "idealPara": "Showcase everything you offer in one place",
+      "incluye": [
+        "Individual pages for each product or service",
+        "Categories or filters",
+        "Dashboard to manage your catalog yourself",
+        "Contact and quote request form"
+      ],
+      "href": "/services#web-catalogo",
+      "whatsappMsg": "Hi Máximo, I'd like a quote for a catalog website."
+    },
+    {
+      "title": "Online Store",
+      "nivel": 3,
+      "ordenLg": 3,
+      "destacado": false,
+      "tiempo": "3 to 5 weeks",
+      "idealPara": "Sell your products 24/7",
+      "incluye": [
+        "Product catalog with shopping cart",
+        "Checkout and payment gateway integration",
+        "Dashboard to manage inventory and pricing",
+        "SEO-ready structure for organic traffic and marketing campaigns"
+      ],
+      "href": "/services#tienda-online",
+      "whatsappMsg": "Hi Máximo, I'd like a quote for an online store."
+    }
+  ],
+  "queDefineElPrecio": {
+    "title": "What Determines the Final Price",
+    "subtitle": "We'll discuss all of this before the project starts, so there are no surprises later.",
+    "factores": [
+      {
+        "title": "Number of pages and sections",
+        "des": "A four-page website doesn't require the same effort as a twelve-page one."
+      },
+      {
+        "title": "Content you already have",
+        "des": "Providing your own text and images reduces development time compared to starting from scratch."
+      },
+      {
+        "title": "Required integrations",
+        "des": "Payment systems, admin dashboards, or large catalogs increase the project's complexity."
+      },
+      {
+        "title": "Custom design vs. existing design system",
+        "des": "Building on an established design system is faster than creating everything from scratch."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions About",
+    "titleRest": " Pricing",
+    "subtitle": "The questions I get most often before preparing a quote.",
+    "faqs": [
+      {
+        "preg": "Why aren't there fixed prices?",
+        "res": "Because the final cost depends on the amount of content, integrations, and functionality your business needs. A fixed price is usually either too low to be realistic or too high for most projects."
+      },
+      {
+        "preg": "Is the quote free?",
+        "res": "Yes. We'll discuss your project, and within 24 hours you'll receive a clear, no-obligation quote."
+      },
+      {
+        "preg": "Do I have to pay everything upfront?",
+        "res": "No. I work with an upfront deposit to begin the project, and the remaining balance is paid upon delivery or in installments, depending on the project."
+      },
+      {
+        "preg": "What if my project doesn't fit any of these plans?",
+        "res": "These are starting points, not fixed packages. If your business needs something different or a combination of services, I'll prepare a custom solution."
+      },
+      {
+        "preg": "Does the price include the domain and hosting?",
+        "res": "I'll help you choose and configure both, but the domain and hosting are paid directly to the provider. They're low annual costs, and I'll explain your options before you decide."
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Tell me about your project and I'll give you a clear quote",
+    "subtitle": "No hidden fees or complicated terms. Within 24 hours you'll receive a straightforward quote tailored to your business.",
+    "cta": "Chat with me on WhatsApp",
+    "whatsappMsg": "Hi Máximo, I'd like to tell you about my project and get a quote."
+  }
+},
+"servicesPage": {
+  "seo": {
+    "title": "Web Development Services for Businesses and Entrepreneurs | Máximo Silva",
+    "description": "Landing page with WhatsApp, catalog website, website redesign, and online store. Choose the service your business needs and receive a free proposal."
+  },
+  "eyebrow": "Services",
+  "title": "What type of website does your business need?",
+  "subtitle": "Four ways to build your online presence, depending on your business stage and goals. Every service includes design, development, and launch from start to finish.",
+  "items": [
+    {
+      "slug": "landing-whatsapp",
+      "title": "Landing Page + WhatsApp",
+      "resumen": "A single-page website focused on one goal: getting visitors to contact you.",
+      "paraQuienEs": "Freelancers, local service providers, and small businesses that are just starting their online presence and want to begin receiving inquiries as soon as possible without investing in a large website.",
+      "incluye": [
+        "Single-page design that explains your service in seconds",
+        "Always-visible WhatsApp button with a pre-written message",
+        "Services section, FAQ, and contact information",
+        "Optimized for fast mobile loading",
+        "Published under your own domain"
+      ],
+      "tiempo": "1 to 2 weeks",
+      "whatsappMsg": "Hi Máximo. I saw your Landing Page + WhatsApp service and I'm interested in it for my business.",
+      "casoRelacionado": "diseno-interiores",
+      "faq": [
+        {
+          "preg": "Can I start getting clients with this?",
+          "res": "Yes. That's exactly the purpose of this page: once it's online, visitors can contact you on WhatsApp in just a couple of clicks."
+        },
+        {
+          "preg": "Can I add more pages later?",
+          "res": "Absolutely. Many clients start with a landing page and later expand it into a catalog website or a larger business website."
+        }
+      ]
+    },
+    {
+      "slug": "web-catalogo",
+      "title": "Products or Services Catalog Website",
+      "resumen": "A professional online catalog without shopping carts or unnecessary complexity.",
+      "paraQuienEs": "Workshops, agencies, suppliers, and B2B businesses that need to showcase everything they offer without selling directly through the website.",
+      "incluye": [
+        "Products or services catalog with individual pages",
+        "Categories or filters when needed",
+        "Portfolio or completed projects gallery",
+        "Contact and quote request form",
+        "Simple admin panel so you can update the catalog yourself"
+      ],
+      "tiempo": "2 to 3 weeks",
+      "whatsappMsg": "Hi Máximo. I saw your Catalog Website service and I'm interested in it for my business.",
+      "casoRelacionado": "homesilva",
+      "faq": [
+        {
+          "preg": "Do I need to upload the catalog myself?",
+          "res": "No. I'll upload the initial content based on the information you provide. Afterwards, you'll have a simple dashboard to add or edit products on your own."
+        },
+        {
+          "preg": "Does it work for large catalogs?",
+          "res": "Yes. For larger catalogs, I include filters and search features so visitors can quickly find what they're looking for."
+        }
+      ]
+    },
+    {
+      "slug": "rediseno-web",
+      "title": "Website Redesign",
+      "resumen": "Your website already exists, but it's not bringing you customers.",
+      "paraQuienEs": "Businesses with an existing website that's outdated, slow, not mobile-friendly, or simply isn't generating inquiries.",
+      "incluye": [
+        "Audit of your current website (speed, design, mobile experience, and basic SEO)",
+        "Visual redesign while preserving your brand identity",
+        "Content restructuring to improve conversions",
+        "Performance optimization",
+        "Migration of your existing domain and content"
+      ],
+      "tiempo": "2 to 4 weeks, depending on the project size",
+      "whatsappMsg": "Hi Máximo. I already have a website and I'm interested in your redesign service.",
+      "casoRelacionado": "ps-flooring",
+      "faq": [
+        {
+          "preg": "Will I lose my Google rankings if I redesign my website?",
+          "res": "Not if it's done correctly. Part of the process is preserving important URLs and creating proper redirects to maintain your existing search rankings."
+        },
+        {
+          "preg": "Can I keep my current domain?",
+          "res": "Yes. Your domain stays exactly the same. Only the website behind it changes."
+        }
+      ]
+    },
+    {
+      "slug": "tienda-online",
+      "title": "Online Store (Basic E-commerce)",
+      "resumen": "Sell your products 24/7 without relying on third-party platforms.",
+      "paraQuienEs": "Physical stores that want to start selling online and small brands looking to own their sales channel without paying marketplace commissions.",
+      "incluye": [
+        "Product catalog with shopping cart",
+        "Checkout and payment gateway integration",
+        "Dashboard to manage inventory and prices yourself",
+        "Contact form and custom quote requests",
+        "SEO-friendly structure ready for organic traffic and paid campaigns"
+      ],
+      "tiempo": "3 to 5 weeks",
+      "whatsappMsg": "Hi Máximo. I saw your Online Store service and I'm interested in it for my business.",
+      "casoRelacionado": "ps-flooring",
+      "faq": [
+        {
+          "preg": "Which payment methods can be integrated?",
+          "res": "That depends on your country and the payment provider you want to use. We'll choose the best option together based on your needs."
+        },
+        {
+          "preg": "Will I be able to manage products myself?",
+          "res": "Yes. The admin panel is designed so you can update products, inventory, and prices without touching code or depending on me for every change."
+        }
+      ]
+    }
+  ],
+  "ctaFinal": {
+    "title": "Not sure which service you need?",
+    "subtitle": "Tell me about your business and I'll recommend the website that best fits your goals, with no obligation.",
+    "cta": "Chat with me on WhatsApp"
+  }
+},
+
+"rubros": {
+"empresas": {
+  "seo": {
+    "title": "Corporate Websites for Businesses | Máximo Silva",
+    "description": "I build corporate websites for businesses that need to convey trust, tell their story, and present their products or services professionally."
+  },
+  "eyebrow": "Websites for Businesses",
+  "title": "A corporate website that represents your company the way it deserves",
+  "intro": "When a new customer searches for your company on Google, your website is the first thing they see. It needs to convey trust and show who you are, what you do, and why they should choose you, before that person even talks to you.",
+  "dolores": [
+    "Your current website doesn't reflect your company's level or build trust",
+    "There's no clear place to tell your story, values, or track record",
+    "Your product or service information is outdated or incomplete",
+    "A potential customer searches for your company and can't find you, or finds something unprofessional"
+  ],
+  "comoAyudo": [
+    "Corporate design aligned with your brand identity",
+    "An institutional section: history, values, team, track record",
+    "Clear, professional presentation of products or services",
+    "Visual content (photos, video) to reinforce trust",
+    "A structure designed so a new customer understands everything in seconds"
+  ],
+  "casoDestacado": {
+    "title": "Babaria",
+    "rubro": "Corporate · Spain",
+    "resultado": "The brand strengthened its digital identity with an institutional section focused on telling its story and values, helping visitors build trust before deciding to buy.",
+    "url": "https://babaria.es/conocenos"
+  },
+  "faq": [
+    {
+      "preg": "Can you work on the website without disrupting the company's operations?",
+      "res": "Yes, all development is done separately and is only published once it's ready and approved by you."
+    },
+    {
+      "preg": "Can you integrate the website with our current systems?",
+      "res": "It depends on the case. It can be assessed based on what systems you use and what needs to be connected."
+    }
+  ],
+  "whatsappMsg": "Hi Máximo. I represent a company and we're interested in a corporate website."
+},
+"agencias": {
+  "seo": {
+    "title": "Websites for Agencies and Studios | Máximo Silva",
+    "description": "I build websites for agencies, studios, and consultancies that need to showcase their portfolio and their offering professionally."
+  },
+  "eyebrow": "Websites for Agencies and Studios",
+  "title": "A website that showcases your work and puts you on par with your clients",
+  "intro": "If you run an agency, studio, or consultancy, your own website is your first impression. It needs to showcase your portfolio, your way of working, and build enough trust for a potential client to reach out.",
+  "dolores": [
+    "Your portfolio is scattered across Behance, Instagram, and loose PDFs",
+    "You don't have your own site to showcase your work process and clients",
+    "A potential client can't easily find how to contact you or request a proposal",
+    "Your website doesn't convey the same level as the work you do for your clients"
+  ],
+  "comoAyudo": [
+    "Portfolio or project gallery organized by type of work",
+    "A process section: how you work and what the client receives at each stage",
+    "Presentation of your team or of you as a professional",
+    "Contact or quote request form for new projects",
+    "Design with its own identity, not a generic template"
+  ],
+  "casoDestacado": {
+    "title": "Interior Design Studio",
+    "rubro": "Landing Page · Design",
+    "resultado": "The studio now has a custom landing page that faithfully reflects its visual identity and presents its portfolio professionally, with a consistent experience on desktop and mobile.",
+    "url": ""
+  },
+  "faq": [
+    {
+      "preg": "Can you replicate our current visual identity?",
+      "res": "Yes, if you already have a defined brand identity, I respect it and translate it to the website. If it's not fully defined yet, I can help shape it."
+    },
+    {
+      "preg": "Can we add projects to the portfolio ourselves?",
+      "res": "Yes, I can set up a simple panel so you can add new work yourself without depending on me for every update."
+    }
+  ],
+  "whatsappMsg": "Hi Máximo. I run an agency/studio and I'm interested in a website to showcase my portfolio."
+},
+  "inmobiliarias": {
+    "seo": {
+      "title": "Websites for Real Estate Agencies | Máximo Silva",
+      "description": "I build websites for real estate agencies with property catalogs, search filters, and an admin panel. Check out the real case study of HomeSilva."
+    },
+    "eyebrow": "Websites for Real Estate Agencies",
+    "title": "A website that showcases your properties and brings you real inquiries",
+    "intro": "If you run a real estate agency, your website can't just be a business card. You need a property catalog that's easy to update, that lets your clients filter by area, price, or type, and where every inquiry comes straight to you.",
+    "dolores": [
+      "You only list your properties on third-party portals and don't have your own website that brings them together",
+      "Your current website has no search filters, so visitors get tired of scrolling",
+      "Every time you add or remove a property you have to ask someone to edit the site",
+      "There's no clear way for an interested party to contact you about a specific property"
+    ],
+    "comoAyudo": [
+      "Property catalog with individual listing pages (photos, price, location, features)",
+      "Search filters by area, property type, and price range",
+      "Interactive maps so visitors can locate the property",
+      "Direct contact form per property",
+      "Admin panel so you can add and edit properties yourself without depending on anyone"
+    ],
+    "casoDestacado": {
+      "title": "HomeSilva",
+      "rubro": "Real Estate · Córdoba, Argentina",
+      "resultado": "The agency now manages and showcases its property portfolio independently, with a better search experience and more inquiries generated without depending on third-party portals.",
+      "url": "https://homesilva.com.ar"
+    },
+    "faq": [
+      {
+        "preg": "Can I integrate my website with portals like Zonaprop or Argenprop?",
+        "res": "Yes, it can be assessed case by case. What matters is that you have your own catalog, independent of those portals, so you're not solely dependent on them."
+      },
+      {
+        "preg": "Can I add new properties myself?",
+        "res": "Yes, I'll set you up with a simple admin panel so you can upload and edit properties without needing to know how to code."
+      }
+    ],
+    "whatsappMsg": "Hi Máximo. I run a real estate agency and I'm interested in a website to showcase my properties."
+  },
+  "restaurantes": {
+    "seo": {
+      "title": "Websites for Restaurants | Máximo Silva",
+      "description": "I build websites for restaurants with online menus, dish galleries, and location info. Check out the real case study of Foodie Fusion."
+    },
+    "eyebrow": "Websites for Restaurants",
+    "title": "A website where your customers can see the menu and find you easily",
+    "intro": "A restaurant needs anyone searching for a place to eat to quickly find the menu, location, and a simple way to contact you or make a reservation. Without that, you lose customers who were already looking for you.",
+    "dolores": [
+      "Your menu only exists in scattered Instagram photos, hard to find and outdated",
+      "You don't have a website where someone can see location, hours, and contact info in one place",
+      "You're losing reservations or orders because there's no direct WhatsApp button",
+      "Your competitors show up on Google and you don't"
+    ],
+    "comoAyudo": [
+      "Online menu organized by category, easy to update",
+      "Photo gallery of dishes to showcase your offering before the customer arrives",
+      "Location with map and business hours",
+      "WhatsApp button for reservations or orders",
+      "Site optimized so you show up when someone searches for restaurants in your area"
+    ],
+    "casoDestacado": {
+      "title": "Foodie Fusion",
+      "rubro": "Restaurant",
+      "resultado": "The restaurant now has a professional online presence where customers can check the menu, view photos of the dishes, and access key information from any device.",
+      "url": ""
+    },
+    "faq": [
+      {
+        "preg": "Can I update the menu myself when prices change?",
+        "res": "Yes, I'll set you up with a simple panel so you can edit prices and dishes without depending on me for every change."
+      },
+      {
+        "preg": "Is this for online orders or just to show the menu?",
+        "res": "It depends on what you need. We can start with a menu + WhatsApp for orders, or add a more complete ordering system later on."
+      }
+    ],
+    "whatsappMsg": "Hi Máximo. I run a restaurant and I'm interested in a website to showcase my menu."
+  },
+  "emprendimientos": {
+    "seo": {
+      "title": "Websites for Small Businesses & Startups | Máximo Silva",
+      "description": "I build websites for small businesses and emerging brands: catalog, online store, and professional presence from day one."
+    },
+    "eyebrow": "Websites for Small Businesses & Startups",
+    "title": "Professional online presence from day one of your venture",
+    "intro": "Starting a business with only social media has a ceiling. Your own website gives you room to showcase all your products, tell people who you are, and get found on Google, not just in the Instagram feed.",
+    "dolores": [
+      "Your whole catalog lives on Instagram and it's impossible to organize or search",
+      "You have no way for a new customer to trust your brand before buying",
+      "You're losing sales because you can't clearly charge or display prices",
+      "Your business doesn't show up when someone searches for it on Google"
+    ],
+    "comoAyudo": [
+      "Catalog or online store depending on how you sell today",
+      "Brand section: who you are, your story, your values",
+      "Contact form or shopping cart depending on the case",
+      "Professional design that builds trust with a new customer",
+      "Structure designed so Google starts showing you over time"
+    ],
+    "casoDestacado": {
+      "title": "Nurani Timepieces",
+      "rubro": "Catalog · Small Business",
+      "resultado": "The brand has a professional platform to present its collections, strengthen its digital presence, and convert visitors into potential customers.",
+      "url": ""
+    },
+    "faq": [
+      {
+        "preg": "I'm just starting out, does it make sense to invest in a website already?",
+        "res": "Yes, the sooner you have your own presence, the sooner it starts working for you on Google. We can start with something simple and scale it along with your business."
+      },
+      {
+        "preg": "Can I sell directly from the website or just show products?",
+        "res": "It depends on what you need today. We can set up just a catalog with WhatsApp contact, or a store with cart and online payment."
+      }
+    ],
+    "whatsappMsg": "Hi Máximo. I run a small business and I'm interested in having my own website."
+  },
+  "profesionales-independientes": {
+    "seo": {
+      "title": "Websites for Independent Professionals | Máximo Silva",
+      "description": "I build websites for independent professionals: a landing page with WhatsApp to generate inquiries from day one."
+    },
+    "eyebrow": "Websites for Independent Professionals",
+    "title": "A simple website that turns visits into WhatsApp inquiries",
+    "intro": "If you work independently (consulting, design, health, professional services), you don't need a huge site. You need a clear page that explains what you do and makes it easy for people to reach out.",
+    "dolores": [
+      "Today your only online presence is your LinkedIn or Instagram profile",
+      "When someone asks for your website to learn more, you have nothing to send them",
+      "People message you through several different channels and it's hard to keep track of inquiries",
+      "You don't convey the same credibility as a business with its own website"
+    ],
+    "comoAyudo": [
+      "Landing page focused on explaining your service in seconds",
+      "Always-visible WhatsApp button to centralize inquiries",
+      "FAQ section to answer questions before people message you",
+      "Professional design that builds trust with a new customer",
+      "Published on your own domain in 1 to 2 weeks"
+    ],
+    "casoDestacado": {
+      "title": "Interior Design Studio",
+      "rubro": "Landing Page · Design",
+      "resultado": "The studio now has a custom landing page that reflects its visual identity and presents its portfolio professionally on any device.",
+      "url": ""
+    },
+    "faq": [
+      {
+        "preg": "Is a single page enough to look professional?",
+        "res": "Yes, for most independent services a well-built landing page is enough to build trust and generate inquiries. If you need more content later on, it can be scaled up."
+      },
+      {
+        "preg": "How long does it take to be ready?",
+        "res": "This type of page is usually ready in 1 to 2 weeks."
+      }
+    ],
+    "whatsappMsg": "Hi Máximo. I'm an independent professional and I'm interested in having my own website."
+  }
+},
+
+"seo": {
     "title": "Web pages for businesses that want more clients | Máximo Silva",
     "description": "I help companies and small businesses get more clients through fast, modern websites focused on results."
+  },
+  "schema": {
+  	"jobTitle": "Websites designed to help businesses get more clients"
   },
   "contact": {
     "whatsapp": "Hi Máximo. I saw your portfolio and would like information about a website for my business.",
@@ -9,9 +505,36 @@
     "emailBody": "Hi Máximo,\n\nI saw your portfolio and would like information about a website for my business.\n\nHere's a bit about the project:"
   },
 	"header": {
-		"name": "Máximo Silva",
-		"title": "Freelance Web Developer"
-	},
+    "name": "Máximo Silva",
+    "title": "Websites for Businesses",
+    "nav": {
+  "links": [
+    { "title": "Home", "url": "/" },
+    {
+      "title": "Websites",
+      "url": "/services",
+      "childrens": [
+        { "title": "For Real Estate", "url": "/websites-for-real-estate-agencies" },
+        { "title": "For Businesses", "url": "/business-websites" },
+        { "title": "For Independent Professionals", "url": "/websites-for-independent-professionals" },
+        { "title": "For Restaurants", "url": "/websites-for-restaurants" },
+        { "title": "For Agencies", "url": "/websites-for-agencies" }
+      ]
+    },
+    {
+      "title": "Projects",
+      "url": "/#proyectos",
+      "childrens": [
+        { "title": "HomeSilva — Real Estate", "url": "/cases/homesilva" },
+        { "title": "PS Flooring — Flooring Installation", "url": "/cases/ps-flooring" },
+        { "title": "View all projects", "url": "/#proyectos" }
+      ]
+    },
+    { "title": "Services", "url": "/services" },
+    { "title": "Pricing", "url": "/pricing" }
+  ]
+}
+  },
 	"hero": {
 		"title": "Web pages for businesses that want ",
 		"titleRest": "more clients",
@@ -58,61 +581,56 @@
 				"id": 1,
 				"title": "HomeSilva — Real estate website",
 				"tags": "Real Estate · Córdoba, Argentina",
-				"desc": "A real estate agency with over 15 years of experience that needed a modern online presence to showcase its properties and generate new inquiries.\n\nI designed and developed a digital property catalog with individual listing pages, search filters, interactive maps, and direct contact options, making it easier for visitors to find properties of interest and reach out to the agency quickly.\nThe platform remains active and growing, with continuous improvements and new features.",
-				"url": "https://homesilva.com.ar",
+        "url": "/cases/homesilva",
 				"images": "/inmobiliaria.png"
 			},
 			{
 				"id": 2,
 				"title": "Babaria — Cosmetics brand website",
 				"tags": "Corporate · Spain",
-				"desc": "A cosmetics brand with over 40 years of history that needed to strengthen its digital presence and better communicate its brand identity.\n\nI developed an 'About Us' section focused on telling the company's story, highlighting its key ingredients, and conveying its values through visual content and video.\nThe goal was to help visitors understand who's behind the brand before making a purchase decision, building trust and connection with its products.",
-				"url": "https://babaria.es/conocenos",
+        "url": "/cases/babaria",
 				"images": "/cosmetica.png"
 			},
 			{
 			  "id": 3,
 			  "title": "Plus Solution Flooring Corp — Flooring company website",
 			  "tags": "E-commerce · Services · Florida, USA",
-			  "desc": "A flooring installation and sales company in Florida that needed an online platform to showcase its services, sell products, and generate new inquiries from the internet.\n\nI developed a website with a product catalog, shopping cart, service pages, contact form, and a structure optimized for conversion.\n\nThe goal was to unify product sales and client acquisition for installation services on a single platform, making it easy for users to get quotes, buy, or request information quickly and directly.\n\nThe site is designed to improve the user experience and increase contact opportunities from organic traffic and ad campaigns.",
 			  "images": "/flooring.png",
-			  "url": "https://flooring-three.vercel.app/"
+        "url": "/cases/ps-flooring"
 			},
 			{
 				"id": 8,
 				"title": "DailyNotes — Productivity mobile app",
 				"tags": "Mobile App · Personal Project",
-				"desc": "A simple, customizable, and efficient notes app to boost your productivity. Lets you organize your day, set goals, and keep up with your routines without wasting time. Available on Google Play, with folders, weekly tracking, and daily management.",
-				"url": "https://play.google.com/store/apps/details?id=com.maaxiiiii.fastnotesapp",
+        "url": "/cases/daily-notes",
 				"images": "/notesapp.png"
 			},
 			{
 				"id": 4,
 				"title": "Nurani Timepieces — Watch brand website",
 				"tags": "Catalog · Small Business",
-				"desc": "A premium watch brand specializing in imported products that needed its own online presence to showcase its collections and attract potential customers.\n\nI designed and developed a web catalog with men's and women's collections, plus a contact form with a discount incentive to capture leads.\nThe goal was to give the brand a professional platform to present its products, strengthen its digital presence, and turn visitors into potential customers.",
+        "url": "/cases/nurani-timepieces",
 				"images": "/relojes.png"
 			},
 			{
 				"id": 5,
 				"title": "Interior design studio website",
 				"tags": "Landing Page · Design",
-				"desc": "An interior design studio that needed a website capable of faithfully reflecting its visual identity and presenting its portfolio professionally.\n\nI developed a custom landing page with a project gallery, original illustrations, and contact options, turning the client's design into a fully mobile-responsive web experience.\nThe project focused on respecting every visual detail on both desktop and mobile, ensuring a brand-consistent experience and a polished presentation of the studio's work.",
+        "url": "/cases/interior-design",
 				"images": "/diseño-interiores.png"
 			},
 			{
 				"id": 6,
 				"title": "Foodie Fusion — Restaurant website",
 				"tags": "Corporate · Freelance",
-				"desc": "A restaurant that needed a professional online presence where customers could check the menu, learn about the business, and easily access important information from any device.\n\nI designed and developed a website with an online menu, dish gallery, location, and custom features for users, creating a more accessible and appealing experience for visitors.\nThe goal was to help the restaurant present its services professionally, improve customer interaction, and keep all relevant information available online.",
+        "url": "/cases/foodie-fusion",
 				"images": "/restaurante.png"
 			},
 			{
 				"id": 7,
 				"title": "Urban clothing store — Online store template",
 				"tags": "E-commerce · Personal Project",
-				"desc": "An online store with a shopping cart, product categories, and a profile with order history. Personal project. Works like a real store: you can add products, watch the total update, and review your past purchases in your profile.",
-				"url": "https://test-e-commerce-seven.vercel.app",
+	        "url": "/cases/ecommerce-template",
 				"images": "/e-commerce.png"
 			}
 		]
@@ -120,6 +638,7 @@
 	"services": {
 		"title": "My services",
 		"subtitle":"Web solutions focused on design, performance, and results.",
+    "cta": "View services",
 		"serv": [
 			{
 				"title": "Landing Page + WhatsApp",

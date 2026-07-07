@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Case Study: Urban Clothing Online Store — E-commerce Template | Máximo Silva",
+    "description": "How I built a functional online store template, with a shopping cart, product categories, and a user profile with purchase history."
+  },
+  "hero": {
+    "eyebrow": "Case Study · E-commerce",
+    "title": "E-commerce Template — a store that ",
+    "titleRest": "works like a real store",
+    "subtitle": "Personal project: an online urban clothing store built as a template, designed to showcase a complete, functional purchase flow from end to end.",
+    "meta": "E-commerce · Personal Project",
+    "url": "https://test-e-commerce-seven.vercel.app",
+    "image": "/e-commerce.png",
+    "cta": "View Live Site"
+  },
+  "desafio": {
+    "title": "The Challenge",
+    "texto": "Many businesses that want to sell online first need to see how a real store would work: adding products, watching the total update, and reviewing past purchases. The goal was to build a solid, reusable foundation that covers that entire flow."
+  },
+  "solucion": {
+    "title": "The Solution",
+    "texto": "I built an online store with a shopping cart, product categories, and a user profile with purchase history, working like a real store: users can add products, watch the total change, and review past purchases from their profile.",
+    "incluye": [
+      "Functional shopping cart",
+      "Product categories",
+      "User profile with purchase history",
+      "Real-time total calculation",
+      "Reusable foundation as a template for new projects"
+    ]
+  },
+  "resultado": {
+    "title": "The Result",
+    "texto": "The template works like a real store from end to end, serving as a reference foundation for new e-commerce projects that need a complete purchase flow from day one."
+  },
+  "capacidades": ["Shopping Cart", "Product Categories", "User Profiles", "Purchase History", "E-commerce", "Responsive Design"],
+  "relacionado": {
+    "texto": "Need an online store for your business?",
+    "href": "/paginas-web-para-emprendimientos",
+    "linkText": "View small business page"
+  },
+  "ctaFinal": {
+    "title": "Does your business need something similar?",
+    "subtitle": "Tell me what it's about and I'll show you how I'd approach it for your specific case.",
+    "cta": "Message me on WhatsApp",
+    "whatsappMsg": "Hi Máximo, I saw the e-commerce template case study and I'm interested in something similar for my business."
+  }
+}

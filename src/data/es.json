@@ -1,7 +1,475 @@
 {
+  "rubrosText": {
+    "cta": "Contame sobre tu negocio",
+    "issues": "Problemas comunes en este rubro",
+    "help": "Cómo te puedo ayudar",
+    "realCase": "Caso real:",
+    "ask": "Preguntas frecuentes",
+    "charlamos": "¿Charlamos sobre tu negocio?",
+    "escribime": "Escribime por WhatsApp"
+  },
+
+  "rubros": {
+  "empresas": {
+  "seo": {
+    "title": "Páginas web corporativas para empresas | Máximo Silva",
+    "description": "Desarrollo sitios web corporativos para empresas que necesitan transmitir confianza, contar su historia y presentar sus productos o servicios de forma profesional."
+  },
+  "eyebrow": "Páginas web para empresas",
+  "title": "Una web corporativa que represente a tu empresa como se merece",
+  "intro": "Cuando un cliente nuevo busca tu empresa en Google, tu web es lo primero que ve. Necesita transmitir confianza, mostrar quién sos, qué hacés y por qué elegirte, antes de que esa persona hable con vos.",
+  "dolores": [
+    "Tu web actual no refleja el nivel de tu empresa ni genera confianza",
+    "No hay un lugar claro donde contar tu historia, valores o trayectoria",
+    "La información de productos o servicios está desactualizada o incompleta",
+    "Un cliente potencial busca tu empresa y no te encuentra, o encuentra algo poco profesional"
+  ],
+  "comoAyudo": [
+    "Diseño corporativo alineado a tu identidad de marca",
+    "Sección institucional: historia, valores, equipo, trayectoria",
+    "Presentación de productos o servicios de forma clara y profesional",
+    "Contenido visual (fotos, video) para reforzar confianza",
+    "Estructura pensada para que un cliente nuevo entienda todo en segundos"
+  ],
+  "casoDestacado": {
+    "title": "Babaria",
+    "rubro": "Corporativo · España",
+    "resultado": "La marca reforzó su identidad digital con una sección institucional enfocada en contar su historia y sus valores, ayudando a los visitantes a generar confianza antes de decidir su compra.",
+    "url": "https://babaria.es/conocenos"
+  },
+  "faq": [
+    {
+      "preg": "¿Pueden trabajar en la web sin que se detenga la operación de la empresa?",
+      "res": "Sí, todo el desarrollo se hace aparte y recién se publica cuando está listo y aprobado por vos."
+    },
+    {
+      "preg": "¿Pueden integrar la web con nuestros sistemas actuales?",
+      "res": "Depende del caso. Se puede evaluar según qué sistemas usen y qué necesiten conectar."
+    }
+  ],
+  "whatsappMsg": "Hola Máximo. Represento a una empresa y nos interesa una web corporativa."
+},
+  "agencias": {
+  "seo": {
+    "title": "Páginas web para agencias y estudios | Máximo Silva",
+    "description": "Desarrollo sitios web para agencias, estudios y consultoras que necesitan mostrar su portfolio y su propuesta de forma profesional."
+  },
+  "eyebrow": "Páginas web para agencias y estudios",
+  "title": "Una web que muestre tu trabajo y te haga ver a la altura de tus clientes",
+  "intro": "Si tenés una agencia, estudio o consultora, tu propia web es tu primera carta de presentación. Tiene que mostrar tu portfolio, tu forma de trabajar y generar la confianza suficiente para que un cliente potencial te escriba.",
+  "dolores": [
+    "Tu portfolio está repartido entre Behance, Instagram y PDFs sueltos",
+    "No tenés un sitio propio donde mostrar tu proceso de trabajo y tus clientes",
+    "Un potencial cliente no encuentra fácil cómo contactarte o pedir una propuesta",
+    "Tu web no transmite el mismo nivel que el trabajo que hacés para tus clientes"
+  ],
+  "comoAyudo": [
+    "Portfolio o galería de proyectos organizada por tipo de trabajo",
+    "Sección de proceso: cómo trabajás y qué recibe el cliente en cada etapa",
+    "Presentación de tu equipo o de vos como profesional",
+    "Formulario de contacto o cotización para nuevos proyectos",
+    "Diseño con identidad propia, no una plantilla genérica"
+  ],
+  "casoDestacado": {
+    "title": "Estudio de diseño de interiores",
+    "rubro": "Landing page · Diseño",
+    "resultado": "El estudio cuenta con una landing personalizada que refleja fielmente su identidad visual y presenta su portfolio de forma profesional, con una experiencia consistente en escritorio y celular.",
+    "url": ""
+  },
+  "faq": [
+    {
+      "preg": "¿Pueden replicar nuestra identidad visual actual?",
+      "res": "Sí, si ya tenés una identidad de marca definida, la respeto y la traduzco a la web. Si todavía no la tenés del todo definida, puedo ayudarte a darle forma."
+    },
+    {
+      "preg": "¿Podemos ir sumando proyectos al portfolio nosotros mismos?",
+      "res": "Sí, se puede dejar un panel simple para que vos mismo sumes nuevos trabajos sin depender de mí para cada actualización."
+    }
+  ],
+  "whatsappMsg": "Hola Máximo. Tengo una agencia/estudio y me interesa una web para mostrar mi portfolio."
+},
+  "inmobiliarias": {
+    "seo": {
+      "title": "Páginas web para inmobiliarias | Máximo Silva",
+      "description": "Desarrollo sitios web para inmobiliarias con catálogo de propiedades, filtros de búsqueda y panel de administración. Mirá el caso real de HomeSilva."
+    },
+    "eyebrow": "Páginas web para inmobiliarias",
+    "title": "Una web que muestre tus propiedades y te traiga consultas reales",
+    "intro": "Si tenés una inmobiliaria, tu web no puede ser solo una tarjeta de presentación. Necesitás un catálogo de propiedades fácil de actualizar, que tus clientes puedan filtrar por zona, precio o tipo, y que cada consulta llegue directo a vos.",
+    "dolores": [
+      "Publicás tus propiedades solo en portales de terceros y no tenés una web propia que las reúna",
+      "Tu web actual no tiene filtros de búsqueda, así que el visitante se cansa de scrollear",
+      "Cada vez que cargás o sacás una propiedad tenés que pedirle a alguien que te edite el sitio",
+      "No hay forma clara de que un interesado te contacte por una propiedad puntual"
+    ],
+    "comoAyudo": [
+      "Catálogo de propiedades con fichas individuales (fotos, precio, ubicación, características)",
+      "Filtros de búsqueda por zona, tipo de propiedad y rango de precio",
+      "Mapas interactivos para que el visitante ubique la propiedad",
+      "Formulario de contacto directo por propiedad",
+      "Panel de administración para que vos mismo cargues y edites propiedades sin depender de nadie"
+    ],
+    "casoDestacado": {
+      "title": "HomeSilva",
+      "rubro": "Inmobiliaria · Córdoba, Argentina",
+      "resultado": "La inmobiliaria ahora gestiona y exhibe su cartera de propiedades de forma autónoma, con mejor experiencia de búsqueda y más consultas generadas sin depender de portales de terceros.",
+      "url": "https://homesilva.com.ar"
+    },
+    "faq": [
+      {
+        "preg": "¿Puedo integrar mi web con portales como Zonaprop o Argenprop?",
+        "res": "Sí, se puede evaluar según el caso. Lo importante es que tengas tu propio catálogo, independiente de esos portales, para no depender solo de ellos."
+      },
+      {
+        "preg": "¿Puedo cargar yo mismo las propiedades nuevas?",
+        "res": "Sí, te dejo un panel de administración simple para que subas y edites propiedades sin necesidad de saber de código."
+      }
+    ],
+    "whatsappMsg": "Hola Máximo. Tengo una inmobiliaria y me interesa una web para mostrar mis propiedades."
+  },
+  "restaurantes": {
+    "seo": {
+      "title": "Páginas web para restaurantes | Máximo Silva",
+      "description": "Desarrollo sitios web para restaurantes con menú online, galería de platos y ubicación. Mirá el caso real de Foodie Fusion."
+    },
+    "eyebrow": "Páginas web para restaurantes",
+    "title": "Una web donde tus clientes vean el menú y te encuentren fácil",
+    "intro": "Un restaurante necesita que cualquiera que busque dónde comer encuentre rápido el menú, la ubicación y una forma simple de contactarte o reservar. Sin eso, perdés clientes que ya te estaban buscando.",
+    "dolores": [
+      "Tu menú solo está en fotos sueltas de Instagram, difícil de encontrar y desactualizado",
+      "No tenés una web donde alguien pueda ver ubicación, horarios y contacto en un solo lugar",
+      "Perdés reservas o pedidos porque no hay un botón directo de WhatsApp",
+      "Tu competencia aparece en Google y vos no"
+    ],
+    "comoAyudo": [
+      "Menú online organizado por categorías, fácil de actualizar",
+      "Galería de platos para mostrar tu propuesta antes de que el cliente llegue",
+      "Ubicación con mapa y horarios de atención",
+      "Botón de WhatsApp para reservas o pedidos",
+      "Sitio optimizado para que aparezcas cuando alguien busca restaurantes en tu zona"
+    ],
+    "casoDestacado": {
+      "title": "Foodie Fusion",
+      "rubro": "Restaurante",
+      "resultado": "El restaurante ahora tiene una presencia online profesional donde los clientes consultan el menú, ven fotos de los platos y acceden a la información clave desde cualquier dispositivo.",
+      "url": ""
+    },
+    "faq": [
+      {
+        "preg": "¿Puedo actualizar el menú yo mismo cuando cambian los precios?",
+        "res": "Sí, te dejo un panel simple para que edites precios y platos sin depender de mí para cada cambio."
+      },
+      {
+        "preg": "¿Sirve para pedidos online o solo para mostrar el menú?",
+        "res": "Depende de lo que necesites. Podemos empezar con un menú + WhatsApp para pedidos, o sumar un sistema de pedidos más completo más adelante."
+      }
+    ],
+    "whatsappMsg": "Hola Máximo. Tengo un restaurante y me interesa una web para mostrar mi menú."
+  },
+  "emprendimientos": {
+    "seo": {
+      "title": "Páginas web para emprendimientos | Máximo Silva",
+      "description": "Desarrollo sitios web para emprendimientos y marcas chicas: catálogo, tienda online y presencia profesional desde el primer día."
+    },
+    "eyebrow": "Páginas web para emprendimientos",
+    "title": "Presencia online profesional desde el día uno de tu emprendimiento",
+    "intro": "Arrancar un emprendimiento con solo redes sociales tiene un techo. Una web propia te da lugar para mostrar todos tus productos, contar quién sos y que te encuentren en Google, no solo en el feed de Instagram.",
+    "dolores": [
+      "Todo tu catálogo vive en Instagram y es imposible de organizar o buscar",
+      "No tenés forma de que un cliente nuevo confíe en tu marca antes de comprarte",
+      "Perdés ventas porque no podés cobrar o mostrar precios de forma clara",
+      "Tu emprendimiento no aparece cuando alguien lo busca en Google"
+    ],
+    "comoAyudo": [
+      "Catálogo o tienda online según cómo vendas hoy",
+      "Sección de marca: quién sos, tu historia, tus valores",
+      "Formulario de contacto o carrito de compras según el caso",
+      "Diseño profesional que genere confianza en un cliente nuevo",
+      "Estructura pensada para que Google empiece a mostrarte con el tiempo"
+    ],
+    "casoDestacado": {
+      "title": "Nurani Timepieces",
+      "rubro": "Catálogo · Emprendimiento",
+      "resultado": "La marca cuenta con una plataforma profesional para presentar sus colecciones, fortalecer su presencia digital y convertir visitantes en potenciales clientes.",
+      "url": ""
+    },
+    "faq": [
+      {
+        "preg": "Recién estoy arrancando, ¿tiene sentido invertir en una web ya?",
+        "res": "Sí, cuanto antes tengas presencia propia, antes empieza a trabajar para vos en Google. Podemos arrancar con algo simple e ir escalando con tu negocio."
+      },
+      {
+        "preg": "¿Puedo vender directo desde la web o solo mostrar productos?",
+        "res": "Depende de lo que necesites hoy. Podemos armar solo un catálogo con contacto por WhatsApp, o una tienda con carrito y cobro online."
+      }
+    ],
+    "whatsappMsg": "Hola Máximo. Tengo un emprendimiento y me interesa tener mi propia web."
+  },
+  "profesionales-independientes": {
+    "seo": {
+      "title": "Páginas web para profesionales independientes | Máximo Silva",
+      "description": "Desarrollo sitios web para profesionales independientes: landing page con WhatsApp para generar consultas desde el primer día."
+    },
+    "eyebrow": "Páginas web para profesionales independientes",
+    "title": "Una web simple que convierta visitas en consultas por WhatsApp",
+    "intro": "Si trabajás de forma independiente (consultoría, diseño, salud, servicios profesionales), no necesitás un sitio enorme. Necesitás una página clara que explique lo que hacés y facilite que te escriban.",
+    "dolores": [
+      "Hoy tu única presencia online es tu perfil de LinkedIn o Instagram",
+      "Cuando alguien te pide tu web para conocer más, no tenés nada que mandarle",
+      "Te escriben por varios canales distintos y es difícil ordenar las consultas",
+      "No transmitís la misma seriedad que un negocio con web propia"
+    ],
+    "comoAyudo": [
+      "Landing page enfocada en explicar tu servicio en segundos",
+      "Botón de WhatsApp siempre visible para centralizar las consultas",
+      "Sección de preguntas frecuentes para resolver dudas antes de que te escriban",
+      "Diseño profesional que genere confianza en un cliente nuevo",
+      "Publicación con tu propio dominio en 1 a 2 semanas"
+    ],
+    "casoDestacado": {
+      "title": "Estudio de diseño de interiores",
+      "rubro": "Landing page · Diseño",
+      "resultado": "El estudio ahora cuenta con una landing personalizada que refleja su identidad visual y presenta su portfolio de forma profesional en cualquier dispositivo.",
+      "url": ""
+    },
+    "faq": [
+      {
+        "preg": "¿Con una sola página alcanza para verme profesional?",
+        "res": "Sí, para la mayoría de los servicios independientes una landing bien hecha alcanza para generar confianza y consultas. Si más adelante necesitás más contenido, se puede escalar."
+      },
+      {
+        "preg": "¿Cuánto tarda en estar lista?",
+        "res": "Este tipo de página suele estar lista en 1 a 2 semanas."
+      }
+    ],
+    "whatsappMsg": "Hola Máximo. Soy profesional independiente y me interesa tener mi propia página web."
+  }
+},
+	"prices": {
+  "seo": {
+    "title": "Precios de páginas web para negocios | Máximo Silva",
+    "description": "Rangos orientativos según el tipo de sitio que necesita tu negocio. Cotización personalizada sin compromiso por WhatsApp."
+  },
+  "hero": {
+    "eyebrow": "Precios",
+    "title": "¿Cuánto cuesta ",
+    "titleRest": "tu página web?",
+    "subtitle": "No trabajo con precios fijos porque cada negocio necesita algo distinto. Acá tenés una referencia clara de qué esperar según el tipo de sitio, para que puedas ubicarte antes de escribirme.",
+    "cta": "Pedir cotización sin compromiso",
+    "whatsappMsg": "Hola Máximo. Vi la página de precios y me gustaría una cotización para mi negocio."
+  },
+  "nota": "Los rangos reflejan tiempo y complejidad relativa entre servicios, no montos fijos. El valor final depende de tu caso puntual: cantidad de secciones, contenido a cargar, integraciones necesarias.",
+  "recomended": "recomendado",
+  "time": "Tiempo estimado",
+  "getquote": "Cotizar este plan",
+  "details": "Ver detalle del servicio",
+  
+  "planes": [
+    {
+      "title": "Landing Page + WhatsApp",
+      "nivel": 1,
+      "ordenLg": 2,
+      "destacado": true,
+      "tiempo": "1 a 2 semanas",
+      "idealPara": "Arrancar tu presencia online ya",
+      "desde": "USD 120 – 260",
+      "incluye": [
+        "Página única enfocada en conversión",
+        "Botón de WhatsApp con mensaje predefinido",
+        "Diseño 100% adaptado a tu negocio",
+        "Publicación con dominio propio"
+      ],
+      "href": "/services#landing-whatsapp",
+      "whatsappMsg": "Hola Máximo, me interesa cotizar una Landing Page + WhatsApp."
+    },
+    {
+      "title": "Web con catálogo",
+      "nivel": 2,
+      "ordenLg": 1,
+      "destacado": false,
+      "tiempo": "2 a 3 semanas",
+      "idealPara": "Mostrar todo lo que ofrecés, ordenado",
+      "incluye": [
+        "Fichas individuales por producto o servicio",
+        "Filtros o categorías",
+        "Panel para actualizar el catálogo vos mismo",
+        "Formulario de contacto y cotización"
+      ],
+      "href": "/services#web-catalogo",
+      "whatsappMsg": "Hola Máximo, me interesa cotizar una web con catálogo."
+    },    
+    {
+      "title": "Tienda online",
+      "nivel": 3,
+      "ordenLg": 3,
+      "destacado": false,
+      "tiempo": "3 a 5 semanas",
+      "idealPara": "Vender productos las 24 hs",
+      "incluye": [
+        "Catálogo con carrito de compras",
+        "Checkout y medios de pago",
+        "Panel para gestionar stock y precios",
+        "Estructura pensada para tráfico orgánico y campañas"
+      ],
+      "href": "/services#tienda-online",
+      "whatsappMsg": "Hola Máximo, me interesa cotizar una tienda online."
+    }
+  ],
+  "queDefineElPrecio": {
+    "title": "Qué define el valor final",
+    "subtitle": "Todo esto lo hablamos antes de arrancar, sin sorpresas después.",
+    "factores": [
+      { "title": "Cantidad de secciones y páginas", "des": "Un sitio de 4 secciones no cuesta lo mismo que uno de 12." },
+      { "title": "Contenido que ya tenés listo", "des": "Textos y fotos propios reducen tiempo de trabajo frente a arrancar de cero." },
+      { "title": "Integraciones necesarias", "des": "Pagos, paneles de administración o catálogos grandes suman complejidad." },
+      { "title": "Diseño a medida vs. base existente", "des": "Partir de un sistema de diseño ya probado es más rápido que uno 100% original." }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes sobre",
+    "titleRest": " precios",
+    "subtitle": "Lo que más preguntan antes de pedir una cotización.",
+    "faqs": [
+      { "preg": "¿Por qué no hay precios fijos?", "res": "Porque el costo real depende de cuánto contenido, integraciones y secciones necesita tu negocio. Un precio fijo publicado siempre termina siendo un piso poco realista o un techo que no aplica a la mayoría de los casos." },
+      { "preg": "¿La cotización tiene costo?", "res": "No. Charlamos sobre tu negocio y en menos de 24 hs te mando un presupuesto claro, sin compromiso de avanzar." },
+      { "preg": "¿Se paga todo por adelantado?", "res": "No, trabajo con un esquema de anticipo para arrancar y el resto contra entrega o en cuotas según el proyecto." },
+      { "preg": "¿Qué pasa si mi proyecto no encaja en ninguno de estos planes?", "res": "Estos son puntos de partida, no categorías cerradas. Si tu negocio necesita algo distinto o una combinación, lo armamos a medida." },
+      { "preg": "¿El precio incluye el dominio y el hosting?", "res": "Te asesoro y configuro todo, pero el dominio y el hosting se pagan aparte directamente al proveedor — son costos bajos y anuales, te explico las opciones antes de decidir." }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Contame tu proyecto y te paso un número concreto",
+    "subtitle": "Sin vueltas ni letra chica. En menos de 24 hs tenés una cotización clara para tu negocio.",
+    "cta": "Escribime por WhatsApp",
+    "whatsappMsg": "Hola Máximo, quiero contarte sobre mi proyecto para que me pases una cotización."
+  }
+},
+	"servicesPage": {
+  "seo": {
+    "title": "Servicios de desarrollo web para negocios y emprendimientos | Máximo Silva",
+    "description": "Landing page con WhatsApp, web con catálogo, rediseño de sitios y tienda online. Elegí el servicio que necesita tu negocio y recibí una propuesta sin costo."
+  },
+  "eyebrow": "Servicios",
+  "title": "¿Qué tipo de web necesita tu negocio?",
+  "subtitle": "Cuatro formas de resolver presencia online, según el momento de tu negocio y lo que necesitás lograr. Todas incluyen diseño, desarrollo y publicación de punta a punta.",
+  "items": [
+    {
+      "slug": "landing-whatsapp",
+      "title": "Landing Page + WhatsApp",
+      "resumen": "Una página enfocada en un solo objetivo: que el visitante te escriba.",
+      "paraQuienEs": "Profesionales independientes, servicios locales y emprendimientos que están arrancando su presencia online y necesitan empezar a recibir consultas cuanto antes, sin gastar de más en un sitio grande.",
+      "incluye": [
+        "Diseño de una sola página, pensado para explicar tu servicio en segundos",
+        "Botón de WhatsApp visible en todo momento, con mensaje predefinido",
+        "Sección de servicios, preguntas frecuentes y datos de contacto",
+        "Optimizada para carga rápida en celular",
+        "Publicación con tu dominio propio"
+      ],
+      "tiempo": "1 a 2 semanas",
+      "whatsappMsg": "Hola Máximo. Vi la página de Landing Page + WhatsApp y me interesa para mi negocio.",
+      "casoRelacionado": "diseno-interiores",
+      "faq": [
+        {
+          "preg": "¿Con esto ya puedo recibir clientes?",
+          "res": "Sí. El objetivo de esta página es justamente ese: que en cuanto esté online, cualquier visitante pueda escribirte por WhatsApp en un par de clics."
+        },
+        {
+          "preg": "¿Puedo pedir más secciones después?",
+          "res": "Sí, podés sumar contenido más adelante. Muchos clientes arrancan con esto y después escalan a una web con catálogo o más páginas."
+        }
+      ]
+    },
+    {
+      "slug": "web-catalogo",
+      "title": "Web con catálogo de productos o servicios",
+      "resumen": "Una vitrina digital ordenada, sin carrito ni complicaciones.",
+      "paraQuienEs": "Talleres, estudios, proveedores y negocios B2B que necesitan mostrar todo lo que ofrecen de forma clara, pero no venden directo desde la web.",
+      "incluye": [
+        "Catálogo de productos o servicios con fichas individuales",
+        "Filtros o categorías si tu catálogo lo necesita",
+        "Galería de trabajos o proyectos realizados",
+        "Formulario de contacto y cotización",
+        "Panel simple para que puedas actualizar el catálogo vos mismo"
+      ],
+      "tiempo": "2 a 3 semanas",
+      "whatsappMsg": "Hola Máximo. Vi la página de Web con catálogo y me interesa para mi negocio.",
+      "casoRelacionado": "homesilva",
+      "faq": [
+        {
+          "preg": "¿Necesito subir yo el catálogo o lo hacés vos?",
+          "res": "La carga inicial la hago yo con lo que me compartas. Después te dejo un panel simple para que puedas sumar o editar productos sin depender de nadie."
+        },
+        {
+          "preg": "¿Sirve si tengo muchos productos?",
+          "res": "Sí, para catálogos grandes sumamos filtros y búsqueda para que el visitante encuentre rápido lo que busca."
+        }
+      ]
+    },
+    {
+      "slug": "rediseno-web",
+      "title": "Rediseño de web existente",
+      "resumen": "Tu web ya existe, pero no te está trayendo clientes.",
+      "paraQuienEs": "Negocios que ya tienen una web, pero está desactualizada, carga lento, se ve mal en celular o simplemente no genera consultas.",
+      "incluye": [
+        "Auditoría de tu web actual (velocidad, diseño, mobile, SEO básico)",
+        "Rediseño visual manteniendo tu identidad de marca",
+        "Reestructuración de contenido para mejorar la conversión",
+        "Mejora de velocidad de carga",
+        "Migración de dominio y contenido existente"
+      ],
+      "tiempo": "2 a 4 semanas según el tamaño del sitio",
+      "whatsappMsg": "Hola Máximo. Tengo una web que quiero rediseñar, vi tu servicio de rediseño.",
+      "casoRelacionado": "ps-flooring",
+      "faq": [
+        {
+          "preg": "¿Pierdo mi posicionamiento en Google si rediseño la web?",
+          "res": "No si se hace bien. Parte del trabajo es mantener las URLs importantes y redirigir correctamente lo que cambie, para no perder el posicionamiento que ya tenés."
+        },
+        {
+          "preg": "¿Puedo mantener mi dominio actual?",
+          "res": "Sí, seguís usando el mismo dominio. Solo cambia el sitio que hay detrás."
+        }
+      ]
+    },
+    {
+      "slug": "tienda-online",
+      "title": "Tienda online (E-commerce básico)",
+      "resumen": "Vendé tus productos las 24 horas, sin depender de otra plataforma.",
+      "paraQuienEs": "Tiendas físicas que quieren empezar a vender online y marcas pequeñas que quieren tener su propio canal de venta, sin pagar comisiones a terceros.",
+      "incluye": [
+        "Catálogo de productos con carrito de compras",
+        "Checkout y medios de pago",
+        "Panel para gestionar stock y precios vos mismo",
+        "Formulario de contacto y cotizaciones personalizadas",
+        "Estructura pensada para tráfico orgánico y campañas pagas"
+      ],
+      "tiempo": "3 a 5 semanas",
+      "whatsappMsg": "Hola Máximo. Vi la página de Tienda online y me interesa para mi negocio.",
+      "casoRelacionado": "ps-flooring",
+      "faq": [
+        {
+          "preg": "¿Qué medios de pago puedo integrar?",
+          "res": "Depende de tu país y de con qué pasarela de pago quieras trabajar. Lo definimos juntos según lo que uses o quieras empezar a usar."
+        },
+        {
+          "preg": "¿Voy a poder cargar productos yo mismo?",
+          "res": "Sí, el panel está pensado para que actualices stock, precios y productos sin tocar código ni depender de mí para cada cambio."
+        }
+      ]
+    }
+  ],
+  "ctaFinal": {
+    "title": "¿No estás seguro de cuál es el servicio que necesitás?",
+    "subtitle": "Contame a qué se dedica tu negocio y te recomiendo el tipo de sitio que mejor se adapta, sin compromiso.",
+    "cta": "Escribime por WhatsApp"
+  }
+},
   "seo": {
     "title": "Páginas web para negocios que quieren más clientes | Máximo Silva",
     "description": "Ayudo a empresas y emprendimientos a conseguir más clientes mediante sitios web rápidos, modernos y enfocados en resultados."
+  },
+  "schema": {
+		"jobTitle": "Diseño y desarrollo de sitios web para negocios"
   },
   "contact": {
     "whatsapp": "Hola Máximo. Vi tu portfolio y me gustaría recibir información sobre una página web para mi negocio.",
@@ -10,7 +478,34 @@
   },
 	"header": {
 		"name": "Máximo Silva",
-		"title": "Desarrollador web freelance"
+		"title": "Páginas web para negocios",
+		"nav": {
+  "links": [
+    { "title": "Inicio", "url": "/es/" },
+    {
+      "title": "Páginas web",
+      "url": "/services",
+      "childrens": [
+        { "title": "Para inmobiliarias", "url": "/es/paginas-web-para-inmobiliarias" },
+        { "title": "Para empresas", "url": "/es/paginas-web-para-empresas" },
+        { "title": "Para profesionales independientes", "url": "/es/paginas-web-para-profesionales-independientes" },
+        { "title": "Para restaurantes", "url": "/es/paginas-web-para-restaurantes" },
+        { "title": "Para agencias", "url": "/es/paginas-web-para-agencias" }
+      ]
+    },
+    {
+      "title": "Proyectos",
+      "url": "/es/#proyectos",
+      "childrens": [
+        { "title": "HomeSilva — Inmobiliaria", "url": "/es/casos/homesilva" },
+        { "title": "PS Flooring — Instalación de pisos", "url": "/es/casos/ps-flooring" },
+        { "title": "Ver todos los proyectos", "url": "/es/#proyectos" }
+      ]
+    },
+    { "title": "Servicios", "url": "/es/servicios" },
+    { "title": "Precios", "url": "/es/precios" }
+  ]
+}
 	},
 	"hero": {
 		"title": "Páginas web para negocios que quieren ",
@@ -58,61 +553,57 @@
 				"id": 1,
 				"title": "HomeSilva — Web para inmobiliaria",
 				"tags": "Inmobiliaria · Córdoba, Argentina",
-				"desc": "Inmobiliaria con más de 15 años de trayectoria que necesitaba una presencia online moderna para mostrar sus propiedades y generar nuevas consultas.\n\nDiseñé y desarrollé un catálogo digital de inmuebles con fichas individuales, filtros de búsqueda, mapas interactivos y opciones de contacto directo, facilitando que los visitantes encuentren propiedades de interés y se comuniquen rápidamente con la agencia.\nLa plataforma continúa activa y en crecimiento, incorporando mejoras y nuevas funcionalidades de forma continua.",
-				"url": "https://homesilva.com.ar",
+				"url": "/es/casos/homesilva",
 				"images": "/inmobiliaria.png"
 			},
 			{
 				"id": 2,
 				"title": "Babaria — Web para marca de cosmética",
 				"tags": "Corporativo · España",
-				"desc": "Marca de cosmética con más de 40 años de trayectoria que necesitaba reforzar su presencia digital y comunicar mejor su identidad de marca.\n\nDesarrollé una sección 'Conócenos' enfocada en contar la historia de la empresa, destacar sus ingredientes principales y transmitir sus valores mediante contenido visual y video.\nEl objetivo fue ayudar a los visitantes a comprender quién está detrás de la marca antes de tomar una decisión de compra, fortaleciendo la confianza y la conexión con sus productos.",
-				"url": "https://babaria.es/conocenos",
+        "url": "/es/casos/babaria",
 				"images": "/cosmetica.png"
 			},
 			{
 			  "id": 3,
 			  "title": "Plus Solution Flooring Corp — Web para empresa de pisos",
 			  "tags": "E-commerce · Servicios · Florida, USA",
-			  "desc": "Empresa de instalación y venta de pisos en Florida que necesitaba una plataforma online para mostrar sus servicios, vender productos y generar nuevas consultas desde internet.\n\nDesarrollé un sitio web con catálogo de productos, carrito de compras, páginas de servicios, formulario de contacto y estructura optimizada para conversión.\n\nEl objetivo fue unificar en una sola plataforma la venta de productos y la captación de clientes para servicios de instalación, facilitando que los usuarios puedan cotizar, comprar o solicitar información de forma rápida y directa.\n\nLa web está diseñada para mejorar la experiencia del usuario y aumentar las oportunidades de contacto desde tráfico orgánico y campañas publicitarias.",
 			  "images": "/flooring.png",
-				"url": "https://flooring-three.vercel.app/"
+        "url": "/es/casos/ps-flooring"
 			},
 			{
 				"id": 8,
 				"title": "DailyNotes — Aplicación móvile de productividad",
 				"tags": "App móvil · Proyecto personal",
-				"desc": "App de notas simple, personalizable y eficiente para aumentar tu productividad. Permite organizar el dia, definir objetivos y seguir tus rutinas sin perder el tiempo. Disponible en Google Play, carpetas, seguimiento semanal y gestión diaria.",
-				"url": "https://play.google.com/store/apps/details?id=com.maaxiiiii.fastnotesapp",
+        "url": "/es/casos/daily-notes",
 				"images": "/notesapp.png"
+
 			},
 			{
 				"id": 4,
 				"title": "Nurani Timepieces — Web para marca de relojes ",
 				"tags": "Catálogo · Emprendimiento",
-				"desc": "Marca de relojes premium especializada en productos importados que necesitaba una presencia online propia para mostrar sus colecciones y atraer potenciales clientes.\n\nDiseñé y desarrollé un catálogo web con colecciones para hombres y mujeres, incorporando además un formulario de contacto con incentivo de descuento para captar interesados.\nEl objetivo fue brindar a la marca una plataforma profesional para presentar sus productos, fortalecer su presencia digital y convertir visitantes en potenciales clientes.",
+        "url": "/es/casos/nurani-timepieces",
 				"images": "/relojes.png"
 			},
 			{
 				"id": 5,
 				"title": "Web para estudio de diseño de interiores",
 				"tags": "Landing page · Diseño",
-				"desc": "Estudio de diseño de interiores que necesitaba un sitio web capaz de reflejar fielmente su identidad visual y presentar su portfolio de manera profesional.\n\nDesarrollé una landing page personalizada con galería de proyectos, ilustraciones originales y opciones de contacto, transformando el diseño del cliente en una experiencia web completamente adaptable a dispositivos móviles.\nEl proyecto se centró en respetar cada detalle visual tanto en escritorio como en celular, garantizando una experiencia consistente con la marca y una presentación cuidada de los trabajos del estudio.",
+        "url": "/es/casos/diseño-interiores",
 				"images": "/diseño-interiores.png"
 			},
 			{
 				"id": 6,
 				"title": "Foodie Fusion — Web para restaurante",
 				"tags": "Corporativo · Freelance",
-				"desc": "Restaurante que necesitaba una presencia online profesional donde sus clientes pudieran consultar el menú, conocer el negocio y acceder fácilmente a información importante desde cualquier dispositivo.\n\nDiseñé y desarrollé un sitio web con menú online, galería de platos, ubicación y funcionalidades personalizadas para los usuarios, creando una experiencia más accesible y atractiva para los visitantes.\nEl objetivo fue ayudar al restaurante a presentar sus servicios de forma profesional, mejorar la interacción con los clientes y mantener toda la información relevante disponible en línea.",
+        "url": "/es/casos/foodie-fusion",
 				"images": "/restaurante.png"
 			},
 			{
 				"id": 7,
 				"title": "Web de ropa urbana — Plantilla de tienda online",
 				"tags": "E-commerce · Proyecto personal",
-				"desc": "Tienda online con carrito de compras, categorías de productos y perfil con historial. Proyecto personal. Funciona como una tienda real: pódes agregar productos, ver cómo cambia el total y revisar tus compras anteriores en tu perfil.",
-				"url": "https://test-e-commerce-seven.vercel.app",
+        "url": "/es/casos/ecommerce-template",
 				"images": "/e-commerce.png"
 			}
 		]
@@ -120,6 +611,7 @@
 	"services": {
 		"title": "Mis servicios",
 		"subtitle":"Soluciones web enfocadas en diseño, rendimiento y resultados.",
+    "cta": "Ver servicios",
 		"serv": [
 			{
 				"title": "Landing Page + WhatsApp",

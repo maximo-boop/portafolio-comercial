@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Caso de estudio: Estudio de diseño de interiores — Landing page | Máximo Silva",
+    "description": "Cómo desarrollé la landing page de un estudio de diseño de interiores, respetando su identidad visual y presentando su portfolio de forma profesional."
+  },
+  "hero": {
+    "eyebrow": "Caso de estudio · Diseño de interiores",
+    "title": "Estudio de diseño de interiores — un portfolio ",
+    "titleRest": "fiel a su identidad visual",
+    "subtitle": "Estudio de diseño de interiores que necesitaba un sitio web capaz de reflejar fielmente su identidad visual y presentar su portfolio de manera profesional.",
+    "meta": "Landing page · Diseño",
+    "url": "",
+    "image": "/diseño-interiores.png",
+    "cta": "Ver sitio en vivo"
+  },
+  "desafio": {
+    "title": "El desafío",
+    "texto": "El estudio ya tenía un diseño de marca muy trabajado, pero no contaba con un sitio web que lo reflejara con fidelidad. El desafío era traducir ese diseño existente a una experiencia web completamente adaptable a dispositivos móviles, sin perder ningún detalle visual en el camino."
+  },
+  "solucion": {
+    "title": "La solución",
+    "texto": "Desarrollé una landing page personalizada con galería de proyectos, ilustraciones originales y opciones de contacto, respetando cada detalle visual tanto en escritorio como en celular para garantizar una experiencia consistente con la marca.",
+    "incluye": [
+      "Landing page a medida basada en diseño existente",
+      "Galería de proyectos del estudio",
+      "Ilustraciones originales integradas al diseño",
+      "Experiencia responsive fiel en escritorio y celular",
+      "Formulario / opciones de contacto"
+    ]
+  },
+  "resultado": {
+    "title": "El resultado",
+    "texto": "El estudio ahora cuenta con una landing personalizada que refleja fielmente su identidad visual y presenta su portfolio de forma profesional, con una experiencia consistente en cualquier dispositivo."
+  },
+  "capacidades": ["Landing page a medida", "Diseño responsive", "Galería de proyectos", "Ilustración", "Identidad de marca", "UI/UX"],
+  "relacionado": {
+    "texto": "¿Tenés un estudio o agencia y necesitás algo similar?",
+    "href": "/paginas-web-para-agencias",
+    "linkText": "Ver página para agencias"
+  },
+  "ctaFinal": {
+    "title": "¿Tu negocio necesita algo parecido?",
+    "subtitle": "Contame de qué se trata y te muestro cómo lo resolvería para tu caso puntual.",
+    "cta": "Escribime por WhatsApp",
+    "whatsappMsg": "Hola Máximo, vi el caso del estudio de diseño de interiores y me interesa algo similar para mi negocio."
+  }
+}

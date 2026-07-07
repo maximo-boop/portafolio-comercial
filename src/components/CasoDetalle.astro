@@ -1,0 +1,106 @@
+---
+// src/components/CasoDetalle.astro
+// Uso: <CasoDetalle t={t} />
+const { t } = Astro.props;
+const whatsappBase = 'https://wa.me/5493512377435?text=';
+---
+
+<main class="pb-40">
+
+  <!-- HERO -->
+  <section class="global-padding max-w-[1440px] mx-auto pt-10 lg:pt-16 pb-12 lg:pb-16">
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-10 lg:gap-16 items-center">
+      <div class="flex flex-col gap-4 order-2 lg:order-1">
+        <span class="text-sm font-semibold uppercase tracking-wider text-[var(--primary)]">{t.hero.eyebrow}</span>
+        <h1 class="text-3xl lg:text-5xl font-semibold leading-tight">
+          {t.hero.title}<span class="text-[var(--primary)]">{t.hero.titleRest}</span>
+        </h1>
+        <p class="lg:text-lg text-[rgba(0,0,0,0.7)] max-w-lg">{t.hero.subtitle}</p>
+        <span class="text-sm font-medium text-[rgba(0,0,0,0.5)]">{t.hero.meta}</span>
+        {t.hero.url && (
+          <a
+            href={t.hero.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="w-fit flex items-center gap-2 border border-[#e5e5e5] px-5 py-3 font-semibold hover:border-[var(--primary)] hover:text-[var(--primary)] transition-colors duration-300 mt-2"
+          >
+            {t.hero.cta} <span>→</span>
+          </a>
+        )}
+      </div>
+      <div class="order-1 lg:order-2 border border-[#e5e5e5] overflow-hidden">
+        <img src={t.hero.image} alt={t.hero.title + t.hero.titleRest} class="w-full h-full object-cover" />
+      </div>
+    </div>
+  </section>
+
+  <!-- CAPACIDADES (tags no técnicos) -->
+  <section class="global-padding max-w-[1440px] mx-auto pb-12">
+    <div class="flex flex-wrap gap-2">
+      {t.capacidades.map((c: string) => (
+        <span class="text-sm font-medium border border-[#e5e5e5] px-4 py-2">{c}</span>
+      ))}
+    </div>
+  </section>
+
+  <!-- DESAFÍO / SOLUCIÓN / RESULTADO -->
+  <section class="global-padding max-w-[1440px] mx-auto pb-16 lg:pb-24 flex flex-col gap-14">
+    <div class="grid grid-cols-1 lg:grid-cols-[200px_1fr] gap-4 lg:gap-10 border-t border-[#e5e5e5] pt-10">
+      <h2 class="text-xl font-bold">{t.desafio.title}</h2>
+      <p class="lg:text-lg text-[rgba(0,0,0,0.7)] max-w-2xl">{t.desafio.texto}</p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-[200px_1fr] gap-4 lg:gap-10 border-t border-[#e5e5e5] pt-10">
+      <h2 class="text-xl font-bold">{t.solucion.title}</h2>
+      <div class="flex flex-col gap-6 max-w-2xl">
+        <p class="lg:text-lg text-[rgba(0,0,0,0.7)]">{t.solucion.texto}</p>
+        <ul class="flex flex-col gap-2">
+          {t.solucion.incluye.map((linea: string) => (
+            <li class="flex items-start gap-3 text-[rgba(0,0,0,0.75)]">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="text-[var(--primary)] shrink-0 mt-0.5">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M5 12l5 5l10 -10"/>
+              </svg>
+              <span>{linea}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-[200px_1fr] gap-4 lg:gap-10 border-t border-[#e5e5e5] pt-10">
+      <h2 class="text-xl font-bold">{t.resultado.title}</h2>
+      <p class="lg:text-lg text-[rgba(0,0,0,0.7)] max-w-2xl">{t.resultado.texto}</p>
+    </div>
+  </section>
+
+  <!-- LINK INTERNO A PÁGINA DE RUBRO -->
+  <section class="global-padding max-w-[1440px] mx-auto pb-16 lg:pb-24">
+    <div class="border border-[#e5e5e5] p-6 lg:p-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-[#fafafa]">
+      <p class="font-medium">{t.relacionado.texto}</p>
+      <a href={t.relacionado.href} class="w-fit font-semibold text-[var(--primary)] underline underline-offset-4">
+        {t.relacionado.linkText} →
+      </a>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="lg:mx-44 mx-10 bg-black relative overflow-hidden">
+    <div class="absolute inset-0 opacity-[0.08]" style="background-image: radial-gradient(circle, #fff 1px, transparent 1px); background-size: 24px 24px;"></div>
+    <div class="p-16 max-w-[1440px] mx-auto py-14 lg:py-16 flex flex-col gap-6 relative z-10">
+      <div class="flex flex-col gap-2">
+        <h2 class="text-2xl lg:text-3xl font-semibold text-white leading-tight max-w-xl">{t.ctaFinal.title}</h2>
+        <p class="text-white/60 lg:text-lg max-w-xl">{t.ctaFinal.subtitle}</p>
+      </div>
+      <a
+        href={`${whatsappBase}${encodeURIComponent(t.ctaFinal.whatsappMsg)}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="group flex items-center gap-2 py-4 px-6 font-bold bg-white text-black w-fit hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
+      >
+        {t.ctaFinal.cta}
+        <span class="transition-transform duration-300 group-hover:translate-x-1">→</span>
+      </a>
+    </div>
+  </section>
+</main>

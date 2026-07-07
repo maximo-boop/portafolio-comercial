@@ -1,0 +1,48 @@
+{
+  "seo": {
+    "title": "Case Study: HomeSilva — Real Estate Website | Máximo Silva",
+    "description": "How I digitized the property portfolio for HomeSilva, a real estate agency in Córdoba, with a catalog, search filters, maps, and a custom admin panel."
+  },
+  "hero": {
+    "eyebrow": "Case Study · Real Estate",
+    "title": "HomeSilva — from paper listings to a ",
+    "titleRest": "platform of their own",
+    "subtitle": "A real estate agency with over 15 years of experience in Córdoba, Argentina, that needed a modern online presence to showcase its properties and generate inquiries without depending on third-party portals.",
+    "meta": "Real Estate · Córdoba, Argentina",
+    "url": "https://homesilva.com.ar",
+    "image": "/inmobiliaria.png",
+    "cta": "View Live Site"
+  },
+  "desafio": {
+    "title": "The Challenge",
+    "texto": "HomeSilva already had a solid portfolio and years of experience in the area, but its online presence didn't reflect that: it relied largely on external portals to showcase properties, with no space of its own where clients could search, filter, and get in touch directly. They needed a tool they could keep updated themselves, without depending on a developer for every change."
+  },
+  "solucion": {
+    "title": "The Solution",
+    "texto": "I designed and built a custom real estate platform with individual property pages, search filters, interactive maps, and direct contact forms. The centerpiece was the admin panel: the agency can add, edit, and remove properties on their own, without depending on me for every update.",
+    "incluye": [
+      "Property catalog with individual listing pages and photo gallery",
+      "Search filters by location, type, and number of rooms",
+      "Interactive maps for each property",
+      "Admin panel for independent property management",
+      "Direct contact forms per inquiry",
+      "Landing pages optimized for area-based searches"
+    ]
+  },
+  "resultado": {
+    "title": "The Result",
+    "texto": "HomeSilva now has its own platform to manage and showcase its property portfolio, improve the search experience for clients, and generate inquiries without relying solely on external portals. The platform remains active and growing, with continuous improvements and new features."
+  },
+  "capacidades": ["Dynamic Catalog", "Admin Panel", "Interactive Maps", "Search & Filters", "Responsive Design", "Location-Based SEO"],
+  "relacionado": {
+    "texto": "Do you run a real estate agency and need something similar?",
+    "href": "/en/paginas-web-para-inmobiliarias",
+    "linkText": "View real estate page"
+  },
+  "ctaFinal": {
+    "title": "Does your business need something similar?",
+    "subtitle": "Tell me what it's about and I'll show you how I'd approach it for your specific case.",
+    "cta": "Message me on WhatsApp",
+    "whatsappMsg": "Hi Máximo, I saw the HomeSilva case study and I'm interested in something similar for my business."
+  }
+}

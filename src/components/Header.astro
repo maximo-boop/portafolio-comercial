@@ -1,35 +1,68 @@
 ---
+// src/components/Header.astro
 import es from '../data/es.json'
 import en from '../data/en.json'
+import NavItem from './NavItem.astro'
 
-const lang = Astro.url.pathname.startsWith('/') ? 'en' : 'es'
+const lang = Astro.url.pathname.startsWith('/es') ? 'es' : 'en'
 const t = lang === 'en' ? en : es
 ---
 
-<header class="header z-100 top-5">
+<header class="global-padding header sticky top-5 z-100">
+	<nav class="lg:flex lg:items-center lg:justify-between max-w-[1440px] mx-auto bg-[#fdfdfdee] border border-[#eee] shadow-[0_10px_15px_-3px_#0000000a,0_4px_6px_-2px_#00000005] py-4 px-5">
+		<div class="flex justify-between items-center flex-1 lg:flex-initial">
+			<a href={`${lang === 'en' ? '/' : '/es'}`} class="font-bold text-xl">{t.header.name}</a>
 
-	<div class="mx-10 lg:mx-auto lg:flex py-4 px-6 lg:gap-50 lg:w-fit bg-[#fdfdfd]">
-		<a href="/" class="font-bold text-xl">{t.header.name}</a>
-
-		<div class="flex gap-2">
-			<p>{t.header.title}</p>
+			<input
+				type="checkbox"
+				class="lg:hidden"
+				id="menu-toggle"
+				aria-label="Abrir menú de navegación"
+			/>
+			<label for="menu-toggle" class="hamburger">
+				<span class="sr-only">Menú</span>
+				<svg id="close" class="hidden" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+					<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+					<path d="M6.707 5.293l5.293 5.292l5.293 -5.292a1 1 0 0 1 1.414 1.414l-5.292 5.293l5.292 5.293a1 1 0 0 1 -1.414 1.414l-5.293 -5.292l-5.293 5.292a1 1 0 1 1 -1.414 -1.414l5.292 -5.293l-5.292 -5.293a1 1 0 0 1 1.414 -1.414" />
+				</svg>
+				<svg id="open" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+					<path d="M4 6l16 0" />
+					<path d="M4 12l16 0" />
+					<path d="M4 18l16 0" />
+				</svg>
+			</label>
 		</div>
 
-	</div>
-
-
+		<ul class="hidden nav flex-col lg:flex-row  gap-6 lg:gap-8 mt-8 lg:mt-0 lg:items-center">
+			{t.header.nav.links.map((item) => (
+				<NavItem item={item} />
+			))}
+		</ul>
+	</nav>
 </header>
 
 <style>
-
 	.header:has(#menu-toggle:checked) .nav {
 		display: flex;
 	}
-	.header:has(#menu-toggle:checked){
+	.header:has(#menu-toggle:checked) {
 		height: 100vh;
+		overflow-y: auto;
 	}
-	
-	@media screen and (min-width: 1024px){
+	.header:has(#menu-toggle:checked) #close {
+		display: inline;
+	}
+	.header:has(#menu-toggle:checked) #open {
+		display: none;
+	}
+	input {
+		pointer-events: none;
+		opacity: 0;
+		position: absolute;
+	}
+
+	@media screen and (min-width: 1024px) {
 		.nav {
 			display: flex;
 		}
@@ -37,5 +70,4 @@ const t = lang === 'en' ? en : es
 			display: none;
 		}
 	}
-
 </style>

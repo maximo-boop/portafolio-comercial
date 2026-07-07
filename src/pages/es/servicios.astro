@@ -1,0 +1,14 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ServiciosDetalle from '../../components/ServicesDetails.astro';
+import es from '../../data/es.json';
+
+const t = es;
+---
+<Layout bg title={t.servicesPage.seo.title} description={t.servicesPage.seo.description}>
+  <main>
+    <div class="global-padding max-w-[1380px] mx-auto pt-10 lg:pt-16 pb-40">
+      <ServiciosDetalle t={t.servicesPage} lang="es" />
+    </div>
+  </main>
+</Layout>

@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Caso de estudio: DailyNotes — Aplicación móvil de productividad | Máximo Silva",
+    "description": "Cómo desarrollé DailyNotes, una app de notas simple y personalizable para organizar el día, definir objetivos y seguir rutinas, disponible en Google Play."
+  },
+  "hero": {
+    "eyebrow": "Caso de estudio · App móvil",
+    "title": "DailyNotes — organizar el día ",
+    "titleRest": "sin perder el tiempo",
+    "subtitle": "Proyecto personal: una app de notas simple, personalizable y eficiente pensada para aumentar la productividad diaria sin la complejidad de otras apps del rubro.",
+    "meta": "App móvil · Proyecto personal",
+    "url": "https://play.google.com/store/apps/details?id=com.maaxiiiii.fastnotesapp",
+    "image": "/notesapp.png",
+    "cta": "Ver en Google Play"
+  },
+  "desafio": {
+    "title": "El desafío",
+    "texto": "La mayoría de las apps de productividad terminan siendo demasiado complejas para el uso diario, con funciones de más que terminan complicando algo tan simple como anotar una idea u organizar el día. El objetivo era construir algo minimalista, rápido y realmente útil."
+  },
+  "solucion": {
+    "title": "La solución",
+    "texto": "Desarrollé una app de notas simple, personalizable y eficiente para organizar el día, definir objetivos y seguir rutinas sin perder tiempo, con carpetas para ordenar contenido y seguimiento semanal para acompañar la gestión diaria.",
+    "incluye": [
+      "Organización de notas por carpetas",
+      "Definición de objetivos diarios",
+      "Seguimiento semanal de rutinas",
+      "Gestión diaria simple y rápida",
+      "Publicada y disponible en Google Play"
+    ]
+  },
+  "resultado": {
+    "title": "El resultado",
+    "texto": "DailyNotes está disponible públicamente en Google Play, ofreciendo una alternativa simple y personalizable frente a apps de productividad más complejas, enfocada en que el usuario organice su día sin fricción."
+  },
+  "capacidades": ["React Native", "Apps móviles", "UX minimalista", "Google Play", "Gestión de tareas", "Diseño de producto"],
+  "relacionado": {
+    "texto": "¿Tenés una idea para una app móvil?",
+    "href": "/paginas-web-para-emprendimientos",
+    "linkText": "Contame tu proyecto"
+  },
+  "ctaFinal": {
+    "title": "¿Tenés un proyecto parecido en mente?",
+    "subtitle": "Contame de qué se trata y te muestro cómo lo resolvería para tu caso puntual.",
+    "cta": "Escribime por WhatsApp",
+    "whatsappMsg": "Hola Máximo, vi el caso de DailyNotes y me interesa algo similar para mi proyecto."
+  }
+}

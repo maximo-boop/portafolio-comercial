@@ -1,0 +1,9 @@
+---
+// Guardar como: src/pages/es/casos/homesilva.astro
+import Layout from '../../layouts/Layout.astro';
+import CasoDetalle from '../../components/CasoDetalle.astro';
+import t from '../../data/caso-en-nurani-timepieces.json';
+---
+<Layout bg title={t.seo.title} description={t.seo.description}>
+	<CasoDetalle t={t} />
+</Layout>

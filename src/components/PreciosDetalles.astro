@@ -1,0 +1,149 @@
+---
+// src/components/PreciosDetalle.astro
+// Uso: <PreciosDetalle t={t} />
+const { t } = Astro.props;
+const whatsappBase = 'https://wa.me/5493512377435?text=';
+---
+
+<main class="pb-40">
+  <!-- HERO -->
+  <section class="global-padding max-w-[1440px] mx-auto pt-10 lg:pt-16 pb-12 lg:pb-16">
+    <div class="flex flex-col gap-5 max-w-2xl">
+      <span class="text-sm font-semibold uppercase tracking-wider text-[var(--primary)]">{t.hero.eyebrow}</span>
+      <h1 class="text-3xl lg:text-5xl font-semibold leading-tight">
+        {t.hero.title}<span class="text-[var(--primary)]">{t.hero.titleRest}</span>
+      </h1>
+      <p class="lg:text-lg text-[rgba(0,0,0,0.7)]">{t.hero.subtitle}</p>
+      
+    </div>
+  </section>
+
+<!-- PLANES -->
+<section class="global-padding max-w-[1440px] mx-auto pb-16 lg:pb-24">
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+    {t.planes.map((p: any) => (
+      <div
+        class={`relative flex flex-col gap-5 p-6 transition-all duration-300 bg-[#fafafa] lg:order-[var(--orden-lg)]
+          ${p.destacado
+            ? 'border-2 border-[var(--primary)] shadow-xl lg:-translate-y-4 hover:lg:-translate-y-5'
+            : 'border border-[#e5e5e5] hover:-translate-y-1 hover:shadow-lg'}`}
+        style={`--orden-lg: ${p.ordenLg ?? 0}`}
+      >
+        {p.destacado && (
+          <span class="absolute -top-3 left-6 bg-[var(--primary)] text-white text-xs font-bold px-3 py-1 uppercase tracking-wide">
+            {t.recomended}
+          </span>
+        )}
+        <div class="flex flex-col gap-3">
+          <div class="flex items-center gap-1.5" aria-label={`Nivel de inversión: ${p.nivel} de 3`}>
+            {[1, 2, 3].map((n: number) => (
+              <span class={`h-1.5 flex-1 ${n <= p.nivel ? 'bg-[var(--primary)]' : 'bg-[#e5e5e5]'}`}></span>
+            ))}
+          </div>
+          <h2 class="text-xl font-bold leading-snug">{p.title}</h2>
+          <p class="text-sm text-[rgba(0,0,0,0.6)]">{p.idealPara}</p>
+          {p.desde && (
+            <p class="text-2xl font-bold text-[var(--primary)] mt-1">
+              {p.desde}
+            </p>
+          )}
+        </div>
+
+        <ul class="flex flex-col gap-2 flex-1">
+          {p.incluye.map((linea: string) => (
+            <li class="flex items-start gap-2 text-sm text-[rgba(0,0,0,0.7)]">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="text-[var(--primary)] shrink-0 mt-0.5">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M5 12l5 5l10 -10"/>
+              </svg>
+              <span>{linea}</span>
+            </li>
+          ))}
+        </ul>
+
+        <div class="flex flex-col gap-1 pt-3 border-t border-[#e5e5e5]">
+          <span class="text-xs text-[rgba(0,0,0,0.5)]">{t.time}</span>
+          <span class="font-semibold text-sm">{p.tiempo}</span>
+        </div>
+
+        <div class="flex flex-col gap-2">
+          
+          <a  href={`${whatsappBase}${encodeURIComponent(p.whatsappMsg)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-center bg-[#010101] hover:bg-[#181818] text-white px-4 py-3 font-bold text-sm transition-colors duration-300"
+          >
+            {t.getquote}
+          </a>
+          <a href={p.href} class="text-center text-sm font-medium text-[var(--primary)] underline underline-offset-4">
+            {t.details}
+          </a>
+        </div>
+      </div>
+    ))}
+  </div>
+  <p class="text-sm text-[rgba(0,0,0,0.5)] mt-6 max-w-2xl">{t.nota}</p>
+</section>
+
+  <!-- QUÉ DEFINE EL PRECIO -->
+  <section class="global-padding max-w-[1440px] mx-auto pb-16 lg:pb-24">
+    <div class="flex flex-col gap-2 mb-10 max-w-xl">
+      <h2 class="text-2xl lg:text-3xl font-bold">{t.queDefineElPrecio.title}</h2>
+      <p class="text-[rgba(0,0,0,0.7)] lg:text-lg">{t.queDefineElPrecio.subtitle}</p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 border-t border-[#e5e5e5] pt-10">
+      {t.queDefineElPrecio.factores.map((f: any) => (
+        <div class="flex flex-col gap-1">
+          <h3 class="font-bold text-lg">{f.title}</h3>
+          <p class="text-[rgba(0,0,0,0.65)] text-sm">{f.des}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="global-padding pb-16 lg:pb-24">
+
+    <div class="flex flex-col  gap-2 mb-8 max-w-2xl">
+      <span class="text-sm font-semibold uppercase tracking-wider text-[var(--primary)]">FAQ</span>
+      <h2 class="text-2xl lg:text-3xl font-bold">{t.faq.title}{t.faq.titleRest}</h2>
+      <p class="text-[rgba(0,0,0,0.7)]">{t.faq.subtitle}</p>
+    </div>
+
+    <div class="flex flex-col gap-3">
+      {t.faq.faqs.map((f: any) => (
+        <details class="bg-[#fcfcfc] border border-[#eee]">
+          <summary class="flex items-center justify-between cursor-pointer focus:outline-none py-4 px-5">
+            <span class="flex-1 font-medium">{f.preg}</span>
+            <svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M12 5l0 14"/>
+              <path d="M5 12l14 0"/>
+            </svg>
+          </summary>
+          <p class="pb-4 pt-0 px-5 text-[rgba(0,0,0,0.7)]">{f.res}</p>
+        </details>
+      ))}
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="bg-black relative overflow-hidden mx-10 lg:mx-44">
+    <div class="absolute inset-0 opacity-[0.08]" style="background-image: radial-gradient(circle, #fff 1px, transparent 1px); background-size: 24px 24px;"></div>
+    <div class="max-w-[1440px] mx-auto px-14 lg:px-16 py-14 lg:py-16 flex flex-col gap-6 relative z-10">
+      <div class="flex flex-col gap-2">
+        <h2 class="text-2xl lg:text-3xl font-semibold text-white leading-tight max-w-xl">{t.ctaFinal.title}</h2>
+        <p class="text-white/60 lg:text-lg max-w-xl">{t.ctaFinal.subtitle}</p>
+      </div>
+      <a
+        href={`${whatsappBase}${encodeURIComponent(t.ctaFinal.whatsappMsg)}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="group flex items-center gap-2 py-4 px-6 font-bold bg-white text-black w-fit hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
+      >
+        {t.ctaFinal.cta}
+        <span class="transition-transform duration-300 group-hover:translate-x-1">→</span>
+      </a>
+    </div>
+  </section>
+</main>

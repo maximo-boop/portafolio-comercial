@@ -1,0 +1,8 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import CasoDetalle from '../../components/CasoDetalle.astro';
+import t from '../../data/caso-en-ps-flooring.json';
+---
+<Layout bg title={t.seo.title} description={t.seo.description}>
+	<CasoDetalle t={t} />
+</Layout>

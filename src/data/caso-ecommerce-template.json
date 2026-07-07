@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Caso de estudio: Tienda online de ropa urbana — Plantilla de e-commerce | Máximo Silva",
+    "description": "Cómo desarrollé una plantilla de tienda online funcional, con carrito de compras, categorías de productos y perfil con historial de compras."
+  },
+  "hero": {
+    "eyebrow": "Caso de estudio · E-commerce",
+    "title": "Plantilla de e-commerce — una tienda que ",
+    "titleRest": "funciona como una tienda real",
+    "subtitle": "Proyecto personal: una tienda online de ropa urbana desarrollada como plantilla, pensada para mostrar un flujo de compra completo y funcional de punta a punta.",
+    "meta": "E-commerce · Proyecto personal",
+    "url": "https://test-e-commerce-seven.vercel.app",
+    "image": "/e-commerce.png",
+    "cta": "Ver sitio en vivo"
+  },
+  "desafio": {
+    "title": "El desafío",
+    "texto": "Muchos negocios que quieren vender online necesitan ver antes cómo funcionaría una tienda real: agregar productos, ver el total actualizarse y revisar compras anteriores. El objetivo era construir una base sólida y reutilizable que resuelva ese flujo completo."
+  },
+  "solucion": {
+    "title": "La solución",
+    "texto": "Desarrollé una tienda online con carrito de compras, categorías de productos y perfil de usuario con historial de compras, funcionando como una tienda real: se pueden agregar productos, ver cómo cambia el total y revisar compras anteriores desde el perfil.",
+    "incluye": [
+      "Carrito de compras funcional",
+      "Categorías de productos",
+      "Perfil de usuario con historial de compras",
+      "Cálculo de totales en tiempo real",
+      "Base reutilizable como plantilla para nuevos proyectos"
+    ]
+  },
+  "resultado": {
+    "title": "El resultado",
+    "texto": "La plantilla funciona como una tienda real de punta a punta, sirviendo como base de referencia para nuevos proyectos de e-commerce que necesiten un flujo de compra completo desde el primer día."
+  },
+  "capacidades": ["Carrito de compras", "Categorías de productos", "Perfiles de usuario", "Historial de compras", "E-commerce", "Diseño responsive"],
+  "relacionado": {
+    "texto": "¿Necesitás una tienda online para tu negocio?",
+    "href": "/paginas-web-para-emprendimientos",
+    "linkText": "Ver página para emprendimientos"
+  },
+  "ctaFinal": {
+    "title": "¿Tu negocio necesita algo parecido?",
+    "subtitle": "Contame de qué se trata y te muestro cómo lo resolvería para tu caso puntual.",
+    "cta": "Escribime por WhatsApp",
+    "whatsappMsg": "Hola Máximo, vi la plantilla de e-commerce y me interesa algo similar para mi negocio."
+  }
+}

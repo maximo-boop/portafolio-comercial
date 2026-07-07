@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Caso de estudio: Nurani Timepieces — Web para marca de relojes | Máximo Silva",
+    "description": "Cómo desarrollé el catálogo online de Nurani Timepieces, marca de relojes premium importados, con colecciones para hombres y mujeres y captación de leads."
+  },
+  "hero": {
+    "eyebrow": "Caso de estudio · Emprendimiento",
+    "title": "Nurani Timepieces — de catálogo disperso a ",
+    "titleRest": "vitrina digital propia",
+    "subtitle": "Marca de relojes premium especializada en productos importados que necesitaba una presencia online propia para mostrar sus colecciones y atraer potenciales clientes.",
+    "meta": "Catálogo · Emprendimiento",
+    "url": "",
+    "image": "/relojes.png",
+    "cta": "Ver sitio en vivo"
+  },
+  "desafio": {
+    "title": "El desafío",
+    "texto": "Nurani vendía relojes premium importados, pero no tenía un espacio propio donde mostrar sus colecciones de forma ordenada. Dependía de redes sociales para mostrar el catálogo, lo que dificultaba que un cliente nuevo pudiera explorar los productos y generar confianza antes de consultar."
+  },
+  "solucion": {
+    "title": "La solución",
+    "texto": "Diseñé y desarrollé un catálogo web con colecciones diferenciadas para hombres y mujeres, incorporando un formulario de contacto con incentivo de descuento para captar interesados y convertir visitas en consultas reales.",
+    "incluye": [
+      "Catálogo con colecciones para hombres y mujeres",
+      "Fichas de producto con fotos e información destacada",
+      "Formulario de contacto con incentivo de descuento",
+      "Diseño premium acorde al posicionamiento de la marca",
+      "Estructura pensada para convertir visitantes en leads"
+    ]
+  },
+  "resultado": {
+    "title": "El resultado",
+    "texto": "La marca cuenta hoy con una plataforma profesional para presentar sus colecciones, fortalecer su presencia digital y convertir visitantes en potenciales clientes, sin depender exclusivamente de redes sociales."
+  },
+  "capacidades": ["Catálogo online", "Captación de leads", "Diseño premium", "Formularios de contacto", "Responsive", "Identidad de marca"],
+  "relacionado": {
+    "texto": "¿Tenés un emprendimiento y necesitás algo similar?",
+    "href": "/paginas-web-para-emprendimientos",
+    "linkText": "Ver página para emprendimientos"
+  },
+  "ctaFinal": {
+    "title": "¿Tu negocio necesita algo parecido?",
+    "subtitle": "Contame de qué se trata y te muestro cómo lo resolvería para tu caso puntual.",
+    "cta": "Escribime por WhatsApp",
+    "whatsappMsg": "Hola Máximo, vi el caso de Nurani Timepieces y me interesa algo similar para mi negocio."
+  }
+}

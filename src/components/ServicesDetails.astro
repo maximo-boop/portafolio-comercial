@@ -1,0 +1,117 @@
+---
+// src/components/ServiciosDetalle.astro
+// Uso: <ServiciosDetalle t={t.serviciosPage} lang={lang} />
+const { t, lang } = Astro.props;
+const proyectosHref = lang === 'en' ? '/#proyectos' : '/es/#proyectos';
+const whatsappBase = 'https://wa.me/5493512377435?text=';
+---
+
+<section class="flex flex-col gap-4 mb-16">
+	<span class="text-sm font-semibold uppercase tracking-wider text-[var(--primary)]">{t.eyebrow}</span>
+	<h1 class="text-3xl lg:text-5xl font-semibold max-w-3xl">{t.title}</h1>
+	<p class="lg:text-lg text-[rgba(0,0,0,0.7)] max-w-2xl">{t.subtitle}</p>
+</section>
+
+<!-- Índice rápido para navegar entre servicios (ayuda también a SEO / internal linking) -->
+<nav class="flex flex-wrap gap-3 mb-20" aria-label="Navegación entre servicios">
+	{t.items.map((item: any) => (
+		<a
+			href={`#${item.slug}`}
+			class="text-sm font-medium border border-[#e5e5e5] px-4 py-2 hover:border-[var(--primary)] hover:text-[var(--primary)] transition-colors duration-300"
+		>
+			{item.title}
+		</a>
+	))}
+</nav>
+
+<div class="flex flex-col gap-24 mb-20">
+	{t.items.map((item: any, i: number) => (
+		<article id={item.slug} class="scroll-mt-28 flex flex-col gap-8 border-t border-t-[#e5e5e5] pt-12 first:border-t-0 first:pt-0">
+			<div class="flex flex-col gap-3 max-w-3xl">
+				<span class="text-sm font-semibold text-[rgba(0,0,0,0.4)]">0{i + 1}</span>
+				<h2 class="text-2xl lg:text-3xl font-bold">{item.title}</h2>
+				<p class="lg:text-lg text-[rgba(0,0,0,0.7)]">{item.resumen}</p>
+			</div>
+
+			<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+				<div class="lg:col-span-2 flex flex-col gap-6">
+					<div class="flex flex-col gap-2">
+						<h3 class="font-bold text-lg">Para quién es</h3>
+						<p class="text-[rgba(0,0,0,0.7)]">{item.paraQuienEs}</p>
+					</div>
+
+					<div class="flex flex-col gap-2">
+						<h3 class="font-bold text-lg">Qué incluye</h3>
+						<ul class="flex flex-col gap-2">
+							{item.incluye.map((linea: string) => (
+								<li class="flex items-start gap-2 text-[rgba(0,0,0,0.7)]">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="text-[var(--primary)] shrink-0 mt-0.5">
+										<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+										<path d="M5 12l5 5l10 -10"/>
+									</svg>
+									<span>{linea}</span>
+								</li>
+							))}
+						</ul>
+					</div>
+
+					{item.faq && (
+						<div class="flex flex-col gap-3 mt-2">
+							<h3 class="font-bold text-lg">Preguntas sobre este servicio</h3>
+							{item.faq.map((f: any) => (
+								<details class="bg-[#fcfcfc] border border-[#eee]">
+									<summary class="flex items-center justify-between cursor-pointer focus:outline-none py-4 px-5">
+										<span class="flex-1 font-medium">{f.preg}</span>
+										<svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+											<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+											<path d="M12 5l0 14"/>
+											<path d="M5 12l14 0"/>
+										</svg>
+									</summary>
+									<p class="pb-4 pt-0 px-5 text-[rgba(0,0,0,0.7)]">{f.res}</p>
+								</details>
+							))}
+						</div>
+					)}
+				</div>
+
+				<aside class="border border-[#e5e5e5] p-6 flex flex-col gap-5 h-fit bg-[#fafafa]">
+					<div class="flex flex-col gap-1">
+						<span class="text-sm text-[rgba(0,0,0,0.5)]">Tiempo estimado</span>
+						<span class="font-bold">{item.tiempo}</span>
+					</div>
+					<a
+						href={`${whatsappBase}${encodeURIComponent(item.whatsappMsg)}`}
+						target="_blank"
+						rel="noopener noreferrer"
+						class="hover:bg-[#181818] text-white p-4 font-bold text-center bg-[#010101]"
+					>
+						Consultar por este servicio
+					</a>
+					<a href={proyectosHref} class="text-sm font-medium text-[var(--primary)] underline underline-offset-4 text-center">
+						Ver proyectos relacionados
+					</a>
+				</aside>
+			</div>
+		</article>
+	))}
+</div>
+
+<section class="bg-black relative overflow-hidden">
+	<div class="absolute inset-0 opacity-[0.08]" style="background-image: radial-gradient(circle, #fff 1px, transparent 1px); background-size: 24px 24px;"></div>
+	<div class="py-10 lg:py-12 flex flex-col gap-6 relative z-10 px-6 lg:px-10">
+		<div class="flex flex-col gap-2">
+			<h2 class="text-2xl lg:text-3xl font-semibold text-white leading-tight">{t.ctaFinal.title}</h2>
+			<p class="text-white/60 lg:text-lg max-w-2xl">{t.ctaFinal.subtitle}</p>
+		</div>
+		<a
+			href={`${whatsappBase}${encodeURIComponent("Hola Máximo, no estoy seguro qué tipo de web necesito, ¿me ayudás?")}`}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="group flex items-center gap-2 py-4 px-6 font-bold bg-white text-black w-fit"
+		>
+			{t.ctaFinal.cta}
+			<span class="transition-transform duration-300 group-hover:translate-x-1">→</span>
+		</a>
+	</div>
+</section>

@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Case Study: Foodie Fusion — Website for a Restaurant | Máximo Silva",
+    "description": "How I built the Foodie Fusion website, with an online menu, dish gallery, and location, to improve customer interaction."
+  },
+  "hero": {
+    "eyebrow": "Case Study · Restaurant",
+    "title": "Foodie Fusion — the menu and the business, ",
+    "titleRest": "all in one place",
+    "subtitle": "A restaurant that needed a professional online presence where customers could check the menu, learn about the business, and easily access key information from any device.",
+    "meta": "Corporate · Freelance",
+    "url": "",
+    "image": "/restaurante.png",
+    "cta": "View Live Site"
+  },
+  "desafio": {
+    "title": "The Challenge",
+    "texto": "The restaurant had no website of its own to bring together the menu, location, and contact info in one place. Information was scattered across social media, making it hard for new customers to find everything they needed before deciding to visit."
+  },
+  "solucion": {
+    "title": "The Solution",
+    "texto": "I designed and built a website with an online menu, dish gallery, location, and custom features for users, creating a more accessible and engaging experience for visitors.",
+    "incluye": [
+      "Online menu organized by category",
+      "Dish gallery",
+      "Location and business hours",
+      "Custom features for the business",
+      "Design built for mobile use"
+    ]
+  },
+  "resultado": {
+    "title": "The Result",
+    "texto": "The restaurant now has a professional online presence where customers can check the menu, view photos of the dishes, and access key information from any device, improving customer interaction."
+  },
+  "capacidades": ["Online Menu", "Photo Gallery", "Location & Map", "Responsive Design", "WhatsApp", "Local SEO"],
+  "relacionado": {
+    "texto": "Do you run a restaurant and need something similar?",
+    "href": "/paginas-web-para-restaurantes",
+    "linkText": "View restaurant page"
+  },
+  "ctaFinal": {
+    "title": "Does your business need something similar?",
+    "subtitle": "Tell me what it's about and I'll show you how I'd approach it for your specific case.",
+    "cta": "Message me on WhatsApp",
+    "whatsappMsg": "Hi Máximo, I saw the Foodie Fusion case study and I'm interested in something similar for my business."
+  }
+}

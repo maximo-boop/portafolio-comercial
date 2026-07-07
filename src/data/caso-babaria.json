@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Caso de estudio: Babaria — Web para marca de cosmética | Máximo Silva",
+    "description": "Cómo desarrollé la sección institucional de Babaria, marca de cosmética con más de 40 años de trayectoria, para reforzar su identidad y generar confianza en sus clientes."
+  },
+  "hero": {
+    "eyebrow": "Caso de estudio · Cosmética",
+    "title": "Babaria — reforzando la identidad de marca ",
+    "titleRest": "detrás del producto",
+    "subtitle": "Marca de cosmética con más de 40 años de trayectoria en España que necesitaba reforzar su presencia digital y comunicar mejor su identidad de marca.",
+    "meta": "Corporativo · España",
+    "url": "https://babaria.es/conocenos",
+    "image": "/cosmetica.png",
+    "cta": "Ver sitio en vivo"
+  },
+  "desafio": {
+    "title": "El desafío",
+    "texto": "Babaria tenía décadas de trayectoria y reconocimiento en el mercado, pero su comunicación digital no transmitía del todo esa historia. Faltaba un espacio propio donde contar quiénes eran, qué ingredientes usaban y por qué elegir sus productos, más allá de la vidriera del e-commerce."
+  },
+  "solucion": {
+    "title": "La solución",
+    "texto": "Desarrollé una sección 'Conócenos' enfocada en contar la historia de la empresa, destacar sus ingredientes principales y transmitir sus valores mediante contenido visual y video. El foco estuvo en ayudar a los visitantes a comprender quién está detrás de la marca antes de tomar una decisión de compra.",
+    "incluye": [
+      "Sección institucional con historia de la marca",
+      "Presentación de ingredientes principales",
+      "Contenido visual y video para reforzar la narrativa",
+      "Diseño alineado a la identidad visual existente",
+      "Estructura pensada para generar confianza antes de la compra"
+    ]
+  },
+  "resultado": {
+    "title": "El resultado",
+    "texto": "La marca reforzó su identidad digital con una sección institucional que fortalece la confianza y la conexión con sus productos, ayudando a los visitantes a decidir su compra con más información sobre quién está detrás de Babaria."
+  },
+  "capacidades": ["Diseño institucional", "Storytelling de marca", "Contenido visual", "Video", "Identidad de marca", "SEO de contenido"],
+  "relacionado": {
+    "texto": "¿Tenés una empresa y necesitás algo similar?",
+    "href": "/paginas-web-para-empresas",
+    "linkText": "Ver página para empresas"
+  },
+  "ctaFinal": {
+    "title": "¿Tu negocio necesita algo parecido?",
+    "subtitle": "Contame de qué se trata y te muestro cómo lo resolvería para tu caso puntual.",
+    "cta": "Escribime por WhatsApp",
+    "whatsappMsg": "Hola Máximo, vi el caso de Babaria y me interesa algo similar para mi negocio."
+  }
+}

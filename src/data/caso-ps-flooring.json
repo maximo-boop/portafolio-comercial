@@ -1,0 +1,49 @@
+{
+  "seo": {
+    "title": "Caso de estudio: PS Flooring — Web bilingüe para empresa de pisos | Máximo Silva",
+    "description": "Cómo desarrollé una plataforma bilingüe con catálogo, carrito de compras, cotizaciones y panel de pedidos para Plus Solution Flooring Corp en Florida, EE.UU."
+  },
+  "hero": {
+    "eyebrow": "Caso de estudio · Instalación de pisos",
+    "title": "PS Flooring — de servicio local a ",
+    "titleRest": "plataforma de venta y captación",
+    "subtitle": "Empresa de instalación y venta de pisos en Florida, EE.UU., que necesitaba unificar en un solo lugar la venta de materiales y la captación de clientes para sus servicios de instalación.",
+    "meta": "Instalación de pisos · Florida, EE.UU.",
+    "url": "https://flooring-three.vercel.app/",
+    "image": "/flooring.png",
+    "cta": "Ver sitio en vivo"
+  },
+  "desafio": {
+    "title": "El desafío",
+    "texto": "PS Flooring venía trabajando de forma tradicional: consultas por teléfono, presupuestos manuales y sin una forma clara de vender materiales o mostrar su catálogo online. Necesitaban escalar hacia nuevos servicios (como epoxy) y atender tanto a clientes de habla inglesa como hispana, sin duplicar esfuerzos en dos sitios separados."
+  },
+  "solucion": {
+    "title": "La solución",
+    "texto": "Desarrollé una plataforma bilingüe (inglés/español) con catálogo de productos y servicios, carrito de compras por metro cuadrado, sistema de cuentas de usuario, checkout con pagos online y una calculadora de estimaciones para que el cliente cotice antes de contactar. También sumé un panel con historial de pedidos y una sección dedicada al nuevo servicio de epoxy.",
+    "incluye": [
+      "Catálogo con carrito de compras calculado por metro cuadrado",
+      "Sistema de cuentas de usuario con historial de pedidos",
+      "Checkout con pagos online integrados",
+      "Calculadora de estimación gratuita para el cliente",
+      "Galería de proyectos realizados",
+      "Página dedicada al servicio de epoxy",
+      "Sitio completamente bilingüe (inglés/español)"
+    ]
+  },
+  "resultado": {
+    "title": "El resultado",
+    "texto": "La empresa ahora cuenta con una plataforma preparada para captar nuevos clientes, vender materiales online y evolucionar su modelo de negocio desde servicios hacia una oferta híbrida entre instalación y venta de productos, con un flujo de pedidos funcionando de punta a punta."
+  },
+  "capacidades": ["E-commerce", "Cuentas de usuario", "Pagos online", "Calculadora de estimación", "Bilingüe", "Panel de pedidos"],
+  "relacionado": {
+    "texto": "¿Tenés un negocio de servicios que también vende productos?",
+    "href": "/es/paginas-web-para-empresas",
+    "linkText": "Ver página para empresas"
+  },
+  "ctaFinal": {
+    "title": "¿Tu negocio necesita algo parecido?",
+    "subtitle": "Contame de qué se trata y te muestro cómo lo resolvería para tu caso puntual.",
+    "cta": "Escribime por WhatsApp",
+    "whatsappMsg": "Hola Máximo, vi el caso de PS Flooring y me interesa algo similar para mi negocio."
+  }
+}

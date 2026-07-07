@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Case Study: Babaria — Website for a Cosmetics Brand | Máximo Silva",
+    "description": "How I built the institutional section for Babaria, a cosmetics brand with over 40 years of history, to strengthen its identity and build customer trust."
+  },
+  "hero": {
+    "eyebrow": "Case Study · Cosmetics",
+    "title": "Babaria — reinforcing the brand identity ",
+    "titleRest": "behind the product",
+    "subtitle": "A cosmetics brand with over 40 years of history in Spain that needed to strengthen its digital presence and better communicate its brand identity.",
+    "meta": "Corporate · Spain",
+    "url": "https://babaria.es/conocenos",
+    "image": "/cosmetica.png",
+    "cta": "View Live Site"
+  },
+  "desafio": {
+    "title": "The Challenge",
+    "texto": "Babaria had decades of history and market recognition, but its digital communication didn't fully convey that story. They lacked a space of their own to explain who they were, what ingredients they used, and why customers should choose their products, beyond the e-commerce storefront."
+  },
+  "solucion": {
+    "title": "The Solution",
+    "texto": "I built an 'About Us' section focused on telling the company's story, highlighting its key ingredients, and conveying its values through visual content and video. The focus was on helping visitors understand who's behind the brand before making a purchase decision.",
+    "incluye": [
+      "Institutional section with brand history",
+      "Presentation of key ingredients",
+      "Visual content and video to reinforce the narrative",
+      "Design aligned with the existing visual identity",
+      "Structure designed to build trust before purchase"
+    ]
+  },
+  "resultado": {
+    "title": "The Result",
+    "texto": "The brand strengthened its digital identity with an institutional section that builds trust and connection with its products, helping visitors make their purchase decision with more information about who's behind Babaria."
+  },
+  "capacidades": ["Institutional Design", "Brand Storytelling", "Visual Content", "Video", "Brand Identity", "Content SEO"],
+  "relacionado": {
+    "texto": "Do you run a business and need something similar?",
+    "href": "/paginas-web-para-empresas",
+    "linkText": "View business page"
+  },
+  "ctaFinal": {
+    "title": "Does your business need something similar?",
+    "subtitle": "Tell me what it's about and I'll show you how I'd approach it for your specific case.",
+    "cta": "Message me on WhatsApp",
+    "whatsappMsg": "Hi Máximo, I saw the Babaria case study and I'm interested in something similar for my business."
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "seo": {
+    "title": "Precios de páginas web para negocios | Máximo Silva",
+    "description": "Rangos orientativos según el tipo de sitio que necesita tu negocio. Cotización personalizada sin compromiso por WhatsApp."
+  },
+  "hero": {
+    "eyebrow": "Precios",
+    "title": "¿Cuánto cuesta ",
+    "titleRest": "tu página web?",
+    "subtitle": "No trabajo con precios fijos porque cada negocio necesita algo distinto. Acá tenés una referencia clara de qué esperar según el tipo de sitio, para que puedas ubicarte antes de escribirme.",
+    "cta": "Pedir cotización sin compromiso",
+    "whatsappMsg": "Hola Máximo. Vi la página de precios y me gustaría una cotización para mi negocio."
+  },
+  "nota": "Los rangos reflejan tiempo y complejidad relativa entre servicios, no montos fijos. El valor final depende de tu caso puntual: cantidad de secciones, contenido a cargar, integraciones necesarias.",
+  "planes": [
+    {
+      "title": "Landing Page + WhatsApp",
+      "nivel": 1,
+      "ordenLg": 2,
+      "destacado": true,
+      "tiempo": "1 a 2 semanas",
+      "idealPara": "Arrancar tu presencia online ya",
+      "desde": "USD 120 – 260",
+      "incluye": [
+        "Página única enfocada en conversión",
+        "Botón de WhatsApp con mensaje predefinido",
+        "Diseño 100% adaptado a tu negocio",
+        "Publicación con dominio propio"
+      ],
+      "href": "/services#landing-whatsapp",
+      "whatsappMsg": "Hola Máximo, me interesa cotizar una Landing Page + WhatsApp."
+    },
+    {
+      "title": "Web con catálogo",
+      "nivel": 2,
+      "ordenLg": 1,
+      "destacado": false,
+      "tiempo": "2 a 3 semanas",
+      "idealPara": "Mostrar todo lo que ofrecés, ordenado",
+      "incluye": [
+        "Fichas individuales por producto o servicio",
+        "Filtros o categorías",
+        "Panel para actualizar el catálogo vos mismo",
+        "Formulario de contacto y cotización"
+      ],
+      "href": "/services#web-catalogo",
+      "whatsappMsg": "Hola Máximo, me interesa cotizar una web con catálogo."
+    },    
+    {
+      "title": "Tienda online",
+      "nivel": 3,
+      "ordenLg": 3,
+      "destacado": false,
+      "tiempo": "3 a 5 semanas",
+      "idealPara": "Vender productos las 24 hs",
+      "incluye": [
+        "Catálogo con carrito de compras",
+        "Checkout y medios de pago",
+        "Panel para gestionar stock y precios",
+        "Estructura pensada para tráfico orgánico y campañas"
+      ],
+      "href": "/services#tienda-online",
+      "whatsappMsg": "Hola Máximo, me interesa cotizar una tienda online."
+    }
+  ],
+  "queDefineElPrecio": {
+    "title": "Qué define el valor final",
+    "subtitle": "Todo esto lo hablamos antes de arrancar, sin sorpresas después.",
+    "factores": [
+      { "title": "Cantidad de secciones y páginas", "des": "Un sitio de 4 secciones no cuesta lo mismo que uno de 12." },
+      { "title": "Contenido que ya tenés listo", "des": "Textos y fotos propios reducen tiempo de trabajo frente a arrancar de cero." },
+      { "title": "Integraciones necesarias", "des": "Pagos, paneles de administración o catálogos grandes suman complejidad." },
+      { "title": "Diseño a medida vs. base existente", "des": "Partir de un sistema de diseño ya probado es más rápido que uno 100% original." }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes sobre",
+    "titleRest": " precios",
+    "subtitle": "Lo que más preguntan antes de pedir una cotización.",
+    "faqs": [
+      { "preg": "¿Por qué no hay precios fijos?", "res": "Porque el costo real depende de cuánto contenido, integraciones y secciones necesita tu negocio. Un precio fijo publicado siempre termina siendo un piso poco realista o un techo que no aplica a la mayoría de los casos." },
+      { "preg": "¿La cotización tiene costo?", "res": "No. Charlamos sobre tu negocio y en menos de 24 hs te mando un presupuesto claro, sin compromiso de avanzar." },
+      { "preg": "¿Se paga todo por adelantado?", "res": "No, trabajo con un esquema de anticipo para arrancar y el resto contra entrega o en cuotas según el proyecto." },
+      { "preg": "¿Qué pasa si mi proyecto no encaja en ninguno de estos planes?", "res": "Estos son puntos de partida, no categorías cerradas. Si tu negocio necesita algo distinto o una combinación, lo armamos a medida." },
+      { "preg": "¿El precio incluye el dominio y el hosting?", "res": "Te asesoro y configuro todo, pero el dominio y el hosting se pagan aparte directamente al proveedor — son costos bajos y anuales, te explico las opciones antes de decidir." }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Contame tu proyecto y te paso un número concreto",
+    "subtitle": "Sin vueltas ni letra chica. En menos de 24 hs tenés una cotización clara para tu negocio.",
+    "cta": "Escribime por WhatsApp",
+    "whatsappMsg": "Hola Máximo, quiero contarte sobre mi proyecto para que me pases una cotización."
+  }
+}

@@ -1,0 +1,9 @@
+---
+// Guardar como: src/pages/es/precios.astro
+import Layout from '../../layouts/Layout.astro';
+import PreciosDetalle from '../../components/PreciosDetalles.astro';
+import t from '../../data/es.json';
+---
+<Layout bg title={t.prices.seo.title} description={t.prices.seo.description}>
+	<PreciosDetalle t={t.prices} />
+</Layout>

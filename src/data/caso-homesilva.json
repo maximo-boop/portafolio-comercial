@@ -1,0 +1,48 @@
+{
+  "seo": {
+    "title": "Caso de estudio: HomeSilva — Web para inmobiliaria | Máximo Silva",
+    "description": "Cómo digitalicé la cartera de propiedades de HomeSilva, una inmobiliaria de Córdoba, con catálogo, filtros de búsqueda, mapas y panel de administración propio."
+  },
+  "hero": {
+    "eyebrow": "Caso de estudio · Inmobiliaria",
+    "title": "HomeSilva — de cartera en papel a ",
+    "titleRest": "plataforma propia",
+    "subtitle": "Inmobiliaria con más de 15 años de trayectoria en Córdoba, Argentina, que necesitaba una presencia online moderna para mostrar sus propiedades y generar consultas sin depender de portales de terceros.",
+    "meta": "Inmobiliaria · Córdoba, Argentina",
+    "url": "https://homesilva.com.ar",
+    "image": "/inmobiliaria.png",
+    "cta": "Ver sitio en vivo"
+  },
+  "desafio": {
+    "title": "El desafío",
+    "texto": "HomeSilva ya tenía una cartera sólida y años de trayectoria en la zona, pero su presencia online no reflejaba eso: dependía en gran parte de portales externos para mostrar propiedades, sin un espacio propio donde los clientes pudieran buscar, filtrar y contactar directamente. Necesitaban una herramienta que ellos mismos pudieran mantener actualizada, sin depender de un desarrollador para cada cambio."
+  },
+  "solucion": {
+    "title": "La solución",
+    "texto": "Diseñé y desarrollé una plataforma inmobiliaria propia con fichas individuales por propiedad, filtros de búsqueda, mapas interactivos y formularios de contacto directo. El punto central fue el panel de administración: la inmobiliaria puede cargar, editar y dar de baja propiedades por su cuenta, sin depender de mí para cada actualización.",
+    "incluye": [
+      "Catálogo de propiedades con fichas individuales y galería de fotos",
+      "Filtros de búsqueda por localidad, tipo y ambientes",
+      "Mapas interactivos por propiedad",
+      "Panel de administración para carga autónoma de propiedades",
+      "Formularios de contacto directo por consulta",
+      "Landing pages optimizadas para búsquedas por zona"
+    ]
+  },
+  "resultado": {
+    "title": "El resultado",
+    "texto": "HomeSilva cuenta hoy con una plataforma propia para gestionar y exhibir su cartera, mejorar la experiencia de búsqueda de sus clientes y generar consultas sin depender exclusivamente de portales externos. La plataforma sigue activa y en crecimiento, con mejoras y funcionalidades nuevas de forma continua."
+  },
+  "capacidades": ["Catálogo dinámico", "Panel de administración", "Mapas interactivos", "Búsqueda y filtros", "Diseño responsive", "SEO por localidad"],
+  "relacionado": {
+    "texto": "¿Tenés una inmobiliaria y necesitás algo similar?",
+    "href": "/es/paginas-web-para-inmobiliarias",
+    "linkText": "Ver página para inmobiliarias"
+  },
+  "ctaFinal": {
+    "title": "¿Tu negocio necesita algo parecido?",
+    "subtitle": "Contame de qué se trata y te muestro cómo lo resolvería para tu caso puntual.",
+    "cta": "Escribime por WhatsApp",
+    "whatsappMsg": "Hola Máximo, vi el caso de HomeSilva y me interesa algo similar para mi negocio."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Caso de estudio: Foodie Fusion — Web para restaurante | Máximo Silva",
+    "description": "Cómo desarrollé el sitio web de Foodie Fusion, con menú online, galería de platos y ubicación, para mejorar la interacción con sus clientes."
+  },
+  "hero": {
+    "eyebrow": "Caso de estudio · Restaurante",
+    "title": "Foodie Fusion — el menú y el negocio, ",
+    "titleRest": "todo en un solo lugar",
+    "subtitle": "Restaurante que necesitaba una presencia online profesional donde sus clientes pudieran consultar el menú, conocer el negocio y acceder fácilmente a información importante desde cualquier dispositivo.",
+    "meta": "Corporativo · Freelance",
+    "url": "",
+    "image": "/restaurante.png",
+    "cta": "Ver sitio en vivo"
+  },
+  "desafio": {
+    "title": "El desafío",
+    "texto": "El restaurante no tenía una web propia donde reunir menú, ubicación y contacto en un solo lugar. La información quedaba dispersa entre redes sociales, dificultando que un cliente nuevo encontrara todo lo que necesitaba antes de decidir visitarlo."
+  },
+  "solucion": {
+    "title": "La solución",
+    "texto": "Diseñé y desarrollé un sitio web con menú online, galería de platos, ubicación y funcionalidades personalizadas para los usuarios, creando una experiencia más accesible y atractiva para los visitantes.",
+    "incluye": [
+      "Menú online organizado por categorías",
+      "Galería de platos",
+      "Ubicación y horarios de atención",
+      "Funcionalidades personalizadas para el negocio",
+      "Diseño pensado para uso desde celular"
+    ]
+  },
+  "resultado": {
+    "title": "El resultado",
+    "texto": "El restaurante ahora tiene una presencia online profesional donde los clientes consultan el menú, ven fotos de los platos y acceden a la información clave desde cualquier dispositivo, mejorando la interacción con sus clientes."
+  },
+  "capacidades": ["Menú online", "Galería de fotos", "Ubicación y mapa", "Diseño responsive", "WhatsApp", "SEO local"],
+  "relacionado": {
+    "texto": "¿Tenés un restaurante y necesitás algo similar?",
+    "href": "/paginas-web-para-restaurantes",
+    "linkText": "Ver página para restaurantes"
+  },
+  "ctaFinal": {
+    "title": "¿Tu negocio necesita algo parecido?",
+    "subtitle": "Contame de qué se trata y te muestro cómo lo resolvería para tu caso puntual.",
+    "cta": "Escribime por WhatsApp",
+    "whatsappMsg": "Hola Máximo, vi el caso de Foodie Fusion y me interesa algo similar para mi negocio."
+  }
+}

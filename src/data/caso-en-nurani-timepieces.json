@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Case Study: Nurani Timepieces — Website for a Watch Brand | Máximo Silva",
+    "description": "How I built the online catalog for Nurani Timepieces, a premium imported watch brand, with collections for men and women and lead generation."
+  },
+  "hero": {
+    "eyebrow": "Case Study · Small Business",
+    "title": "Nurani Timepieces — from scattered catalog to ",
+    "titleRest": "its own digital showcase",
+    "subtitle": "A premium watch brand specializing in imported products that needed its own online presence to showcase its collections and attract potential customers.",
+    "meta": "Catalog · Small Business",
+    "url": "",
+    "image": "/relojes.png",
+    "cta": "View Live Site"
+  },
+  "desafio": {
+    "title": "The Challenge",
+    "texto": "Nurani sold premium imported watches, but had no space of its own to showcase its collections in an organized way. It relied on social media to display its catalog, making it hard for new customers to explore the products and build trust before reaching out."
+  },
+  "solucion": {
+    "title": "The Solution",
+    "texto": "I designed and built a web catalog with separate collections for men and women, adding a contact form with a discount incentive to capture interested visitors and turn them into real inquiries.",
+    "incluye": [
+      "Catalog with collections for men and women",
+      "Product pages with photos and key details",
+      "Contact form with discount incentive",
+      "Premium design matching the brand's positioning",
+      "Structure designed to convert visitors into leads"
+    ]
+  },
+  "resultado": {
+    "title": "The Result",
+    "texto": "The brand now has a professional platform to present its collections, strengthen its digital presence, and convert visitors into potential customers, without relying solely on social media."
+  },
+  "capacidades": ["Online Catalog", "Lead Generation", "Premium Design", "Contact Forms", "Responsive", "Brand Identity"],
+  "relacionado": {
+    "texto": "Do you run a small business and need something similar?",
+    "href": "/paginas-web-para-emprendimientos",
+    "linkText": "View small business page"
+  },
+  "ctaFinal": {
+    "title": "Does your business need something similar?",
+    "subtitle": "Tell me what it's about and I'll show you how I'd approach it for your specific case.",
+    "cta": "Message me on WhatsApp",
+    "whatsappMsg": "Hi Máximo, I saw the Nurani Timepieces case study and I'm interested in something similar for my business."
+  }
+}

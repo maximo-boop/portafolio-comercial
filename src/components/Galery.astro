@@ -2,78 +2,25 @@
 import Carousel from './Carousel.jsx';
 const {t} = Astro.props;
 ---
+<section aria-labelledby="projects-heading" class="relative overflow-hidden lg:overflow-visible pt-20 pb-10 grid gap-10 relative px-10 lg:px-44 max-w-[1440px] mx-auto bg-white">
 
-<section class="relative flex py-20 bg-[#fafafa] global-padding" id="proyectos">
+	<div
+	  class="absolute inset-0 opacity-[0.2]"
+	  style="
+	    background-image: radial-gradient(circle, #000 1px, transparent 1px);
+	    background-size: 24px 24px;
+	    -webkit-mask-image: linear-gradient(to left, #000 0%, transparent 100%);
+	    mask-image: linear-gradient(to left, #000 50%, transparent 100%);
+	  "
+	></div>
 
-	<div class="max-w-[1380px] grid gap-10 mx-auto">
-
-	<div class="flex flex-col gap-2">
-		<h2 class="text-3xl lg:text-4xl font-semibold">{t.title}</h2>
+	<div class="grid gap-2">
+		<h2 class="text-3xl lg:text-4xl font-bold">{t.title}</h2>
 		<p class="lg:text-lg text-[rgba(0,0,0,0.6)]">{t.subtitle}<br class="hidden lg:inline">{t.subtitleRest}</p>
 	</div>
 
-
-	<div class="flex flex-col gap-5">
-		<div class="grid grid-cols-1 lg:grid-cols-3 w-full gap-5">
-			{t.projects.map(a => { 
-				const Tag = a.url ? 'a' : 'span'
-				return (
-					<article class="group">				
-						<Tag {...(a.url ? {href: a.url, 'aria-label': `Ir a la web del proyecto ${a.title}`, target: '_blank'} : {})} class="flex flex-col min-h-40 h-full relative">
-							<div class="overflow-hidden bg-white h-60 w-full aspect-square">
-								<img width="300" height="300" src={a.images} alt={a.title} loading={a.id === 7 ? 'lazy' : 'eager'} class="group-hover:scale-[1.05] transition-scale duration-250 ease h-full w-full object-cover" />
-								{a.url && (
-									<span class="text-[#eee] font-medium absolute top-5 right-5 p-2 bg-[#000a] text-xs flex items-center gap-1">
-										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M9 15l6 -6" /><path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" /><path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" /></svg>
-										enlace
-									</span>
-								)}
-							</div>
-							<div class="flex flex-col pt-4">
-								<span class="text-[.9rem] text-[rgba(0,0,0,0.7)] font-medium">{a.tags}</span>
-								<h3 class="mb-4 text-lg font-semibold">{a.title}</h3>
-								<div class="relative">
-									<p 
-										class="text-[rgba(0,0,0,0.5)] line-clamp-4 desc-text" 
-										style="white-space: pre-line;"
-										data-full={a.desc}
-									>
-										{a.desc}
-									</p>
-									<button 
-										class="ver-mas text-sm font-medium text-[rgba(0,0,0,0.9)] cursor-pointer underline mt-1 hover:opacity-60 transition-opacity"
-									>
-										Ver más
-									</button>
-								</div>
-							</div>
-						</Tag>
-					</article>
-				)}
-			)}
-		</div>
-	</div>
-
+	<div class="min-w-0">
+		<Carousel client:load data={t.projects} />
 	</div>
 
 </section>
-
-<script>
-  document.querySelectorAll('.ver-mas').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.preventDefault()
-      e.stopPropagation()
-      
-      const p = btn.previousElementSibling
-      const isExpanded = p.classList.contains('line-clamp-4')
-
-      if (isExpanded) {
-        p.classList.remove('line-clamp-4')
-        btn.textContent = 'Ver menos'
-      } else {
-        p.classList.add('line-clamp-4')
-        btn.textContent = 'Ver más'
-      }
-    })
-  })
-</script>

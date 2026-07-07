@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Case Study: Interior Design Studio — Landing Page | Máximo Silva",
+    "description": "How I built the landing page for an interior design studio, staying true to its visual identity and presenting its portfolio professionally."
+  },
+  "hero": {
+    "eyebrow": "Case Study · Interior Design",
+    "title": "Interior Design Studio — a portfolio ",
+    "titleRest": "true to its visual identity",
+    "subtitle": "An interior design studio that needed a website capable of faithfully reflecting its visual identity and presenting its portfolio professionally.",
+    "meta": "Landing Page · Design",
+    "url": "",
+    "image": "/diseño-interiores.png",
+    "cta": "View Live Site"
+  },
+  "desafio": {
+    "title": "The Challenge",
+    "texto": "The studio already had a well-developed brand design, but had no website that faithfully reflected it. The challenge was translating that existing design into a web experience fully adapted to mobile devices, without losing any visual detail along the way."
+  },
+  "solucion": {
+    "title": "The Solution",
+    "texto": "I built a custom landing page with a project gallery, original illustrations, and contact options, staying true to every visual detail on both desktop and mobile to ensure a consistent brand experience.",
+    "incluye": [
+      "Custom landing page based on existing design",
+      "Gallery of the studio's projects",
+      "Original illustrations integrated into the design",
+      "Faithful responsive experience on desktop and mobile",
+      "Contact form / options"
+    ]
+  },
+  "resultado": {
+    "title": "The Result",
+    "texto": "The studio now has a custom landing page that faithfully reflects its visual identity and presents its portfolio professionally, with a consistent experience across any device."
+  },
+  "capacidades": ["Custom Landing Page", "Responsive Design", "Project Gallery", "Illustration", "Brand Identity", "UI/UX"],
+  "relacionado": {
+    "texto": "Do you run a studio or agency and need something similar?",
+    "href": "/paginas-web-para-agencias",
+    "linkText": "View agency page"
+  },
+  "ctaFinal": {
+    "title": "Does your business need something similar?",
+    "subtitle": "Tell me what it's about and I'll show you how I'd approach it for your specific case.",
+    "cta": "Message me on WhatsApp",
+    "whatsappMsg": "Hi Máximo, I saw the interior design studio case study and I'm interested in something similar for my business."
+  }
+}

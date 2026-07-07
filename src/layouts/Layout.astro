@@ -47,9 +47,9 @@ const mailto =
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "Person",
+				"@type": ["Person", "ProfessionalService"],
 				"name": "Máximo Silva",
-				"jobTitle": "Desarrollador web freelance",
+				"jobTitle": t.schema.jobTitle,
 				"url": "https://maximowebs.pages.dev",
 				"address": {
 				"@type": "PostalAddress",
@@ -65,7 +65,7 @@ const mailto =
 
 		{bg && 
 			<div 
-				class="absolute inset-0 -z-10 opacity-[0.11]"
+				class="absolute inset-0 -z-10 opacity-[0.3]"
 				style="background-image: radial-gradient(circle, #000 1px, transparent 1px); background-size: 24px 24px;"
 			></div>
 		}
