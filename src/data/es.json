@@ -344,10 +344,20 @@
     "whatsappMsg": "Hola Máximo, quiero contarte sobre mi proyecto para que me pases una cotización."
   }
 },
-	"servicesPage": {
+"servicesPage": {
   "seo": {
     "title": "Servicios de desarrollo web para negocios y emprendimientos | Máximo Silva",
     "description": "Landing page con WhatsApp, web con catálogo, rediseño de sitios y tienda online. Elegí el servicio que necesita tu negocio y recibí una propuesta sin costo."
+  },
+  "content": {
+    "navAriaLabel": "Navegación entre servicios",
+    "paraQuienEs": "Para quién es",
+    "queIncluye": "Qué incluye",
+    "preguntasSobreServicio": "Preguntas sobre este servicio",
+    "tiempoEstimado": "Tiempo estimado",
+    "consultarServicio": "Consultar por este servicio",
+    "verProyectosRelacionados": "Ver proyectos relacionados",
+    "whatsappFallbackMsg": "Hola Máximo, no estoy seguro qué tipo de web necesito, ¿me ayudás?"
   },
   "eyebrow": "Servicios",
   "title": "¿Qué tipo de web necesita tu negocio?",
@@ -488,9 +498,10 @@
       "childrens": [
         { "title": "Para inmobiliarias", "url": "/es/paginas-web-para-inmobiliarias" },
         { "title": "Para empresas", "url": "/es/paginas-web-para-empresas" },
-        { "title": "Para profesionales independientes", "url": "/es/paginas-web-para-profesionales-independientes" },
+        { "title": "Para emprendimientos", "url": "/es/paginas-web-para-emprendimientos" },
         { "title": "Para restaurantes", "url": "/es/paginas-web-para-restaurantes" },
-        { "title": "Para agencias", "url": "/es/paginas-web-para-agencias" }
+        { "title": "Para agencias", "url": "/es/paginas-web-para-agencias" },
+        { "title": "Para profesionales independientes", "url": "/es/paginas-web-para-profesionales-independientes" }
       ]
     },
     {

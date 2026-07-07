@@ -139,6 +139,16 @@
     "title": "Web Development Services for Businesses and Entrepreneurs | Máximo Silva",
     "description": "Landing page with WhatsApp, catalog website, website redesign, and online store. Choose the service your business needs and receive a free proposal."
   },
+  "content": {
+    "navAriaLabel": "Navigation between services",
+    "paraQuienEs": "Who it's for",
+    "queIncluye": "What's included",
+    "preguntasSobreServicio": "Questions about this service",
+    "tiempoEstimado": "Estimated turnaround",
+    "consultarServicio": "Ask about this service",
+    "verProyectosRelacionados": "View related projects",
+    "whatsappFallbackMsg": "Hi Máximo, I'm not sure what kind of website I need, can you help me?"
+  },
   "eyebrow": "Services",
   "title": "What type of website does your business need?",
   "subtitle": "Four ways to build your online presence, depending on your business stage and goals. Every service includes design, development, and launch from start to finish.",
@@ -514,11 +524,12 @@
       "title": "Websites",
       "url": "/services",
       "childrens": [
-        { "title": "For Real Estate", "url": "/websites-for-real-estate-agencies" },
+        { "title": "For Real Estate", "url": "/real-estate-websites" },
         { "title": "For Businesses", "url": "/business-websites" },
-        { "title": "For Independent Professionals", "url": "/websites-for-independent-professionals" },
-        { "title": "For Restaurants", "url": "/websites-for-restaurants" },
-        { "title": "For Agencies", "url": "/websites-for-agencies" }
+        { "title": "For Small Businesses", "url": "/small-business-websites" },
+        { "title": "For Restaurants", "url": "/restaurant-websites" },
+        { "title": "For Agencies", "url": "/agency-websites" },
+        { "title": "For Independent Professionals", "url": "/freelancer-websites" }
       ]
     },
     {

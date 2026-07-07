@@ -1,0 +1,24 @@
+---
+// src/pages/[rubro].astro
+import Layout from '../layouts/Layout.astro';
+import RubroDetalle from '../components/RubroDetalle.astro';
+import en from '../data/en.json';
+import { rubroSlugPairs } from '../data/rubro-slugs.js';
+
+export function getStaticPaths() {
+  return rubroSlugPairs.map(({ key, es: esSlug, en: slug }) => ({
+    params: { rubro: slug },
+    props: { key, altPath: `/es/${esSlug}` },
+  }));
+}
+
+const { key, altPath } = Astro.props;
+const t = en.rubros[key];
+---
+<Layout altEs={altPath} bg title={t.seo.title} description={t.seo.description}>
+	<main>
+		<div class="global-padding max-w-[1380px] mx-auto pt-10 lg:pt-16 pb-20">
+			<RubroDetalle t={t} rubros={en.rubrosText} />
+		</div>
+	</main>
+</Layout>

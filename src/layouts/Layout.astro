@@ -9,7 +9,14 @@ import en from '../data/en.json'
 const lang = Astro.url.pathname.startsWith('/es') ? 'es' : 'en'
 const t = lang === 'es' ? es : en
 
-const {bg} = Astro.props
+const currentPath = Astro.url.pathname
+const {bg, altEn, altEs, title, description} = Astro.props
+const fallbackAltPath = lang === 'es' 
+	? currentPath.replace(/^\/es/, '') || '/'
+	: `/es${currentPath}`
+
+const enUrl = lang === 'en' ? currentPath : (altEn ?? fallbackAltPath)
+const esUrl = lang === 'es' ? currentPath : (altEs ?? fallbackAltPath)
 
 const whatsapp =
   `https://wa.me/5493512377435?text=${encodeURIComponent(t.contact.whatsapp)}`
@@ -17,6 +24,9 @@ const whatsapp =
 const mailto =
   `mailto:maximo2004lfn@gmail.com?subject=${encodeURIComponent(t.contact.emailSubject)}&body=${encodeURIComponent(t.contact.emailBody)}`
 
+const canonicalUrl = `https://maximowebs.pages.dev${currentPath}`
+const pageTitle = title ?? t.seo.title
+const pageDescription = description ?? t.seo.description
 ---
 <!doctype html>
 <html lang={lang}>
@@ -27,39 +37,40 @@ const mailto =
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{t.seo.title}</title>
-		<meta name="description" content={t.seo.description} />
-		<link rel="alternate" hreflang="en" href="https://maximowebs.pages.dev/" />
-		<link rel="alternate" hreflang="es" href="https://maximowebs.pages.dev/es/" />
-		<link rel="alternate" hreflang="x-default" href="https://maximowebs.pages.dev/" />
+		<title>{pageTitle}</title>
+		<meta name="description" content={pageDescription} />
 
-		<meta property="og:title" content={t.seo.title} />
-		<meta property="og:description" content={t.seo.description} />
+		<link rel="canonical" href={canonicalUrl} />
+		<link rel="alternate" hreflang="en" href={`https://maximowebs.pages.dev${enUrl}`} />
+		<link rel="alternate" hreflang="es" href={`https://maximowebs.pages.dev${esUrl}`} />
+		<link rel="alternate" hreflang="x-default" href={`https://maximowebs.pages.dev${enUrl}`} />
+
+
+		<meta property="og:title" content={pageTitle} />
+		<meta property="og:description" content={pageDescription} />
 		<meta property="og:image" content="https://maximowebs.pages.dev/og-default.png" />
-		<meta property="og:url" content="https://maximowebs.pages.dev" />
+		<meta property="og:url" content={canonicalUrl} />
 		<meta property="og:type" content="website" />
 		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content={t.seo.title} />
-		<meta name="twitter:description" content={t.seo.description} />
+		<meta name="twitter:title" content={pageTitle} />
+		<meta name="twitter:description" content={pageDescription} />
 		<meta name="twitter:image" content="https://maximowebs.pages.dev/og-default.png" />
 
 
-		<script type="application/ld+json">
-			{
-				"@context": "https://schema.org",
-				"@type": ["Person", "ProfessionalService"],
-				"name": "Máximo Silva",
-				"jobTitle": t.schema.jobTitle,
-				"url": "https://maximowebs.pages.dev",
-				"address": {
-				"@type": "PostalAddress",
-				"addressLocality": "Córdoba",
-				"addressCountry": "AR"
-				},
-				"telephone": "+5493512377435",
-				"email": "maximo2004lfn@gmail.com"
-			}
-		</script>
+		<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": ["Person", "ProfessionalService"],
+  "name": "Máximo Silva",
+  "jobTitle": t.schema.jobTitle,
+  "url": "https://maximowebs.pages.dev",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Córdoba",
+    "addressCountry": "AR"
+  },
+  "telephone": "+5493512377435",
+  "email": "maximo2004lfn@gmail.com"
+})} />
 	</head>
 	<body class="relative pt-5 lg:pt-10">
 

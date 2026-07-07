@@ -1,6 +1,4 @@
 ---
-// src/components/ServiciosDetalle.astro
-// Uso: <ServiciosDetalle t={t.serviciosPage} lang={lang} />
 const { t, lang } = Astro.props;
 const proyectosHref = lang === 'en' ? '/#proyectos' : '/es/#proyectos';
 const whatsappBase = 'https://wa.me/5493512377435?text=';
@@ -36,12 +34,12 @@ const whatsappBase = 'https://wa.me/5493512377435?text=';
 			<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
 				<div class="lg:col-span-2 flex flex-col gap-6">
 					<div class="flex flex-col gap-2">
-						<h3 class="font-bold text-lg">Para quién es</h3>
+						<h3 class="font-bold text-lg">{t.content.paraQuienEs}</h3>
 						<p class="text-[rgba(0,0,0,0.7)]">{item.paraQuienEs}</p>
 					</div>
 
 					<div class="flex flex-col gap-2">
-						<h3 class="font-bold text-lg">Qué incluye</h3>
+						<h3 class="font-bold text-lg">{t.content.queIncluye}</h3>
 						<ul class="flex flex-col gap-2">
 							{item.incluye.map((linea: string) => (
 								<li class="flex items-start gap-2 text-[rgba(0,0,0,0.7)]">
@@ -57,7 +55,7 @@ const whatsappBase = 'https://wa.me/5493512377435?text=';
 
 					{item.faq && (
 						<div class="flex flex-col gap-3 mt-2">
-							<h3 class="font-bold text-lg">Preguntas sobre este servicio</h3>
+							<h3 class="font-bold text-lg">{t.content.preguntasSobreServicio}</h3>
 							{item.faq.map((f: any) => (
 								<details class="bg-[#fcfcfc] border border-[#eee]">
 									<summary class="flex items-center justify-between cursor-pointer focus:outline-none py-4 px-5">
@@ -77,7 +75,7 @@ const whatsappBase = 'https://wa.me/5493512377435?text=';
 
 				<aside class="border border-[#e5e5e5] p-6 flex flex-col gap-5 h-fit bg-[#fafafa]">
 					<div class="flex flex-col gap-1">
-						<span class="text-sm text-[rgba(0,0,0,0.5)]">Tiempo estimado</span>
+						<span class="text-sm text-[rgba(0,0,0,0.5)]">{t.content.tiempoEstimado}</span>
 						<span class="font-bold">{item.tiempo}</span>
 					</div>
 					<a
@@ -86,10 +84,10 @@ const whatsappBase = 'https://wa.me/5493512377435?text=';
 						rel="noopener noreferrer"
 						class="hover:bg-[#181818] text-white p-4 font-bold text-center bg-[#010101]"
 					>
-						Consultar por este servicio
+						{t.content.consultarServicio}
 					</a>
 					<a href={proyectosHref} class="text-sm font-medium text-[var(--primary)] underline underline-offset-4 text-center">
-						Ver proyectos relacionados
+						{t.content.verProyectosRelacionados}
 					</a>
 				</aside>
 			</div>

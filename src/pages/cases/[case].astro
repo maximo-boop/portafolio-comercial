@@ -1,0 +1,31 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import CasoDetalle from '../../components/CasoDetalle.astro';
+import { casoSlugPairs } from '../../data/caso-slugs.js';
+
+const casosData = import.meta.glob('../../data/casos/en/*.json', { eager: true });
+
+export function getStaticPaths() {
+  return casoSlugPairs.map(({ key, es: slug, en: enSlug }) => ({
+    params: { case: enSlug },
+    props: { key, altPath: `/es/casos/${slug}` },
+  }));
+}
+
+const { key, altPath } = Astro.props;
+const entry = Object.entries(casosData).find(([path]) => path.endsWith(`/caso-en-${key}.json`));
+
+if (!entry) {
+  throw new Error(`No se encontró el JSON de caso para key="${key}". Buscado: caso-${key}.json en src/data/casos/es/`);
+}
+
+const t = entry[1].default;
+
+---
+<Layout bg altEs={altPath} title={t.seo.title} description={t.seo.description}>
+	<main>
+		<div class="max-w-[1380px] mx-auto pt-10 lg:pt-16 pb-20">
+			<CasoDetalle t={t} />
+		</div>
+	</main>
+</Layout>
