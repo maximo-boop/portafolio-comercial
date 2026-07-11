@@ -2,17 +2,8 @@
 import Carousel from './Carousel.jsx';
 const {t} = Astro.props;
 ---
-<section aria-labelledby="projects-heading" class="relative overflow-hidden lg:overflow-visible pt-20 pb-10 grid gap-10 relative px-10 lg:px-44 max-w-[1440px] mx-auto bg-white">
+<section aria-labelledby="projects-heading" class="relative overflow-hidden lg:overflow-visible pt-20 pb-10 grid gap-10 relative px-10 lg:px-44 max-w-[1440px] mx-auto">
 
-	<div
-	  class="absolute inset-0 opacity-[0.2]"
-	  style="
-	    background-image: radial-gradient(circle, #000 1px, transparent 1px);
-	    background-size: 24px 24px;
-	    -webkit-mask-image: linear-gradient(to left, #000 0%, transparent 100%);
-	    mask-image: linear-gradient(to left, #000 50%, transparent 100%);
-	  "
-	></div>
 
 	<div class="grid gap-2">
 		<h2 class="text-3xl lg:text-4xl font-bold">{t.title}</h2>

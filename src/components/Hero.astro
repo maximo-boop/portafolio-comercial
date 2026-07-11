@@ -10,10 +10,14 @@ const whatsapp =
 	flex
 	flex-col
 	gap-10
-	mt-10
+	
 	lg:flex-row
-	lg:mt-20
+
+	pt-10
+	lg:pt-20
 ">
+
+	<div class="absolute max-w-[1380px] top-0 h-40 bg-white w-full left-1/2 -translate-x-1/2" />
 
 
 	<div class="flex-1 flex flex-col lg:items-start lg:justify-between gap-4">
@@ -48,7 +52,7 @@ const whatsapp =
 	<ul class="flex flex-1 flex-col gap-5 lg:gap-2 mt-5 lg:mt-0">
 		{t.features.map((a, i) => (
 			<li class="font-medium items-center flex gap-3">
-				<div class="bg-[#fafafa] border border-[#eee] p-3">
+				<div class="bg-[#fafafa] p-3">
 					{
 						i===0 ? <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M11 18.25H13M8 21.25H16C16.8284 21.25 17.5 20.5784 17.5 19.75V4.25C17.5 3.42157 16.8284 2.75 16 2.75H8C7.17157 2.75 6.5 3.42157 6.5 4.25V19.75C6.5 20.5784 7.17157 21.25 8 21.25Z" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
