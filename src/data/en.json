@@ -742,32 +742,31 @@
 			}
 		]
 	},
-  "why": {
-    "title": "More than just a website",
-    "subtitle": "Every project is designed to help your business build trust, attract more clients, and have a professional online presence.",
+"why": {
+    "title": "What you get when we work together",
+    "subtitle": "Every project is built to help your business build trust, attract more clients, and have a professional online presence.",
     "razones": [
-  {
-    "title": "Built to generate inquiries, not just to exist",
-    "des": "Every section — from the copy to the contact buttons — is designed to get visitors to take the next step: message you, request a quote, or buy. It's not a digital business card, it's a sales tool."
+      {
+    "title": "Built to get you messages",
+    "des": "Every button, every line of text is there to get the visitor to take the next step: message you, ask for a quote, or buy. It's not just about showing who you are, it's about getting people to reach out."
   },
   {
-    "title": "Every website is built around your business, not a template",
+    "title": "Every site is built around your business",
     "des": "Before designing anything, we talk about how your business works, who your customers are, and what you want to achieve. The site is built from that, not the other way around."
   },
   {
-    "title": "Make a great first impression",
-    "des": "A polished design and a clear structure help any visitor understand in seconds who you are, what you offer, and why they should choose you over the competition."
+    "title": "Make a great impression from the first second",
+    "des": "A thoughtful design and a clear structure let any visitor understand in seconds who you are, what you offer, and why they should choose you over the competition."
   },
   {
-    "title": "You focus on your business, I focus on the technology",
-    "des": "I handle the design, development, and launch without you needing to understand any code. If you need to make simple changes afterward, I'll leave you an easy-to-use panel; for everything else, I'm just a message away."
+    "title": "You focus on your business, I focus on the tech",
+    "des": "I handle the design, development, and launch without you needing to know any code. If you need to make simple changes later, I'll leave you an easy-to-use panel; for everything else, I'm just a message away."
   },
   {
     "title": "You always talk to me, not a support ticket",
-    "des": "No middlemen, no support teams. If a question comes up along the way or something isn't working as expected, you message me directly and we solve it together."
+    "des": "No middlemen, no support teams. If a question comes up along the way or something isn't turning out as expected, you message me directly and we figure it out together."
   }
-],
-    "cierre": "A website shouldn't just be an online presence. It should become a tool to grow your business."
+]
   },
   "casos": {
     "title": "How I help businesses grow their digital presence",
