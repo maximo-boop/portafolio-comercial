@@ -22,25 +22,30 @@ const t = lang === 'en' ? en : es
 <Layout bg>
 	<main>
 
-		<div class="global-padding max-w-[1380px] mx-auto bg-white pb-5">
+		<div class="bg-white pb-5">
+			<div class="global-padding max-w-[1380px] mx-auto ">
+				
 			<Hero t={t.hero} tl={t} />
 			<Welcome t={t.welcome} />
+			</div>
 		</div>
 
 		<Galery t={t.galery} />
-		
 		<Why t={t.why} />
-		<div class=" pt-20 pb-40 global-padding max-w-[1380px] mx-auto">
 
+		<div class=" pt-20 pb-30 global-padding max-w-[1380px] mx-auto">
 			<Services t={t.services} />
 			<Pasos t={t.pasos} />
+		</div>
 
-			<Casos t={t.casos} />
+		<Casos t={t.casos} />
 
+		<div class="pb-40 global-padding max-w-[1380px] mx-auto">
 			<About t={t.about} />
 		</div>
 
 		<Cta t={t.cta} tl={t} />
+		
 		<div class="global-padding max-w-[1380px] mx-auto">
 			<FAQ t={t.faq} />
 		</div>

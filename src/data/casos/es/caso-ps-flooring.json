@@ -9,7 +9,7 @@
     "titleRest": "plataforma de venta y captación",
     "subtitle": "Empresa de instalación y venta de pisos en Florida, EE.UU., que necesitaba unificar en un solo lugar la venta de materiales y la captación de clientes para sus servicios de instalación.",
     "meta": "Instalación de pisos · Florida, EE.UU.",
-    "url": "https://flooring-three.vercel.app/",
+    "url": "https://plussolutionflooring.com/",
     "image": "/flooring.png",
     "cta": "Ver sitio en vivo"
   },
@@ -34,7 +34,7 @@
     "title": "El resultado",
     "texto": "La empresa ahora cuenta con una plataforma preparada para captar nuevos clientes, vender materiales online y evolucionar su modelo de negocio desde servicios hacia una oferta híbrida entre instalación y venta de productos, con un flujo de pedidos funcionando de punta a punta."
   },
-  "capacidades": ["E-commerce", "Cuentas de usuario", "Pagos online", "Calculadora de estimación", "Bilingüe", "Panel de pedidos"],
+  "capacidades": ["E-commerce", "Visualizador de IA", "Cuentas de usuario", "Pagos online", "Calculadora de estimación", "Bilingüe", "Panel de pedidos"],
   "relacionado": {
     "texto": "¿Tenés un negocio de servicios que también vende productos?",
     "href": "/es/paginas-web-para-empresas",

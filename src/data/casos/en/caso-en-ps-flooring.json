@@ -9,7 +9,7 @@
     "titleRest": "sales and lead-generation platform",
     "subtitle": "A flooring sales and installation company in Florida, USA, that needed to bring material sales and customer acquisition for its installation services together in one place.",
     "meta": "Flooring Installation · Florida, USA",
-    "url": "https://flooring-three.vercel.app/",
+    "url": "https://plussolutionflooring.com/",
     "image": "/flooring.png",
     "cta": "View Live Site"
   },
@@ -34,7 +34,7 @@
     "title": "The Result",
     "texto": "The company now has a platform ready to attract new customers, sell materials online, and evolve its business model from services toward a hybrid offering of installation and product sales, with an order flow working end to end."
   },
-  "capacidades": ["E-commerce", "User Accounts", "Online Payments", "Estimate Calculator", "Bilingual", "Order Panel"],
+  "capacidades": ["E-commerce", "AI Visualizer", "User Accounts", "Online Payments", "Estimate Calculator", "Bilingual", "Order Panel"],
   "relacionado": {
     "texto": "Do you run a service business that also sells products?",
     "href": "/en/paginas-web-para-empresas",

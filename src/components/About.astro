@@ -22,7 +22,7 @@ const {t} = Astro.props
 		<p class="text-lg text-[var(--text)]">{t.subtitleRest}</p>
 
 		<div class="flex gap-4 mt-2">
-			<a href={t.linkedin} target="_blank" class="w-10 h-10 flex items-center justify-center border border-[#ddd] hover:border-[var(--primary)] hover:text-[var(--primary)] transition-colors duration-300">
+			<a href={t.linkedin} target="_blank" rel="noopener noreferrer" class="w-10 h-10 flex items-center justify-center border border-[#ddd] hover:border-[var(--primary)] hover:text-[var(--primary)] transition-colors duration-300">
 				<Linkedin class="w-5 h-5" />
 			</a>
 		</div>
